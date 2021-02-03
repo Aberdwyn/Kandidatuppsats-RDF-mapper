@@ -1,0 +1,1 @@
+# Kandidatuppsats-RDF-mapper
