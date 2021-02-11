@@ -1,3 +1,6 @@
 sparql-server/jena-fuseki-server-3.9.0.jar
 node_modules/
 graphqlenv/
+.DS_Store
+.vscode/
+__pycache__/
