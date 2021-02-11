@@ -1,0 +1,19 @@
+type Book {
+    title: String
+    relatedBooks: [Book]
+}
+
+interface Agent {
+    name: String
+}
+
+type Droid implements Agent {
+    name: String!
+    friends: [Agent]
+    owner: Agent
+}
+
+type Human implements Agent {
+    name: String!
+    friends: [Agent]
+}
