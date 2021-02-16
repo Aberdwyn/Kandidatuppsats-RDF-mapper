@@ -13,38 +13,17 @@ const typeDefs = gql`
   }
 `;
 
-const books = [
-    {
-        id:0,
-        title: 'The Awakening',
-        author: 'Kate Chopin',
-        relatedBookIds: [1]
-    },
-    {
-        id:1,
-        title: 'City of Glass',
-        author: 'Paul Auster',
-        relatedBookIds: [],
-    }
-  ];
+import { books } from './data/graphql-data.js'
 
 const resolvers = {
     Query: {
-      books: () => {
-          return books;
-      },
+      listOfBooks: () => listOf("Book"),
+      listOfPersons: () => listOf("Person"),
+      book: (parent, arg) => get(arg.id, "Book")
     },
     Book: {
-        helloWorld: () => "Hej världen!",
-        relatedBooks: (parent) => {
-            let arr = [];
-            for(let book of books){
-                if(book.id in parent.relatedBookIds){
-                    arr.push(book)
-                }
-            }
-            return arr;
-        }
+        //Agent: (parent, arg) =>
+        //  __typename =>
     }
   };
 
