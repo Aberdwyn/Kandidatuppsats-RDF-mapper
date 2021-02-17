@@ -55,9 +55,8 @@ def write_books_to_file():
         file.close()
 
 if __name__ == '__main__':
-    #TODO. make this a try catch thingie
-    if sys.argv[1]:
+    try: 
         generate_books(sys.argv[1])
         write_books_to_file()
-    else:
+    except IndexError:
         print("Provide a number of books to generate.")
