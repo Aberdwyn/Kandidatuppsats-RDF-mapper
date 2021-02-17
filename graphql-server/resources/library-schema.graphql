@@ -1,9 +1,0 @@
-  type Book {
-      id: ID!
-      title: String
-      relatedBooks: [Book]
-  }
-
-  type Query {
-    books: [Book]
-  }

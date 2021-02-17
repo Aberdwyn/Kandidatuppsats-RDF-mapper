@@ -1,2 +1,2 @@
 graphql-core>=3
-PyYAML
+Mako==1.0.13

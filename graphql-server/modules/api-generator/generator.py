@@ -2,7 +2,7 @@
 import argparse
 import os
 from io import UnsupportedOperation
-from utils.utils import *
+from utils import *
 
 
 def cmd(args):

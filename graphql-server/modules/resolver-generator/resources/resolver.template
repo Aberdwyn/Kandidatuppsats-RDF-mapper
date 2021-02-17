@@ -1,0 +1,61 @@
+const db  = require('./library-db.js');
+
+function getResolvers(db){
+    return {
+        Query: {
+        % for type in data['types']:
+            listOf${type['name']}s: () => Object.values(db["${type['name']}"]),
+        % endfor
+
+        % for type in data['types']:
+            ${type['name'][0].lower() + type['name'][1:]}: (parent, args) => db["${type['name']}"][args.id],
+        % endfor
+
+        % for interface in data['interfaces']:
+            listOf${interface['name']}s: () => {
+                let arr = [];
+                for(let type of ${interface['possible_types']}){
+                    arr = arr.concat(Object.values(db[type]));
+                }
+                return arr;
+            }
+        % endfor
+        },
+
+    % for type in data['types']:
+        ${type['name']}: {
+            % for field in type['fields']:
+            ${field}: (parent) => {
+                if(Array.isArray(parent.${field})){
+                    let obs = [];
+                    for(let ob of parent.${field}){
+                        let id = ob.id;
+                        let field_type = id.split('/')[0];
+                        obs.push(db[field_type][id]);
+                    }
+                    return obs;
+                } else {
+                    let id = parent.${field}['id'];
+                    let field_type = id.split('/')[0];
+                    return db[field_type][id];
+                }
+            },
+            % endfor
+        },
+    % endfor
+
+    % for interface in data['interfaces']:
+        ${interface['name']}: {
+            __resolveType: (parent) => parent.id.split('/')[0]
+        },
+    % endfor
+
+    % for union in data['unions']:
+        ${union['name']}: {
+            __resolveType: (parent) => parent.id.split('/')[0]
+        },
+    % endfor
+    }
+}
+
+module.exports = { getResolvers };

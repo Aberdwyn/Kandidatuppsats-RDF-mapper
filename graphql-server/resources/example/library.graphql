@@ -1,0 +1,21 @@
+type Book {
+  title: String!
+  authors: [Author!]
+}
+
+type Author implements Person {
+  name: String!
+  description: String
+  knows: [Person]
+}
+
+type Police implements Person {
+  name: String!
+  knows: [Person]
+  rank: Int
+}
+
+interface Person {
+  name: String!
+  knows: [Person]
+}

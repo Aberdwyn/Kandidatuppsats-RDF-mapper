@@ -1,38 +1,21 @@
+const { readFileSync } = require('fs');
 const { ApolloServer, gql } = require('apollo-server');
 
-// This is where we read the graphql schema from file (check out how it's done in woosh graphql server)
-const typeDefs = gql`
-  type Book {
-    title: String
-    author: String
-    helloWorld: String
-    relatedBooks: [Book]
-  }
+// Remember to generate resolvers and API schema using resources/example/run.sh
 
-  type Query {
-    books(limit:Int = 10): [Book]
-  }
-`;
+// Load the example schema
+const schema_string = readFileSync('./resources/example/library-api.graphql', 'utf8');
+const typeDefs = gql`${schema_string}`;
+// Load the example database
+const db  = require('./resources/example/library-db.js');
+// Load resolvers, pass the database!
+const { getResolvers } = require('./resources/example/library-resolvers.js', 'utf8');
+const resolvers = getResolvers(db);
 
-// This is where we import data (the global var containing everything!!!)
-import { db } from './data/graphql-data.js'
-
-// This is where we import the generated resolvers, using export/import
-const resolvers = {
-    Query: {
-      listOfBooks: () => listOf("Book"),
-      listOfPersons: () => listOf("Person"),
-      book: (parent, arg) => get(arg.id, "Book")
-    },
-    Book: {
-        //Agent: (parent, arg) =>
-        //  __typename =>
-    }
-  };
-
+// Set up server
 const server = new ApolloServer({ typeDefs, resolvers });
 
-// The `listen` method launches a web server.
+// Start server
 server.listen().then(({ url }) => {
   console.log(`🚀  Server ready at ${url}`);
 });
