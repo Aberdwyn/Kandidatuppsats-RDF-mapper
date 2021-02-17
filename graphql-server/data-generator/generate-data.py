@@ -42,13 +42,22 @@ def write_books_to_file():
     """Writes the generated books to a file."""
     with open("../data/graphql-data.js", "w") as file:
         file.write('const books = [\n')
+        counter = 0
         for author in books:
             for book in books[author]:
+                #f'''
+                #    hej: "Test",
+                #    då: "test",
+                #'''
+
                 file.write('    {\n')
+                file.write(f'        id: "Book/{counter}",\n')
+                file.write(f'        links_to: "Book/{(counter+1)%100}",\n')
                 file.write('        title: "' + book + '",\n')
                 file.write('        author: "' + author + '",\n')
                 #TODO: related books here. how do i find their ID?
                 file.write('    },\n')
+                counter += 1
         file.write('];\n')
         #make variable exportable
         file.write('export { books };')

@@ -1,0 +1,65 @@
+// data is the global var for storing data
+// let data = {
+//    "Books" : [],
+//    "Authors": [],
+//    "...": []   
+//}
+
+// load data from file (ie import "db" module). Note data is used to mean two different things below.
+
+const resolvers = {
+    Query: {
+    % for type in data['types']:
+        listOf${type['name']}s: () => {
+           let arr = [];
+           for(let value of data["${type['name']}s"]){
+               arr.push(value.values()[0]);
+           }
+           return arr;
+        },
+    % endfor
+
+    % for type in data['types']:
+        ${type['name'][0].lower() + type['name'][1:]}: (parent, args) => data["${type['name']}s"][args.id],
+    % endfor
+
+    % for interface_name in data['interfaces']:
+        % if interface_name[0] != '_':
+        listOf${interface_name}s: async (parent, args, context, info) => {
+            return [null];
+        }
+        % endif
+    % endfor
+    },
+
+% for type in data['types']:
+    ${type['name']}: {
+        % for field in type['fields']:
+        ${field}: (parent) => {
+            // list or not? authors: [ {id: ""},  {id: ""} ]
+            // TODO: Fix also for list
+            // parent = {"id": "Book/1", related_to: { id: "Book/2" }, title: "", author: "" }
+
+            let field_id = parent.${field}["id"];
+            let field_type = field_id.split("/")[0];
+            return data[field_type][field_id];
+        },
+        % endfor
+    },
+% endfor
+
+% for interface_name in data['interfaces']:
+    ${interface_name}: {
+        __resolveType: (parent) => parent.id.split("/")[0]
+    },
+% endfor
+
+% for union_name in data['unions']:
+    ${union_name}: {
+        __resolveType: (parent) => parent.id.split("/")[0]
+    },
+% endfor
+
+}
+
+export { resolvers };

@@ -1,5 +1,6 @@
 const { ApolloServer, gql } = require('apollo-server');
 
+// This is where we read the graphql schema from file (check out how it's done in woosh graphql server)
 const typeDefs = gql`
   type Book {
     title: String
@@ -13,8 +14,10 @@ const typeDefs = gql`
   }
 `;
 
-import { books } from './data/graphql-data.js'
+// This is where we import data (the global var containing everything!!!)
+import { db } from './data/graphql-data.js'
 
+// This is where we import the generated resolvers, using export/import
 const resolvers = {
     Query: {
       listOfBooks: () => listOf("Book"),
