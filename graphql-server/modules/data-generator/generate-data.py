@@ -52,7 +52,7 @@ def generate_id_for_authors():
     for book in books:
         for author in books[book]:
             if not author in authors:
-                authors[author] = f'author/{counter}'
+                authors[author] = f'Author/{counter}'
                 counter += 1
 
 
@@ -73,10 +73,10 @@ def write_data_to_file():
         file.write('module.exports = {\n')
         
         #books
-        file.write('    "book": {\n')
+        file.write('    "Book": {\n')
         book_counter = 1
         for book in books:
-            file.write(f'        "book\{book_counter}": {{ id: "book\{book_counter}", title: "{book}", authors: [')
+            file.write(f'        "Book/{book_counter}": {{ id: "Book/{book_counter}", title: "{book}", authors: [')
             for author in books[book]:
                 file.write(f'{{"id": "{authors[author]}"}}, ')
             file.write(']},\n')
@@ -84,7 +84,7 @@ def write_data_to_file():
         file.write('    },\n')
         
         #authors
-        file.write('    "author": {\n')
+        file.write('    "Author": {\n')
         for author in authors:
             file.write(f'       "{authors[author]}": {{ id: "{authors[author]}", name: "{author}", "knows": [')
             if author in known_relations:
