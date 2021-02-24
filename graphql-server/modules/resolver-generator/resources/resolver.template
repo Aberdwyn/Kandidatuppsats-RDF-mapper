@@ -1,4 +1,4 @@
-const db  = require('./library-db.js');
+const db  = require('../../modules/data-generator/data/graphql-data.js');
 
 function getResolvers(db){
     return {
