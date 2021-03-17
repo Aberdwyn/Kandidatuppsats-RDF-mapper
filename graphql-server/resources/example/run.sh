@@ -2,6 +2,10 @@
 
 dir=$(pwd)
 
+# Generate data
+cd ../../modules/data-generator
+python3 generate-data.py
+
 # Generate API schema
 cd ../../modules/api-generator/
 python3 generator.py \
