@@ -13,3 +13,9 @@ interface Person {
   name: String!
   knows: [Person]
 }
+
+type Reader implements Person {
+  name: String!
+  knows: [Person]
+  favourite_book: Book
+}

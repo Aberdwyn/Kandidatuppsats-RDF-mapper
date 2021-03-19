@@ -1,7 +1,7 @@
 type Author implements Person {
   name: String!
-  description: String
   knows: [Person]
+  description: String
   id: ID!
 }
 
@@ -17,21 +17,21 @@ interface Person {
   id: ID!
 }
 
-type Police implements Person {
-  name: String!
-  knows: [Person]
-  rank: Int
-  id: ID!
-}
-
 type Query {
   book(id: ID!): Book
   author(id: ID!): Author
-  police(id: ID!): Police
   person(id: ID!): Person
+  reader(id: ID!): Reader
   listOfBooks: [Book]
   listOfAuthors: [Author]
-  listOfPolices: [Police]
   listOfPersons: [Person]
+  listOfReaders: [Reader]
+}
+
+type Reader implements Person {
+  name: String!
+  knows: [Person]
+  favourite_book: Book
+  id: ID!
 }
 

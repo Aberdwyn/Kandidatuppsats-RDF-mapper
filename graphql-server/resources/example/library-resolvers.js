@@ -1,19 +1,19 @@
-const db  = require('./library-db.js');
+const db  = require('../../modules/data-generator/data/graphql-data.js');
 
 function getResolvers(db){
     return {
         Query: {
             listOfAuthors: () => Object.values(db["Author"]),
             listOfBooks: () => Object.values(db["Book"]),
-            listOfPolices: () => Object.values(db["Police"]),
+            listOfReaders: () => Object.values(db["Reader"]),
 
             author: (parent, args) => db["Author"][args.id],
             book: (parent, args) => db["Book"][args.id],
-            police: (parent, args) => db["Police"][args.id],
+            reader: (parent, args) => db["Reader"][args.id],
 
             listOfPersons: () => {
                 let arr = [];
-                for(let type of ['Author', 'Police']){
+                for(let type of ['Author', 'Reader']){
                     arr = arr.concat(Object.values(db[type]));
                 }
                 return arr;
@@ -22,12 +22,21 @@ function getResolvers(db){
 
         Author: {
             knows: (parent) => {
+                // if the parent field is null, return null
+                if(parent.knows == null){
+                    return null;
+                }
                 if(Array.isArray(parent.knows)){
                     let obs = [];
                     for(let ob of parent.knows){
-                        let id = ob.id;
-                        let field_type = id.split('/')[0];
-                        obs.push(db[field_type][id]);
+                        // if the parent field is null, push null
+                        if(ob == null){
+                            obs.push(null);
+                        } else {
+                            let id = ob.id;
+                            let field_type = id.split('/')[0];
+                            obs.push(db[field_type][id]);
+                        }
                     }
                     return obs;
                 } else {
@@ -39,12 +48,21 @@ function getResolvers(db){
         },
         Book: {
             authors: (parent) => {
+                // if the parent field is null, return null
+                if(parent.authors == null){
+                    return null;
+                }
                 if(Array.isArray(parent.authors)){
                     let obs = [];
                     for(let ob of parent.authors){
-                        let id = ob.id;
-                        let field_type = id.split('/')[0];
-                        obs.push(db[field_type][id]);
+                        // if the parent field is null, push null
+                        if(ob == null){
+                            obs.push(null);
+                        } else {
+                            let id = ob.id;
+                            let field_type = id.split('/')[0];
+                            obs.push(db[field_type][id]);
+                        }
                     }
                     return obs;
                 } else {
@@ -54,14 +72,47 @@ function getResolvers(db){
                 }
             },
         },
-        Police: {
+        Reader: {
+            favourite_book: (parent) => {
+                // if the parent field is null, return null
+                if(parent.favourite_book == null){
+                    return null;
+                }
+                if(Array.isArray(parent.favourite_book)){
+                    let obs = [];
+                    for(let ob of parent.favourite_book){
+                        // if the parent field is null, push null
+                        if(ob == null){
+                            obs.push(null);
+                        } else {
+                            let id = ob.id;
+                            let field_type = id.split('/')[0];
+                            obs.push(db[field_type][id]);
+                        }
+                    }
+                    return obs;
+                } else {
+                    let id = parent.favourite_book['id'];
+                    let field_type = id.split('/')[0];
+                    return db[field_type][id];
+                }
+            },
             knows: (parent) => {
+                // if the parent field is null, return null
+                if(parent.knows == null){
+                    return null;
+                }
                 if(Array.isArray(parent.knows)){
                     let obs = [];
                     for(let ob of parent.knows){
-                        let id = ob.id;
-                        let field_type = id.split('/')[0];
-                        obs.push(db[field_type][id]);
+                        // if the parent field is null, push null
+                        if(ob == null){
+                            obs.push(null);
+                        } else {
+                            let id = ob.id;
+                            let field_type = id.split('/')[0];
+                            obs.push(db[field_type][id]);
+                        }
                     }
                     return obs;
                 } else {
