@@ -204,7 +204,9 @@ def print_schema(schema):
     :param schema
     :return string
     """
-    output = ''
+
+    #Add directives here.
+    output = 'directive @upper on FIELD_DEFINITION \n \n'
 
     # For each type, and output the types sorted by name
     for _type in sorted(schema.type_map.values(), key=lambda x: x.name):
@@ -257,6 +259,8 @@ def print_schema(schema):
                     output += f'({args})'
 
                 output += ': ' + str(field.type)
+                if field_name == "title":
+                    output += ' @upper'
                 output += '\n'
 
             output += '}'
