@@ -131,10 +131,12 @@ def write_data_to_file():
                     file.write(f' {{ id: "{authors[associate]}" }},')
                 file.write(' ]')
             else:
-                #some small chance that the authors's knows value is an empty list
-                #d20 = random.randint(1, 20)
-                #if d20 < 5:
-                file.write(', "knows": []')
+                #some small chance that the authors's knows value is an empty list or is null
+                d20 = random.randint(1, 20)
+                if d20 < 10:
+                    file.write(', "knows": []')
+                else:
+                    file.write(', "knows": "null"')
             file.write(', description: "" },\n')
         file.write('    },\n')
 
@@ -149,10 +151,12 @@ def write_data_to_file():
                     file.write(f' {{ id: "{associate}" }},')
                 file.write(' ]')
             else:
-                #some small chance that the reader's knows value is an empty list
-                #d20 = random.randint(1, 20)
-                #if d20 < 5:
-                file.write(', "knows": null')
+                #some small chance that the reader's knows value is an empty list or null
+                d20 = random.randint(1, 20)
+                if d20 < 10:
+                    file.write(', "knows": []')
+                else:
+                    file.write(', "knows": "null"')
             #reader's favourite book
             if readers[reader] in reader_favourite_book:
                 file.write(f', "favourite_book": {{id: "{reader_favourite_book[readers[reader]]}"}}')
