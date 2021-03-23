@@ -5,3 +5,6 @@ graphqlenv/
 .vscode/
 __pycache__/
 myenv/
+graphql-data.js
+library-api.graphql
+library-resolvers.js
