@@ -176,11 +176,11 @@ def write_data_to_file():
 
 
 if __name__ == '__main__':
-    generate_books(1000)
+    generate_books(100)
     generate_id_for_authors()
     find_relations_among_authors()
 
-    generate_reader(500)
+    generate_reader(50)
     find_reader_relations()
     write_data_to_file()
 

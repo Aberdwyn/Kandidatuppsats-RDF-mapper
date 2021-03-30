@@ -205,9 +205,6 @@ def print_schema(schema):
     :return string
     """
 
-    #Add directives here.
-    output = 'directive @upper on FIELD_DEFINITION \n \n'
-
     # For each type, and output the types sorted by name
     for _type in sorted(schema.type_map.values(), key=lambda x: x.name):
         # Internal type
@@ -231,6 +228,7 @@ def print_schema(schema):
             if hasattr(_type, 'interfaces') and _type.interfaces:
                 output += ' implements '
                 output += ' & '.join([interface.name for interface in _type.interfaces])
+                
                 
         if is_enum_type(_type):
             # For enums we can get the values directly and add them
@@ -259,8 +257,6 @@ def print_schema(schema):
                     output += f'({args})'
 
                 output += ': ' + str(field.type)
-                if field_name == "title":
-                    output += ' @upper'
                 output += '\n'
 
             output += '}'

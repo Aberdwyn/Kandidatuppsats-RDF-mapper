@@ -1,20 +1,6 @@
 const { readFileSync } = require('fs');
 const { ApolloServer, gql, SchemaDirectiveVisitor } = require('apollo-server');
 
-//Directives TODO: Find a fancy way to import these.
-class UpperCaseDirective extends SchemaDirectiveVisitor {
-  visitFieldDefinition(field) {
-    const { resolve = defaultFieldResolver } = field;
-    field.resolve = async function (...args) {
-      const result = await resolve.apply(this, args);
-      if (typeof result === 'string') {
-        return result.toUpperCase();
-      }
-      return result;
-    };
-  }
-}
-
 // Remember to generate resolvers and API schema using resources/example/run.sh
 
 // Load the example schema
