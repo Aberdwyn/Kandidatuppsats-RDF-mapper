@@ -1,5 +1,5 @@
 const { readFileSync } = require('fs');
-const { ApolloServer, gql, SchemaDirectiveVisitor } = require('apollo-server');
+const { ApolloServer, gql, } = require('apollo-server');
 
 // Remember to generate resolvers and API schema using resources/example/run.sh
 
@@ -15,7 +15,7 @@ const { getResolvers } = require('./resources/example/library-resolvers.js', 'ut
 const resolvers = getResolvers(db);
 
 // Set up server
-const server = new ApolloServer({ typeDefs, resolvers, schemaDirectives: {upper: UpperCaseDirective,} });
+const server = new ApolloServer({ typeDefs, resolvers, });
 
 // Start server
 server.listen().then(({ url }) => {

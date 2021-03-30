@@ -11,7 +11,7 @@ client = Client(transport=transport, fetch_schema_from_transport=True)
 query = gql(
     """
     query {
-      books {
+      listOfBooks {
         title
       }
     }
@@ -20,4 +20,4 @@ query = gql(
 
 # Execute the query on the transport
 result = client.execute(query)
-print(result["books"][0])
+print(result["listOfBooks"][0])

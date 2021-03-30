@@ -205,6 +205,9 @@ def print_schema(schema):
     :return string
     """
 
+    #Add directives here.
+    output = ''
+
     # For each type, and output the types sorted by name
     for _type in sorted(schema.type_map.values(), key=lambda x: x.name):
         # Internal type
