@@ -1,0 +1,103 @@
+type Book {
+  title: String!
+  authors: [Author!]
+}
+
+type Author implements Person {
+  name: String!
+  knows: [Person]
+  description: String 
+}
+
+interface Person {
+  name: String!
+  knows: [Person]
+}
+
+type Reader implements Person {
+  name: String!
+  knows: [Person]
+  favourite_book: Book
+}
+
+
+directive @export(as:String!) on FIELD_DEFINITION
+directive @equals(string:String, int: Int, float: Float, id: ID, var: String) on FIELD_DEFINITION
+
+# GraphQL mapping rule
+type Book {
+  id: ID! @export(as:"book_id")
+  title: String!
+  authors: [Authors!] @export(as:"author_id")
+}
+
+type Author {
+  id: ID! @equals(var:"author_id") 
+  name: String! @export(as:"author_name")
+}
+
+# generate query
+query = generate_query(graphql_mapping)
+# query {
+#  listOfBooks { book_id:id authors { author_id:id } } }
+#  listOfAuthors { id author_name:name } }
+#}
+data = request(query, url)
+# {
+#  listOfBooks: [
+#    { "book_id": "Book/1", authors: [ { author_id: "Author/1" ]} },
+#    { "book_id": "Book/2", authors: [ { author_id: "Author/2" ]} }, 
+#    { "book_id": "Book/3", authors: [ { author_id: "Author/1" ]} }, 
+#    { "book_id": "Book/4", authors: [ { author_id: "Author/1" ]} }],
+#  listOfAuthors: [
+#    { "id": "Author/1", "author_name": "Brandon Sanderson" },
+#    { "id": "Author/2", "author_name": "Stephen King" }
+#  ]
+#}
+# apply magic!
+filtered_values = apply_filter(graphql_mapping, exported_values)
+# for book in Books:
+#    for author in Authors:
+#        # brute force, ugly, very ugly...       
+
+
+# 1) Skapa index
+# Vilka index behövs? Ett index snabbar upp iterering och låter oss kolla om ett värde finns.
+# - Antagande: index behövs för alla värden som jämförs med ett exporterat
+# - Antagande: index behövs för alla exporterade värden
+# authors = {
+#    "Author/1": { "id": "Author/1", "author_name": "Brandon Sanderson" },
+#    "Author/2": { "id": "Author/2", "author_name": "Stephen King" },
+# }
+
+# books_by_id = {
+#    "Book/1": { "id": "Book/1", "authors": [ { author_name: "Brandon Sanderson" }] },
+#    "Book/2": { "id": "Book/2", "authors": [ { author_name: "Stephen King" }] },
+# }
+
+
+# 2) Loopa igenom 
+
+
+# generate query
+my_simple_query = generate_query(graphql_mapping)
+# query { listOfBooks { id title authors { id } } }
+data = request(my_simple_query, url)
+exported_values = get_exported_values(graphql_mapping, data)
+# [ {"book_id": "Book/1"}, {"book_id": "Book/2"}, {"book_id": "Book/3"} ]
+
+apply(exported_values, rdf_template)
+# >>> <book/Book/1> a :Book .
+# >>> <book/Book/2> a :Book .
+# >>> <book/Book/3> a :Book .
+
+
+
+listOfBooks { id }
+# preprocess... do magic
+# kolla på min mappningsregel, hur ska jag exponera fälten?
+# 
+--->
+# RDF-template
+<booke/{book_id}> a :Book .
+
