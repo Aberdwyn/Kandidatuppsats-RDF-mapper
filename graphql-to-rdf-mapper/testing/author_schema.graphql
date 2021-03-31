@@ -1,7 +1,18 @@
 directive @equals(string: String, id:ID) on FIELD_DEFINITION
+directive @export(as: String) on FIELD_DEFINITION
 
 type Book {
     id: ID!
     title: String!
-    authors: [Author!] @equals(id:”Author/1”)
+    authors: [Author!] @equals(id:"Author/1")
+}
+
+type Author {
+    id: ID! @export(as:"author_id")
+    name: String! @export(as:"author_name")
+}
+
+interface Hello {
+    id: ID!
+    authors: [Author!]! @export(as:"hello_author_id")
 }
