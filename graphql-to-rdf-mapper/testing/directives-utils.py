@@ -6,8 +6,11 @@ from graphql import \
     is_introspection_type, \
     is_interface_type, \
     is_union_type, \
-    get_named_type
+    get_named_type, \
+    is_list_type
 from graphql.language.parser import parse
+from gql import gql, Client
+from gql.transport.aiohttp import AIOHTTPTransport
 
 
 def load_schema(file_name):
@@ -61,80 +64,147 @@ def is_user_defined_type(graphql_type):
         return False
     else:
         return True
-    
+
+def applyContainsFilter(collection, field, graphql_mapping_schema):
+    values = get_directive_values_from_field(graphql_mapping_schema, field, "contains")
+    if values == None:
+        return collection
+        
+    field_name = field.ast_node.name.value
+    field_type = get_named_type(field.type)
+    if is_user_defined_type(field_type):
+        # it's an object, use id
+        value = values["id"]
+    else:
+        # field_type_name is only used to find the correct argument in "values"
+        field_type_name = field_type.ast_node.name.value
+        value = values[field_type_name.lower()]
+
+    filter_collection = []
+    for document in collection:
+        if not is_list_type(field.type):
+            print("WARNING: Applying @contains on non-list field!")
+            break
+        
+        if is_user_defined_type(field_type):
+            for v in document[field_name]:
+                if v["id"] == value:
+                    filter_collection.append(document)
+        elif value in document[field_name]:
+            filter_collection.append(document)
+
+    return filter_collection
+
+def applyEqualsFilter(collection, field, graphql_mapping_schema):
+    """Return the subset of the collection that matches the @equals directive.
+    If no equals directive is present, return the original collection.
+
+    What do we mean by:
+    name: [String] @equals(string:"Robin")
+    1: All values in list must equal "Robin"?
+    2: A value has to equals "Robin" (do we keep or throw away the rest?)
+    Suggestion: @equals applies to a single value only. Maybe use @all/@any for lists?
+    """
+    values = get_directive_values_from_field(graphql_mapping_schema, field, "equals")
+    if values == None:
+        return collection
+        
+    filter_collection = []
+    for document in collection:
+        key = field.ast_node.name.value
+        field_type = get_named_type(field.type)
+        
+        # TODO: Cover object equals (i.e. added ID structure)
+        hit = False
+        for value in values.values():
+            if document[key] != value:
+                hit = False
+                break
+            hit = True
+            
+        if hit:
+            filter_collection.append(document)
+
+    return filter_collection
+
+def applyFilters(results, graphql_mapping_schema):
+    # { listOfX: [], listOfY: [] }
+    # For each result, apply filters for each collection
+    filtered_results = {}
+    for type_name, graphql_type in graphql_mapping_schema.type_map.items():
+        # Skip system defined types
+        if not is_user_defined_type(graphql_type):
+            continue
+        
+        # Grab the target collection from the result
+        collection_name = "listOf" + type_name + "s"
+        collection = results[collection_name]
+
+        # Iterate the fields of the type
+        for field_name, field in graphql_type.fields.items():
+            # apply equals filter (replaces collection)
+            collection = applyEqualsFilter(collection, field, graphql_mapping_schema)
+            collection = applyContainsFilter(collection, field, graphql_mapping_schema)
+
+        filtered_results[collection_name] = collection
+    return filtered_results
 
 def build_graphql_query(graphql_mapping_schema):
-    """Build a GraphQL query based on a mapping.
-    Only fields referenced by one of the directives @export, @equals, ...
-    are included. All exported fields are renamed according to the @export directive.
-    """
+    """Build a GraphQL query based on a GraphQL mapping schema."""
     query = "query {"
     for type_name, graphql_type in graphql_mapping_schema.type_map.items():
-        # only generate for user defined types
+        # Only generate for user defined types
         if not is_user_defined_type(graphql_type):
             continue
 
-        included_fields = [] 
         query_fields = ""
         for field_name, field in graphql_type.fields.items():
-            # Include fields only once in a query
-            if field_name in included_fields:
-                continue
-            
-            # Get the inner type of the field type
-            # If it's a user defined type we need to grab the ID from this object
-            named_field_type = get_named_type(field.type)
-            
-            # Check @export
-            values = get_directive_values_from_field(graphql_mapping_schema, field, "export")
-            if values:
-                if is_user_defined_type(named_field_type):
-                    query_fields += "\n    " + field_name + " { " + values["as"] + ":id }"
-                else:
-                    query_fields += "\n    " + values["as"] + ":" + field_name
-                included_fields.append(field_name)
-                continue
-            
-            # Check @equals
-            values = get_directive_values_from_field(graphql_mapping_schema, field, "equals")
-            if values:
-                if is_user_defined_type(named_field_type):
-                    query_fields += "\n    " + field_name + " { id }"
-                else:
-                    query_fields += "\n    " + field_name
-                included_fields.append(field_name)
-                continue
-
-
+            # If the field points to a user defined type we need to grab the ID
+            if is_user_defined_type(get_named_type(field.type)):
+                query_fields += "\n    " + field_name + " { id }"
+            else:
+                query_fields += "\n    " + field_name
+        
         if query_fields != "":
             query += "\n  listOf" + type_name + "s {" + query_fields + "\n  }"
     query += "\n}"
     return query
-    
+
+def request(query, url):
+    """Request data from a GraphQL endpoint."""
+    transport = AIOHTTPTransport(url=url)
+    client = Client(transport=transport, fetch_schema_from_transport=True)
+    query = gql(query)
+    return client.execute(query)
 
 def main():
     # Example
     # directive_values = get_directive_values_from_names(graphql_mapping_schema, "Book", "authors", "equals")
-
-    # Note: The loaded schema will contain all directives but they are not printed when using print_schema
+    # values = get_directive_values_from_field(graphql_mapping_schema, field, "equals")
+    
+    # Generate query
     graphql_mapping_schema = load_schema('./author_schema.graphql')
-    # Create query
     query = build_graphql_query(graphql_mapping_schema)
-    print(query)
+    
     # Execute query
-    # results = request(query, url)
+    graphql_endpoint_url = "http://localhost:4000/"
+    results = request(query, graphql_endpoint_url)
 
-    # After getting the data, we need to apply our constraints. This is a bit tricky. Maybe it's easier to
-    # put into our own structure?
-    # To simply filter on "equals" some value, we can iterate all types and drop all
-    # results where the constraint is not fulfilled.
-    # E.g.
-    # applyEqualsFilter(graphql_mapping_schema, results)
-    # applyEqualsFilter
-    # 1) iterate the fields in the schema and construct the "key structure" to access the data in results
-    # and keep the value of each "equals" handy
-    # 2) Iterate the data using the captured key structures. Drop all values that do not conform to the
-    # equals value.
+    filtered_results = applyFilters(results, graphql_mapping_schema)
+    print(filtered_results["listOfBooks"])
+    print(filtered_results["listOfAuthors"])
+    #results = [ result ]
+
+    # Apply filters
+    #print(len(results[0]["listOfAuthors"]))
+    #results = applyFilters(results, graphql_mapping_schema)
+    #print(results[0]["listOfAuthors"])
+    
+    # Apply cross product explosion
+    #cross = cross_product_split(result)
+
+def cross_product_split(result):
+    pass
 
 if __name__ == '__main__':
     main()

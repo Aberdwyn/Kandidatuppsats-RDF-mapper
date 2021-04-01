@@ -1,18 +1,32 @@
 directive @equals(string: String, id:ID) on FIELD_DEFINITION
-directive @export(as: String) on FIELD_DEFINITION
+directive @contains(string: String, id:ID) on FIELD_DEFINITION
 
 type Book {
     id: ID!
-    title: String!
-    authors: [Author!] @equals(id:"Author/1")
+    authors: [Author!] @contains(id:"Author/1")
 }
 
 type Author {
-    id: ID! @export(as:"author_id")
-    name: String! @export(as:"author_name")
+    id: ID!
+    name: String! @equals(string: "Neil Jordan")
+    #age: Int @lt(int:20) @gt(int:10)
 }
 
-interface Hello {
-    id: ID!
-    authors: [Author!]! @export(as:"hello_author_id")
-}
+
+#Teenager <- Person age x < 20 and x > 12
+
+
+#l = { d: [], c: [], b: [], a: []}
+#join(l)
+
+#for c1 in collection1:
+#    for c2 in collection2:
+#        # check join conditions
+#        for collection3:
+#            # check join conditions
+#            # ...
+
+
+#listOfBooks = [ {}, {}, {} ]
+#listOfBooks = { id: {}, id: {}, id: {} }
+
