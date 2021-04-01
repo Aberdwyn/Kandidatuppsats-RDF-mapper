@@ -136,7 +136,7 @@ def write_data_to_file():
                 if d20 < 10:
                     file.write(', "knows": []')
                 else:
-                    file.write(', "knows": "null"')
+                    file.write(', "knows": null')
             file.write(', description: "" },\n')
         file.write('    },\n')
 
@@ -156,7 +156,7 @@ def write_data_to_file():
                 if d20 < 10:
                     file.write(', "knows": []')
                 else:
-                    file.write(', "knows": "null"')
+                    file.write(', "knows": null')
             #reader's favourite book
             if readers[reader] in reader_favourite_book:
                 file.write(f', "favourite_book": {{id: "{reader_favourite_book[readers[reader]]}"}}')
