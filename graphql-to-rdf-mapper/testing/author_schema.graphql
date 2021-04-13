@@ -1,5 +1,7 @@
 directive @equals(string: String, id:ID) on FIELD_DEFINITION
 directive @contains(string: String, id:ID) on FIELD_DEFINITION
+directive @lt(int: Int) on FIELD_DEFINITION
+directive @gt(int: Int) on FIELD_DEFINITION
 
 type Book {
     id: ID!
@@ -8,25 +10,9 @@ type Book {
 
 type Author {
     id: ID!
-    name: String! @equals(string: "Neil Jordan")
-    #age: Int @lt(int:20) @gt(int:10)
+    name: String! 
+    age: Int @lt(int:70) @gt(int:50)
 }
 
-
-#Teenager <- Person age x < 20 and x > 12
-
-
-#l = { d: [], c: [], b: [], a: []}
-#join(l)
-
-#for c1 in collection1:
-#    for c2 in collection2:
-#        # check join conditions
-#        for collection3:
-#            # check join conditions
-#            # ...
-
-
-#listOfBooks = [ {}, {}, {} ]
-#listOfBooks = { id: {}, id: {}, id: {} }
+#@equals(string: "Mark Carriger")
 

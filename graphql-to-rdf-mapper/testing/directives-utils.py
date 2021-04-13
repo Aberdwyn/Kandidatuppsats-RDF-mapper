@@ -127,6 +127,54 @@ def applyEqualsFilter(collection, field, graphql_mapping_schema):
 
     return filter_collection
 
+def applyLTFilter(collection, field, graphql_mapping_schema):
+    """Return the subset of the collection that matches the @LT directive.
+    LT = Less than (only works on integers at this moment)
+        Should it work on lists?
+    If no LT directive is present, return the original collection.
+    """
+    values = get_directive_values_from_field(graphql_mapping_schema, field, "lt")
+    if values == None:
+        return collection
+    
+    filter_collection = []
+    for document in collection:
+        key = field.ast_node.name.value
+        field_type = get_named_type(field.type)
+
+        if document[key] == None:
+            continue
+
+        for value in values.values():
+            if document[key] < value:
+                filter_collection.append(document)
+
+    return filter_collection
+
+def applyGTFilter(collection, field, graphql_mapping_schema):
+    """Return the subset of the collection that matches the @GT directive.
+    GT = Less than (only works on integers at this moment)
+        Should it work on lists?
+    If no GT directive is present, return the original collection.
+    """
+    values = get_directive_values_from_field(graphql_mapping_schema, field, "gt")
+    if values == None:
+        return collection
+    
+    filter_collection = []
+    for document in collection:
+        key = field.ast_node.name.value
+        field_type = get_named_type(field.type)
+
+        if document[key] == None:
+            continue
+
+        for value in values.values():
+            if document[key] > value:
+                filter_collection.append(document)
+
+    return filter_collection
+
 def applyFilters(results, graphql_mapping_schema):
     # { listOfX: [], listOfY: [] }
     # For each result, apply filters for each collection
@@ -142,9 +190,12 @@ def applyFilters(results, graphql_mapping_schema):
 
         # Iterate the fields of the type
         for field_name, field in graphql_type.fields.items():
-            # apply equals filter (replaces collection)
+            # apply filters (replaces collection)
             collection = applyEqualsFilter(collection, field, graphql_mapping_schema)
             collection = applyContainsFilter(collection, field, graphql_mapping_schema)
+            collection = applyLTFilter(collection, field, graphql_mapping_schema)
+            collection = applyGTFilter(collection, field, graphql_mapping_schema)
+
 
         filtered_results[collection_name] = collection
     return filtered_results
