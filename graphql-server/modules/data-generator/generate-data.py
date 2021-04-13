@@ -137,6 +137,11 @@ def write_data_to_file():
                     file.write(', "knows": []')
                 else:
                     file.write(', "knows": null')
+            d20 = random.randint(1, 20)
+            if d20 > 4:
+                file.write(f', "age": {random.randint(15, 100)}')
+            else: 
+                file.write(', "age": null')
             file.write(', description: "" },\n')
         file.write('    },\n')
 
@@ -165,6 +170,11 @@ def write_data_to_file():
                 #d20 = random.randint(1, 20)
                 #if d20 < 5:
                 file.write(', "favourite_book": null')
+            d20 = random.randint(1, 20)
+            if d20 > 4:
+                file.write(f', "age": {random.randint(5, 100)}')
+            else: 
+                file.write(', "age": null')
             file.write(', },\n')
         file.write('    },\n')
 

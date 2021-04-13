@@ -7,15 +7,18 @@ type Author implements Person {
   name: String!
   knows: [Person]
   description: String
+  age: Int
 }
 
 interface Person {
   name: String!
   knows: [Person]
+  age: Int
 }
 
 type Reader implements Person {
   name: String!
   knows: [Person]
   favourite_book: Book
+  age: Int
 }
