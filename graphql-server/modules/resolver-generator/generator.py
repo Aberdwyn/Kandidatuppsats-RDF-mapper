@@ -35,7 +35,9 @@ def generate(input_file, output_file):
             data['interfaces'].append(t)
 
         if is_union_type(_type):
-            t = {'name': type_name, 'types': []}
+            t = {'name': type_name, 'possible_types': []}
+            for possible_type in schema.get_possible_types(_type):
+                t['possible_types'].append(possible_type.name)
             data['unions'].append(t)
 
         if is_schema_defined_object_type(_type):

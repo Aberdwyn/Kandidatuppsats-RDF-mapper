@@ -4,7 +4,7 @@ function getResolvers(db){
     return {
         Query: {
         % for type in data['types']:
-            listOf${type['name']}s: () => Object.values(db["${type['name']}"]),
+            ${type['name'][0].lower() + type['name'][1:]}s: () => Object.values(db["${type['name']}"]),
         % endfor
 
         % for type in data['types']:
@@ -12,13 +12,23 @@ function getResolvers(db){
         % endfor
 
         % for interface in data['interfaces']:
-            listOf${interface['name']}s: () => {
+            ${interface['name'][0].lower() + interface['name'][1:]}s: () => {
                 let arr = [];
                 for(let type of ${interface['possible_types']}){
                     arr = arr.concat(Object.values(db[type]));
                 }
                 return arr;
-            }
+            },
+        % endfor
+
+        % for union in data['unions']:
+            ${union['name'][0].lower() + union['name'][1:]}s: () => {
+                let arr = [];
+                for(let type of ${union['possible_types']}){
+                    arr = arr.concat(Object.values(db[type]));
+                }
+                return arr;
+            },
         % endfor
         },
 

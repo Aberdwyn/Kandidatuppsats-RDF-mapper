@@ -3,21 +3,29 @@ const db  = require('../../modules/data-generator/data/graphql-data.js');
 function getResolvers(db){
     return {
         Query: {
-            listOfAuthors: () => Object.values(db["Author"]),
-            listOfBooks: () => Object.values(db["Book"]),
-            listOfReaders: () => Object.values(db["Reader"]),
+            authors: () => Object.values(db["Author"]),
+            books: () => Object.values(db["Book"]),
+            readers: () => Object.values(db["Reader"]),
 
             author: (parent, args) => db["Author"][args.id],
             book: (parent, args) => db["Book"][args.id],
             reader: (parent, args) => db["Reader"][args.id],
 
-            listOfPersons: () => {
+            persons: () => {
                 let arr = [];
                 for(let type of ['Author', 'Reader']){
                     arr = arr.concat(Object.values(db[type]));
                 }
                 return arr;
-            }
+            },
+
+            combos: () => {
+                let arr = [];
+                for(let type of ['Reader', 'Book']){
+                    arr = arr.concat(Object.values(db[type]));
+                }
+                return arr;
+            },
         },
 
         Author: {
@@ -127,6 +135,9 @@ function getResolvers(db){
             __resolveType: (parent) => parent.id.split('/')[0]
         },
 
+        Combo: {
+            __resolveType: (parent) => parent.id.split('/')[0]
+        },
     }
 }
 

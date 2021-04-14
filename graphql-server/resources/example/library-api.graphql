@@ -2,6 +2,7 @@ type Author implements Person {
   name: String!
   knows: [Person]
   description: String
+  age: Int
   id: ID!
 }
 
@@ -11,9 +12,12 @@ type Book {
   id: ID!
 }
 
+union Combo = Reader | Book
+
 interface Person {
   name: String!
   knows: [Person]
+  age: Int
   id: ID!
 }
 
@@ -22,16 +26,19 @@ type Query {
   author(id: ID!): Author
   person(id: ID!): Person
   reader(id: ID!): Reader
-  listOfBooks: [Book]
-  listOfAuthors: [Author]
-  listOfPersons: [Person]
-  listOfReaders: [Reader]
+  combo(id: ID!): Combo
+  books: [Book]
+  authors: [Author]
+  persons: [Person]
+  readers: [Reader]
+  combos: [Combo]
 }
 
 type Reader implements Person {
   name: String!
   knows: [Person]
   favourite_book: Book
+  age: Int
   id: ID!
 }
 

@@ -155,10 +155,10 @@ def add_list_queries(schema: GraphQLSchema):
     """
     make = ''
     for _type in schema.type_map.values():
-        if not is_schema_defined_type(_type) or is_list_type(_type) or is_union_type(_type):
+        if not is_schema_defined_type(_type) or is_list_type(_type):
             continue
         make += f'extend type Query {{ ' \
-            f'   listOf{_type.name}s: [{_type.name}] ' \
+            f'   {decapitalize(_type.name)}s: [{_type.name}] ' \
             f'}}'
     schema = add_to_schema(schema, make)
     return schema

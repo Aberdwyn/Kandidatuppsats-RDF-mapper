@@ -22,3 +22,5 @@ type Reader implements Person {
   favourite_book: Book
   age: Int
 }
+
+union Combo = Reader|Book
