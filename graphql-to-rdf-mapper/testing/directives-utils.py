@@ -12,6 +12,13 @@ from graphql.language.parser import parse
 from gql import gql, Client
 from gql.transport.aiohttp import AIOHTTPTransport
 
+def decapitalize(string: str):
+    """
+    Make the first letter of string lower case.
+    :param string:
+    :return:
+    """
+    return string[0].lower() + string[1:]
 
 def load_schema(file_name):
     """Load schema from file."""
@@ -185,7 +192,7 @@ def applyFilters(results, graphql_mapping_schema):
             continue
         
         # Grab the target collection from the result
-        collection_name = "listOf" + type_name + "s"
+        collection_name = decapitalize(type_name) + "s"
         collection = results[collection_name]
 
         # Iterate the fields of the type
@@ -217,7 +224,7 @@ def build_graphql_query(graphql_mapping_schema):
                 query_fields += "\n    " + field_name
         
         if query_fields != "":
-            query += "\n  listOf" + type_name + "s {" + query_fields + "\n  }"
+            query += "\n  " + decapitalize(type_name) + "s {" + query_fields + "\n  }"
     query += "\n}"
     return query
 
@@ -242,8 +249,8 @@ def main():
     results = request(query, graphql_endpoint_url)
 
     filtered_results = applyFilters(results, graphql_mapping_schema)
-    print(filtered_results["listOfBooks"])
-    print(filtered_results["listOfAuthors"])
+    print(filtered_results["books"])
+    print(filtered_results["authors"])
     #results = [ result ]
 
     # Apply filters
