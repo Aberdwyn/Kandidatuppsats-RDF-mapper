@@ -1,2 +1,2 @@
-gql
-aiohttp
+#pip install Mako==1.0.13
+#pip install --pre gql[all]
