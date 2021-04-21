@@ -1,0 +1,2 @@
+<person/{Person.id}> a <Person> ;
+    :hasName "{Person.name}" .
