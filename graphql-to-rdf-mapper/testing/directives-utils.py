@@ -252,7 +252,7 @@ def join(results, collections, join_key):
     """Corresponds to an inner join in SQL.
     Joining scalar with list returns TRUE if the scalar is in the list
     Joining list with scalar returns TRUE if the list contains the scalar
-    Joining list with list returns TRUE for every scalar in list 1 that is in list 2.
+    Joining list with list returns TRUE if any scalar in list 1 is in list 2.
     """
     join_results = []
     for result in results:
@@ -277,7 +277,7 @@ def join(results, collections, join_key):
                 for v in from_value:
                     if check_join(v, to_value):
                         join_results.append({**result, **candidate})
-            
+                        break
     return join_results
 
 def cross_product(results, collection):
