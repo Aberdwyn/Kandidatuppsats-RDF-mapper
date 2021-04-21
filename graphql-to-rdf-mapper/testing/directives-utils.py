@@ -270,6 +270,9 @@ def join(results, collections, join_key):
             elif type(from_value) != list and type(to_value) == list:
                 if check_join(from_value, to_value):
                     join_results.append({**result, **candidate})
+            elif type(from_value) == list and type(to_value) != list:
+                if check_join(from_value, to_value):
+                    join_results.append({**result, **candidate})
             else:
                 for v in from_value:
                     if check_join(v, to_value):
