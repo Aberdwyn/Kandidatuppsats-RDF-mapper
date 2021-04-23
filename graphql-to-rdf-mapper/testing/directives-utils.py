@@ -250,9 +250,10 @@ def check_join(value1, value2):
 
 def join(results, collections, join_key):
     """Corresponds to an inner join in SQL.
+    Joining scalar with scalar returns TRUE if the scalar 1 is equal to scalar 2
     Joining scalar with list returns TRUE if the scalar is in the list
     Joining list with scalar returns TRUE if the list contains the scalar
-    Joining list with list returns TRUE if any scalar in list 1 is in list 2.
+    Joining list with list returns TRUE if any scalar in list 1 is in list 2
     """
     join_results = []
     for result in results:
@@ -263,21 +264,8 @@ def join(results, collections, join_key):
             # get the 'to' key value
             to_value = candidate.get(join_key[1][1])
 
-            # scalar on scalar
-            if type(from_value) != list and type(to_value) != list:
-                if check_join(from_value, to_value):
-                    join_results.append({**result, **candidate})
-            elif type(from_value) != list and type(to_value) == list:
-                if check_join(from_value, to_value):
-                    join_results.append({**result, **candidate})
-            elif type(from_value) == list and type(to_value) != list:
-                if check_join(from_value, to_value):
-                    join_results.append({**result, **candidate})
-            else:
-                for v in from_value:
-                    if check_join(v, to_value):
-                        join_results.append({**result, **candidate})
-                        break
+            if check_join(from_value, to_value):
+                join_results.append({**result, **candidate})
     return join_results
 
 def cross_product(results, collection):
@@ -289,11 +277,12 @@ def cross_product(results, collection):
             joined_results.append({**result, **value})
     return joined_results
 
-def get_initial_collection(collections):
+def get_initial_collection(collections, graphql_mapping_schema):
     """Choose the collection to start joining from based on cardinality."""
     initial_collection = None
     min_cardinality = -1
     for name, collection in collections.items():
+        print(name, len(collection))
         if initial_collection == None:
             initial_collection = name
             min_cardinality = len(collection)
@@ -302,7 +291,6 @@ def get_initial_collection(collections):
             min_cardinality = len(collection)
     return initial_collection
 
-
 def apply_join(collections, graphql_mapping_schema):
     """Apply all joins to a set of collections.
     
@@ -310,16 +298,17 @@ def apply_join(collections, graphql_mapping_schema):
     """
     # initialize result with one of the collections
     joined_collections = set()
-    initial_collection = get_initial_collection(collections)
+    initial_collection = get_initial_collection(collections, graphql_mapping_schema)
     joined_collections.add(initial_collection)   
     results = collections[initial_collection]
     
     # get all potential join keys
     join_keys = get_join_keys(graphql_mapping_schema)
 
+    #print("start from: ", initial_collection)
     while len(join_keys) > 0:
         join_key = get_next_join_key(joined_collections, join_keys)
-        
+        #print(join_key)
         # Found no field to join on, resort to cross product...
         if join_key == None:
             for collection_name, collection in collections.items():
@@ -392,7 +381,8 @@ def main():
     results = apply_join(collections, graphql_mapping_schema)
     print("Result size:", len(results))
     print("Print the first 10 results")
-    print(results[:10])
+    for i in results:
+        print(i)
     print()
     
     # Generate RDF
