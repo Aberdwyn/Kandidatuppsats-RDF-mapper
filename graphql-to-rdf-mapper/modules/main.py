@@ -1,14 +1,15 @@
+import sys
 import filtering_utils
 import join_utils
 import query_utils
 import rdf_utils
 import schema_utils
 
-def main():
+def main(graphql_mapping_schema, rdf_mapping_schema):
     graphql_endpoint_url = "http://localhost:4000/"
     
     # Generate query
-    graphql_mapping_schema = schema_utils.load_schema('./mapping-directives/graphql-mapping-schema.graphql')
+    graphql_mapping_schema = schema_utils.load_schema(graphql_mapping_schema)
     rdf_template = ''
 
     query = query_utils.build_graphql_query(graphql_mapping_schema)
@@ -29,10 +30,10 @@ def main():
     
     # Generate RDF
     # apply template
-    rdf = rdf_utils.apply_rdf_template("rdf-mapping-schema.txt", results)
+    rdf = rdf_utils.apply_rdf_template(rdf_mapping_schema, results)
     print("Generated RDF:")
     print(rdf)
     
 
 if __name__ == '__main__':
-    main()
+    main(sys.argv[1:][0], sys.argv[1:][1])
