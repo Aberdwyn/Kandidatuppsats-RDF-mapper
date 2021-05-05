@@ -5,10 +5,12 @@ function getResolvers(db){
         Query: {
             authors: () => Object.values(db["Author"]),
             books: () => Object.values(db["Book"]),
+            movies: () => Object.values(db["Movie"]),
             readers: () => Object.values(db["Reader"]),
 
             author: (parent, args) => db["Author"][args.id],
             book: (parent, args) => db["Book"][args.id],
+            movie: (parent, args) => db["Movie"][args.id],
             reader: (parent, args) => db["Reader"][args.id],
 
             persons: () => {
@@ -79,6 +81,8 @@ function getResolvers(db){
                     return db[field_type][id];
                 }
             },
+        },
+        Movie: {
         },
         Reader: {
             favourite_book: (parent) => {

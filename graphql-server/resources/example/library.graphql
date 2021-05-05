@@ -1,6 +1,7 @@
 type Book {
   title: String!
   authors: [Author!]
+  genre: Genre!
 }
 
 type Author implements Person {
@@ -21,6 +22,19 @@ type Reader implements Person {
   knows: [Person]
   favourite_book: Book
   age: Int
+}
+
+enum Genre {
+  FANTASY
+  ROMANCE
+  HORROR
+}
+
+type Movie {
+  title: String!
+  director: String!
+  producer: String!
+  genre: Genre!
 }
 
 union Combo = Reader|Book

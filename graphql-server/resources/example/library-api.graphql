@@ -9,10 +9,25 @@ type Author implements Person {
 type Book {
   title: String!
   authors: [Author!]
+  genre: Genre!
   id: ID!
 }
 
 union Combo = Reader | Book
+
+enum Genre {
+  FANTASY
+  ROMANCE
+  HORROR
+}
+
+type Movie {
+  title: String!
+  director: String!
+  producer: String!
+  genre: Genre!
+  id: ID!
+}
 
 interface Person {
   name: String!
@@ -26,11 +41,13 @@ type Query {
   author(id: ID!): Author
   person(id: ID!): Person
   reader(id: ID!): Reader
+  movie(id: ID!): Movie
   combo(id: ID!): Combo
   books: [Book]
   authors: [Author]
   persons: [Person]
   readers: [Reader]
+  movies: [Movie]
   combos: [Combo]
 }
 
