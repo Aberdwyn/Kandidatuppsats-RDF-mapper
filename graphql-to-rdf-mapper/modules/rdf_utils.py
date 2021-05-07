@@ -2,6 +2,7 @@ import copy
 from mako.template import Template
 import re
 from schema_utils import *
+import rdflib
 
 def apply_rdf_template(filename, results):
     """Transform a provided RDF mapping schema into a valid Mako template and apply results.
@@ -23,6 +24,7 @@ def apply_rdf_template(filename, results):
     # Rename all variables according to the 'collection_field' format
     # Pass a function instead of a pattern to sub()
     f = lambda p: f"${{result['{get_collection_name(p.group(1))}_{p.group(2)}']}}"
+    print(f)
     s = re.sub(r'\{(.+)\.(.+)\}', f, rdf_mapping_schema)
     
     template_string = "% for result in data:\n" + s + "\n% endfor"
@@ -30,6 +32,30 @@ def apply_rdf_template(filename, results):
     print("Template string:")
     print(template_string)
     print()
+
+    #save rdf turtle prefixes in a string
+    prefixes = ""
+    for result in re.findall(r'\@.*?[\r\n]', template_string):
+        prefixes += result
+    
+    #remove rdf turtle prefixes from template
+    template_string = re.sub(r'\@.*?[\r\n]', "", template_string)
     
     template = Template(template_string)
-    return template.render(data=results)
+    rdf_data = template.render(data=results)
+
+    with open("./rdf.nt", "w") as file:
+        file.write(prefixes)
+        file.write(rdf_data)
+
+
+
+    g = rdflib.Graph()
+    g.parse("rdf.nt", format='n3')
+
+    import pprint
+    for stmt in g:
+        pprint.pprint(stmt)
+
+
+    return rdf_data

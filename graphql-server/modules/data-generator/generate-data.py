@@ -51,7 +51,7 @@ def generate_horror_title():
     if d666 <= 111:
         #the adj noun
         return  "The " + horror_adj[random.randint(0, len(horror_adj) - 1)] + " " + horror_noun[random.randint(0, len(horror_noun) - 1)]
-    elif d666 > 111 and d666 < 222: 
+    elif d666 > 111 and d666 <= 222: 
         #noun of noun
         return  horror_noun[random.randint(0, len(horror_noun) - 1)] + " of " + horror_noun[random.randint(0, len(horror_noun) - 1)]
     elif d666 > 222 and d666 < 444: 

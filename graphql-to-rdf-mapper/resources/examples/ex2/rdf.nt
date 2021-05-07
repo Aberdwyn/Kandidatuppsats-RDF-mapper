@@ -1,0 +1,137 @@
+@base <http://example.org#> .
+@prefix e: <http://example.org#> .
+
+<person/Author/1> a <Person> ;
+    e:hasName "Laini Carr" .
+
+<person/Author/2> a <Person> ;
+    e:hasName "Alix Rice" .
+
+<person/Author/19> a <Person> ;
+    e:hasName "Stephen Maas" .
+
+<person/Author/21> a <Person> ;
+    e:hasName "Brandon Abercrombie" .
+
+<person/Author/22> a <Person> ;
+    e:hasName "Rick Taylor" .
+
+<person/Author/25> a <Person> ;
+    e:hasName "George Maas" .
+
+<person/Author/25> a <Person> ;
+    e:hasName "George Maas" .
+
+<person/Author/125> a <Person> ;
+    e:hasName "Anne Maas" .
+
+<person/Author/130> a <Person> ;
+    e:hasName "Mylo Carbia" .
+
+<person/Author/131> a <Person> ;
+    e:hasName "Anne Carbia" .
+
+<person/Author/132> a <Person> ;
+    e:hasName "Tamora Gaiman" .
+
+<person/Author/132> a <Person> ;
+    e:hasName "Tamora Gaiman" .
+
+<person/Author/134> a <Person> ;
+    e:hasName "Robert Bujold" .
+
+<person/Author/134> a <Person> ;
+    e:hasName "Robert Bujold" .
+
+<person/Author/135> a <Person> ;
+    e:hasName "Diana McNaught" .
+
+<person/Author/135> a <Person> ;
+    e:hasName "Diana McNaught" .
+
+<person/Author/136> a <Person> ;
+    e:hasName "Janny Jemisin" .
+
+<person/Author/138> a <Person> ;
+    e:hasName "Diana Carr" .
+
+<person/Author/139> a <Person> ;
+    e:hasName "Guy Campbell" .
+
+<person/Author/141> a <Person> ;
+    e:hasName "John Martin" .
+
+<person/Author/144> a <Person> ;
+    e:hasName "Ania Bujold" .
+
+<person/Author/147> a <Person> ;
+    e:hasName "Diana Sullivan" .
+
+<person/Author/153> a <Person> ;
+    e:hasName "Scott Ahlborn" .
+
+<person/Author/86> a <Person> ;
+    e:hasName "Judith Schwab" .
+
+<person/Author/172> a <Person> ;
+    e:hasName "Madeline Sapkowski" .
+
+<person/Author/177> a <Person> ;
+    e:hasName "Joe Koontz" .
+
+<person/Author/184> a <Person> ;
+    e:hasName "Madeleine King" .
+
+<person/Author/184> a <Person> ;
+    e:hasName "Madeleine King" .
+
+<person/Author/184> a <Person> ;
+    e:hasName "Madeleine King" .
+
+<person/Author/190> a <Person> ;
+    e:hasName "Jane Erikson" .
+
+<person/Author/193> a <Person> ;
+    e:hasName "Raymond Lindsey" .
+
+<person/Author/194> a <Person> ;
+    e:hasName "Neil Macomber" .
+
+<person/Author/198> a <Person> ;
+    e:hasName "Margaret Sanderson" .
+
+<person/Author/198> a <Person> ;
+    e:hasName "Margaret Sanderson" .
+
+<person/Author/200> a <Person> ;
+    e:hasName "Scott Abercrombie" .
+
+<person/Author/207> a <Person> ;
+    e:hasName "George Caroll" .
+
+<person/Author/212> a <Person> ;
+    e:hasName "Robert Krentz" .
+
+<person/Author/214> a <Person> ;
+    e:hasName "Scott L'Engle" .
+
+<person/Author/215> a <Person> ;
+    e:hasName "Madeline Koontz" .
+
+<person/Author/216> a <Person> ;
+    e:hasName "Stephen Arden" .
+
+<person/Author/219> a <Person> ;
+    e:hasName "Lois Sanderson" .
+
+<person/Author/224> a <Person> ;
+    e:hasName "David McCaffrey" .
+
+<person/Author/224> a <Person> ;
+    e:hasName "David McCaffrey" .
+
+<person/Author/83> a <Person> ;
+    e:hasName "Janny Brooks" .
+
+<person/Author/83> a <Person> ;
+    e:hasName "Janny Brooks" .

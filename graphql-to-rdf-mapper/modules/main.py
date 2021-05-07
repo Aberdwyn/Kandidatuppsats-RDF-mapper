@@ -24,15 +24,15 @@ def main(graphql_mapping_schema, rdf_mapping_schema):
     results = join_utils.apply_join(collections, graphql_mapping_schema)
     print("Result size:", len(results))
     print("Print the first 10 results")
-    for i in results:
-        print(i)
+    for i in range(10):
+        print(results[i])
     print()
     
     # Generate RDF
     # apply template
-    rdf = rdf_utils.apply_rdf_template(rdf_mapping_schema, results)
-    print("Generated RDF:")
-    print(rdf)
+    rdf_utils.apply_rdf_template(rdf_mapping_schema, results)
+    print("See rdf.nt for generated RDF.")
+
     
 
 if __name__ == '__main__':
