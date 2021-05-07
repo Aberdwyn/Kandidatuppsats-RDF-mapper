@@ -25,6 +25,9 @@ def check_filters(doc, graphql_type, graphql_mapping_schema):
                 print("WARNING: The @lt directive cannot be applied on lists. Did you mean to use @in?")
                 return False
             value = lt_value.get(named_type.name.lower())
+            #False if value of requested field is null
+            if not doc.get(doc_field_name):
+                return False
             if value <= doc.get(doc_field_name):
                 return False
         
