@@ -1,137 +1,7002 @@
 @base <http://example.org#> .
 @prefix e: <http://example.org#> .
 
-<person/Author/1> a <Person> ;
-    e:hasName "Laini Carr" .
+<person/Book/1> a <Book> ;
+    e:hasName "The Warded Game" .
 
-<person/Author/2> a <Person> ;
-    e:hasName "Alix Rice" .
+<person/Author/1> a <Author> ;
+    e:hasAge 20 .
 
-<person/Author/19> a <Person> ;
-    e:hasName "Stephen Maas" .
 
-<person/Author/21> a <Person> ;
-    e:hasName "Brandon Abercrombie" .
+<person/Book/1> a <Book> ;
+    e:hasName "The Warded Game" .
 
-<person/Author/22> a <Person> ;
-    e:hasName "Rick Taylor" .
+<person/Author/2> a <Author> ;
+    e:hasAge 25 .
 
-<person/Author/25> a <Person> ;
-    e:hasName "George Maas" .
 
-<person/Author/25> a <Person> ;
-    e:hasName "George Maas" .
+<person/Book/2> a <Book> ;
+    e:hasName "The Evil Errand" .
 
-<person/Author/125> a <Person> ;
-    e:hasName "Anne Maas" .
+<person/Author/3> a <Author> ;
+    e:hasAge 77 .
 
-<person/Author/130> a <Person> ;
-    e:hasName "Mylo Carbia" .
 
-<person/Author/131> a <Person> ;
-    e:hasName "Anne Carbia" .
+<person/Book/635> a <Book> ;
+    e:hasName "The Radiant Cave" .
 
-<person/Author/132> a <Person> ;
-    e:hasName "Tamora Gaiman" .
+<person/Author/3> a <Author> ;
+    e:hasAge 77 .
 
-<person/Author/132> a <Person> ;
-    e:hasName "Tamora Gaiman" .
 
-<person/Author/134> a <Person> ;
-    e:hasName "Robert Bujold" .
+<person/Book/3> a <Book> ;
+    e:hasName "Apprentice of Time" .
 
-<person/Author/134> a <Person> ;
-    e:hasName "Robert Bujold" .
+<person/Author/4> a <Author> ;
+    e:hasAge 27 .
 
-<person/Author/135> a <Person> ;
-    e:hasName "Diana McNaught" .
 
-<person/Author/135> a <Person> ;
-    e:hasName "Diana McNaught" .
+<person/Book/142> a <Book> ;
+    e:hasName "The Shining Way" .
 
-<person/Author/136> a <Person> ;
-    e:hasName "Janny Jemisin" .
+<person/Author/4> a <Author> ;
+    e:hasAge 27 .
 
-<person/Author/138> a <Person> ;
-    e:hasName "Diana Carr" .
 
-<person/Author/139> a <Person> ;
-    e:hasName "Guy Campbell" .
+<person/Book/3> a <Book> ;
+    e:hasName "Apprentice of Time" .
 
-<person/Author/141> a <Person> ;
-    e:hasName "John Martin" .
+<person/Author/5> a <Author> ;
+    e:hasAge 83 .
 
-<person/Author/144> a <Person> ;
-    e:hasName "Ania Bujold" .
 
-<person/Author/147> a <Person> ;
-    e:hasName "Diana Sullivan" .
+<person/Book/4> a <Book> ;
+    e:hasName "Canyon of the Beautiful Rule" .
 
-<person/Author/153> a <Person> ;
-    e:hasName "Scott Ahlborn" .
+<person/Author/6> a <Author> ;
+    e:hasAge 97 .
 
-<person/Author/86> a <Person> ;
-    e:hasName "Judith Schwab" .
 
-<person/Author/172> a <Person> ;
-    e:hasName "Madeline Sapkowski" .
+<person/Book/5> a <Book> ;
+    e:hasName "King's Way" .
 
-<person/Author/177> a <Person> ;
-    e:hasName "Joe Koontz" .
+<person/Author/7> a <Author> ;
+    e:hasAge 62 .
 
-<person/Author/184> a <Person> ;
-    e:hasName "Madeleine King" .
 
-<person/Author/184> a <Person> ;
-    e:hasName "Madeleine King" .
+<person/Book/6> a <Book> ;
+    e:hasName "The Hungering Edge" .
 
-<person/Author/184> a <Person> ;
-    e:hasName "Madeleine King" .
+<person/Author/8> a <Author> ;
+    e:hasAge 82 .
 
-<person/Author/190> a <Person> ;
-    e:hasName "Jane Erikson" .
 
-<person/Author/193> a <Person> ;
-    e:hasName "Raymond Lindsey" .
+<person/Book/7> a <Book> ;
+    e:hasName "Wizard's Sword" .
 
-<person/Author/194> a <Person> ;
-    e:hasName "Neil Macomber" .
+<person/Author/9> a <Author> ;
+    e:hasAge 46 .
 
-<person/Author/198> a <Person> ;
-    e:hasName "Margaret Sanderson" .
 
-<person/Author/198> a <Person> ;
-    e:hasName "Margaret Sanderson" .
+<person/Book/8> a <Book> ;
+    e:hasName "The Diamond Dragon" .
 
-<person/Author/200> a <Person> ;
-    e:hasName "Scott Abercrombie" .
+<person/Author/10> a <Author> ;
+    e:hasAge 22 .
 
-<person/Author/207> a <Person> ;
-    e:hasName "George Caroll" .
 
-<person/Author/212> a <Person> ;
-    e:hasName "Robert Krentz" .
+<person/Book/9> a <Book> ;
+    e:hasName "The Quiet Murder" .
 
-<person/Author/214> a <Person> ;
-    e:hasName "Scott L'Engle" .
+<person/Author/11> a <Author> ;
+    e:hasAge 60 .
 
-<person/Author/215> a <Person> ;
-    e:hasName "Madeline Koontz" .
 
-<person/Author/216> a <Person> ;
-    e:hasName "Stephen Arden" .
+<person/Book/10> a <Book> ;
+    e:hasName "Magic's Oath" .
 
-<person/Author/219> a <Person> ;
-    e:hasName "Lois Sanderson" .
+<person/Author/12> a <Author> ;
+    e:hasAge 82 .
 
-<person/Author/224> a <Person> ;
-    e:hasName "David McCaffrey" .
 
-<person/Author/224> a <Person> ;
-    e:hasName "David McCaffrey" .
+<person/Book/10> a <Book> ;
+    e:hasName "Magic's Oath" .
 
-<person/Author/83> a <Person> ;
-    e:hasName "Janny Brooks" .
+<person/Author/13> a <Author> ;
+    e:hasAge 20 .
 
-<person/Author/83> a <Person> ;
-    e:hasName "Janny Brooks" .
+
+<person/Book/11> a <Book> ;
+    e:hasName "City of Thorns" .
+
+<person/Author/14> a <Author> ;
+    e:hasAge 46 .
+
+
+<person/Book/11> a <Book> ;
+    e:hasName "City of Thorns" .
+
+<person/Author/15> a <Author> ;
+    e:hasAge 88 .
+
+
+<person/Book/12> a <Book> ;
+    e:hasName "Destroying of the Troubled Man" .
+
+<person/Author/16> a <Author> ;
+    e:hasAge 73 .
+
+
+<person/Book/12> a <Book> ;
+    e:hasName "Destroying of the Troubled Man" .
+
+<person/Author/17> a <Author> ;
+    e:hasAge 33 .
+
+
+<person/Book/899> a <Book> ;
+    e:hasName "The Scary Boy of Silencing" .
+
+<person/Author/17> a <Author> ;
+    e:hasAge 33 .
+
+
+<person/Book/13> a <Book> ;
+    e:hasName "Prince of Swords" .
+
+<person/Author/18> a <Author> ;
+    e:hasAge 50 .
+
+
+<person/Book/14> a <Book> ;
+    e:hasName "The Black Dragon" .
+
+<person/Author/19> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/894> a <Book> ;
+    e:hasName "Apprentice of the Stars" .
+
+<person/Author/19> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/15> a <Book> ;
+    e:hasName "Wish of Darkness" .
+
+<person/Author/20> a <Author> ;
+    e:hasAge 74 .
+
+
+<person/Book/16> a <Book> ;
+    e:hasName "Princess of the Queen" .
+
+<person/Author/21> a <Author> ;
+    e:hasAge 31 .
+
+
+<person/Book/16> a <Book> ;
+    e:hasName "Princess of the Queen" .
+
+<person/Author/22> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/248> a <Book> ;
+    e:hasName "Wizard's Pawn" .
+
+<person/Author/22> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/17> a <Book> ;
+    e:hasName "Ranger of Ages" .
+
+<person/Author/23> a <Author> ;
+    e:hasAge 87 .
+
+
+<person/Book/18> a <Book> ;
+    e:hasName "Game of Shadows" .
+
+<person/Author/24> a <Author> ;
+    e:hasAge 41 .
+
+
+<person/Book/413> a <Book> ;
+    e:hasName "Ranger of Radiance" .
+
+<person/Author/24> a <Author> ;
+    e:hasAge 41 .
+
+
+<person/Book/19> a <Book> ;
+    e:hasName "The Unholy Boy of Stalking" .
+
+<person/Author/25> a <Author> ;
+    e:hasAge 81 .
+
+
+<person/Book/24> a <Book> ;
+    e:hasName "Husband of the Smooth Shaft" .
+
+<person/Author/25> a <Author> ;
+    e:hasAge 81 .
+
+
+<person/Book/20> a <Book> ;
+    e:hasName "Woman of the Beautiful Fire" .
+
+<person/Author/26> a <Author> ;
+    e:hasAge 51 .
+
+
+<person/Book/21> a <Book> ;
+    e:hasName "Fool's Ranger" .
+
+<person/Author/27> a <Author> ;
+    e:hasAge 89 .
+
+
+<person/Book/395> a <Book> ;
+    e:hasName "Tale of the Queen" .
+
+<person/Author/27> a <Author> ;
+    e:hasAge 89 .
+
+
+<person/Book/22> a <Book> ;
+    e:hasName "Hero's Garden" .
+
+<person/Author/28> a <Author> ;
+    e:hasAge 82 .
+
+
+<person/Book/22> a <Book> ;
+    e:hasName "Hero's Garden" .
+
+<person/Author/29> a <Author> ;
+    e:hasAge 55 .
+
+
+<person/Book/23> a <Book> ;
+    e:hasName "Princess of Blood" .
+
+<person/Author/30> a <Author> ;
+    e:hasAge 61 .
+
+
+<person/Book/23> a <Book> ;
+    e:hasName "Princess of Blood" .
+
+<person/Author/31> a <Author> ;
+    e:hasAge 36 .
+
+
+<person/Book/25> a <Book> ;
+    e:hasName "The Enticing Keeps" .
+
+<person/Author/32> a <Author> ;
+    e:hasAge 26 .
+
+
+<person/Book/26> a <Book> ;
+    e:hasName "The Quiet Silence" .
+
+<person/Author/33> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/527> a <Book> ;
+    e:hasName "Pawn of Blood" .
+
+<person/Author/33> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/27> a <Book> ;
+    e:hasName "The Caring Canyon" .
+
+<person/Author/34> a <Author> ;
+    e:hasAge 54 .
+
+
+<person/Book/887> a <Book> ;
+    e:hasName "Keeps of the Glowing Heart" .
+
+<person/Author/34> a <Author> ;
+    e:hasAge 54 .
+
+
+<person/Book/28> a <Book> ;
+    e:hasName "Magic's Name" .
+
+<person/Author/35> a <Author> ;
+    e:hasAge 27 .
+
+
+<person/Book/29> a <Book> ;
+    e:hasName "The Glowing Husband" .
+
+<person/Author/36> a <Author> ;
+    e:hasAge 19 .
+
+
+<person/Book/30> a <Book> ;
+    e:hasName "Cave of the Stars" .
+
+<person/Author/37> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/31> a <Book> ;
+    e:hasName "Wizard's Princess" .
+
+<person/Author/38> a <Author> ;
+    e:hasAge 81 .
+
+
+<person/Book/31> a <Book> ;
+    e:hasName "Wizard's Princess" .
+
+<person/Author/39> a <Author> ;
+    e:hasAge 22 .
+
+
+<person/Book/32> a <Book> ;
+    e:hasName "The Evil Train" .
+
+<person/Author/40> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/33> a <Book> ;
+    e:hasName "Empire of Death" .
+
+<person/Author/41> a <Author> ;
+    e:hasAge 51 .
+
+
+<person/Book/747> a <Book> ;
+    e:hasName "Ship of the Moon" .
+
+<person/Author/41> a <Author> ;
+    e:hasAge 51 .
+
+
+<person/Book/34> a <Book> ;
+    e:hasName "Paladin of Flame" .
+
+<person/Author/42> a <Author> ;
+    e:hasAge 88 .
+
+
+<person/Book/34> a <Book> ;
+    e:hasName "Paladin of Flame" .
+
+<person/Author/43> a <Author> ;
+    e:hasAge 98 .
+
+
+<person/Book/35> a <Book> ;
+    e:hasName "The Honest Heart" .
+
+<person/Author/44> a <Author> ;
+    e:hasAge 98 .
+
+
+<person/Book/36> a <Book> ;
+    e:hasName "The Evil Night" .
+
+<person/Author/45> a <Author> ;
+    e:hasAge 83 .
+
+
+<person/Book/37> a <Book> ;
+    e:hasName "The Quiet Crime" .
+
+<person/Author/46> a <Author> ;
+    e:hasAge 97 .
+
+
+<person/Book/270> a <Book> ;
+    e:hasName "The Caring Tranquility" .
+
+<person/Author/46> a <Author> ;
+    e:hasAge 97 .
+
+
+<person/Book/38> a <Book> ;
+    e:hasName "The Innocent Girl of Silencing" .
+
+<person/Author/47> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/644> a <Book> ;
+    e:hasName "The Diamond Unicorn" .
+
+<person/Author/47> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/39> a <Book> ;
+    e:hasName "Assassin's Game" .
+
+<person/Author/48> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/40> a <Book> ;
+    e:hasName "The Dark Prism" .
+
+<person/Author/49> a <Author> ;
+    e:hasAge 51 .
+
+
+<person/Book/40> a <Book> ;
+    e:hasName "The Dark Prism" .
+
+<person/Author/50> a <Author> ;
+    e:hasAge 33 .
+
+
+<person/Book/41> a <Book> ;
+    e:hasName "The Steaming Game" .
+
+<person/Author/51> a <Author> ;
+    e:hasAge 58 .
+
+
+<person/Book/42> a <Book> ;
+    e:hasName "Storm of Ages" .
+
+<person/Author/52> a <Author> ;
+    e:hasAge 32 .
+
+
+<person/Book/43> a <Book> ;
+    e:hasName "The Diamond Cave" .
+
+<person/Author/53> a <Author> ;
+    e:hasAge 25 .
+
+
+<person/Book/44> a <Book> ;
+    e:hasName "Fool's Empire" .
+
+<person/Author/54> a <Author> ;
+    e:hasAge 49 .
+
+
+<person/Book/789> a <Book> ;
+    e:hasName "Ship of Blood" .
+
+<person/Author/54> a <Author> ;
+    e:hasAge 49 .
+
+
+<person/Book/45> a <Book> ;
+    e:hasName "The Holy Paladin" .
+
+<person/Author/55> a <Author> ;
+    e:hasAge 35 .
+
+
+<person/Book/46> a <Book> ;
+    e:hasName "Cleric of Glass" .
+
+<person/Author/56> a <Author> ;
+    e:hasAge 85 .
+
+
+<person/Book/47> a <Book> ;
+    e:hasName "The Black Errand" .
+
+<person/Author/57> a <Author> ;
+    e:hasAge 77 .
+
+
+<person/Book/48> a <Book> ;
+    e:hasName "Storm of Darkness" .
+
+<person/Author/58> a <Author> ;
+    e:hasAge 99 .
+
+
+<person/Book/49> a <Book> ;
+    e:hasName "The Dark Storm" .
+
+<person/Author/59> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/50> a <Book> ;
+    e:hasName "Unicorn of Death" .
+
+<person/Author/60> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/51> a <Book> ;
+    e:hasName "The Wild Pawn" .
+
+<person/Author/61> a <Author> ;
+    e:hasAge 81 .
+
+
+<person/Book/52> a <Book> ;
+    e:hasName "The Great Horseman" .
+
+<person/Author/62> a <Author> ;
+    e:hasAge 55 .
+
+
+<person/Book/454> a <Book> ;
+    e:hasName "Oath of Magic" .
+
+<person/Author/62> a <Author> ;
+    e:hasAge 55 .
+
+
+<person/Book/53> a <Book> ;
+    e:hasName "The Lost Quest" .
+
+<person/Author/63> a <Author> ;
+    e:hasAge 30 .
+
+
+<person/Book/54> a <Book> ;
+    e:hasName "The Perfect Dark" .
+
+<person/Author/64> a <Author> ;
+    e:hasAge 43 .
+
+
+<person/Book/55> a <Book> ;
+    e:hasName "The Hot Hug" .
+
+<person/Author/65> a <Author> ;
+    e:hasAge 28 .
+
+
+<person/Book/120> a <Book> ;
+    e:hasName "Wizard's King" .
+
+<person/Author/65> a <Author> ;
+    e:hasAge 28 .
+
+
+<person/Book/56> a <Book> ;
+    e:hasName "Wizard's Staff" .
+
+<person/Author/66> a <Author> ;
+    e:hasAge 61 .
+
+
+<person/Book/57> a <Book> ;
+    e:hasName "The Wild Game" .
+
+<person/Author/67> a <Author> ;
+    e:hasAge 59 .
+
+
+<person/Book/58> a <Book> ;
+    e:hasName "Drowning of the Evil Train" .
+
+<person/Author/68> a <Author> ;
+    e:hasAge 78 .
+
+
+<person/Book/59> a <Book> ;
+    e:hasName "Unicorn of the Empire" .
+
+<person/Author/69> a <Author> ;
+    e:hasAge 83 .
+
+
+<person/Book/60> a <Book> ;
+    e:hasName "Rule of Death" .
+
+<person/Author/70> a <Author> ;
+    e:hasAge 73 .
+
+
+<person/Book/61> a <Book> ;
+    e:hasName "Way of Wind" .
+
+<person/Author/71> a <Author> ;
+    e:hasAge 41 .
+
+
+<person/Book/62> a <Book> ;
+    e:hasName "The Warded Ranger" .
+
+<person/Author/72> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/63> a <Book> ;
+    e:hasName "Fool's City" .
+
+<person/Author/73> a <Author> ;
+    e:hasAge 91 .
+
+
+<person/Book/63> a <Book> ;
+    e:hasName "Fool's City" .
+
+<person/Author/74> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/63> a <Book> ;
+    e:hasName "Fool's City" .
+
+<person/Author/75> a <Author> ;
+    e:hasAge 90 .
+
+
+<person/Book/607> a <Book> ;
+    e:hasName "Sword of the World" .
+
+<person/Author/75> a <Author> ;
+    e:hasAge 90 .
+
+
+<person/Book/64> a <Book> ;
+    e:hasName "Errand of Magic" .
+
+<person/Author/76> a <Author> ;
+    e:hasAge 64 .
+
+
+<person/Book/65> a <Book> ;
+    e:hasName "The Magical Apprentice" .
+
+<person/Author/77> a <Author> ;
+    e:hasAge 25 .
+
+
+<person/Book/66> a <Book> ;
+    e:hasName "Fool's Way" .
+
+<person/Author/78> a <Author> ;
+    e:hasAge 16 .
+
+
+<person/Book/67> a <Book> ;
+    e:hasName "Pillar of the Honest Shaft" .
+
+<person/Author/79> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/756> a <Book> ;
+    e:hasName "Wheel of Darkness" .
+
+<person/Author/79> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/68> a <Book> ;
+    e:hasName "The Final Garden" .
+
+<person/Author/80> a <Author> ;
+    e:hasAge 74 .
+
+
+<person/Book/69> a <Book> ;
+    e:hasName "The Wild Crown" .
+
+<person/Author/81> a <Author> ;
+    e:hasAge 66 .
+
+
+<person/Book/70> a <Book> ;
+    e:hasName "The Great Lord" .
+
+<person/Author/82> a <Author> ;
+    e:hasAge 75 .
+
+
+<person/Book/71> a <Book> ;
+    e:hasName "The Radiant Name" .
+
+<person/Author/83> a <Author> ;
+    e:hasAge 49 .
+
+
+<person/Book/196> a <Book> ;
+    e:hasName "Quest of Flame" .
+
+<person/Author/83> a <Author> ;
+    e:hasAge 49 .
+
+
+<person/Book/72> a <Book> ;
+    e:hasName "The Neverending Storm" .
+
+<person/Author/84> a <Author> ;
+    e:hasAge 32 .
+
+
+<person/Book/387> a <Book> ;
+    e:hasName "The Dark Horseman" .
+
+<person/Author/84> a <Author> ;
+    e:hasAge 32 .
+
+
+<person/Book/73> a <Book> ;
+    e:hasName "Destroying of the Cold Crime" .
+
+<person/Author/85> a <Author> ;
+    e:hasAge 42 .
+
+
+<person/Book/425> a <Book> ;
+    e:hasName "The White Horseman" .
+
+<person/Author/85> a <Author> ;
+    e:hasAge 42 .
+
+
+<person/Book/74> a <Book> ;
+    e:hasName "The Interesting Keeps" .
+
+<person/Author/86> a <Author> ;
+    e:hasAge 45 .
+
+
+<person/Book/139> a <Book> ;
+    e:hasName "The Scary Train of Shooting" .
+
+<person/Author/86> a <Author> ;
+    e:hasAge 45 .
+
+
+<person/Book/813> a <Book> ;
+    e:hasName "Staff of Plague" .
+
+<person/Author/86> a <Author> ;
+    e:hasAge 45 .
+
+
+<person/Book/75> a <Book> ;
+    e:hasName "The Evil Assassin" .
+
+<person/Author/87> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/75> a <Book> ;
+    e:hasName "The Evil Assassin" .
+
+<person/Author/88> a <Author> ;
+    e:hasAge 44 .
+
+
+<person/Book/75> a <Book> ;
+    e:hasName "The Evil Assassin" .
+
+<person/Author/89> a <Author> ;
+    e:hasAge 40 .
+
+
+<person/Book/76> a <Book> ;
+    e:hasName "The Honest Sea" .
+
+<person/Author/90> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/77> a <Book> ;
+    e:hasName "Shaft of the Warm Pride" .
+
+<person/Author/91> a <Author> ;
+    e:hasAge 93 .
+
+
+<person/Book/78> a <Book> ;
+    e:hasName "Magic's Curse" .
+
+<person/Author/92> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/78> a <Book> ;
+    e:hasName "Magic's Curse" .
+
+<person/Author/93> a <Author> ;
+    e:hasAge 21 .
+
+
+<person/Book/872> a <Book> ;
+    e:hasName "Murder of the Still Night" .
+
+<person/Author/93> a <Author> ;
+    e:hasAge 21 .
+
+
+<person/Book/79> a <Book> ;
+    e:hasName "Prism of Glass" .
+
+<person/Author/94> a <Author> ;
+    e:hasAge 67 .
+
+
+<person/Book/79> a <Book> ;
+    e:hasName "Prism of Glass" .
+
+<person/Author/95> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/79> a <Book> ;
+    e:hasName "Prism of Glass" .
+
+<person/Author/96> a <Author> ;
+    e:hasAge 67 .
+
+
+<person/Book/80> a <Book> ;
+    e:hasName "Ranger of the Forest" .
+
+<person/Author/97> a <Author> ;
+    e:hasAge 70 .
+
+
+<person/Book/81> a <Book> ;
+    e:hasName "The Mysterious Empire" .
+
+<person/Author/98> a <Author> ;
+    e:hasAge 39 .
+
+
+<person/Book/82> a <Book> ;
+    e:hasName "Prince of Time" .
+
+<person/Author/99> a <Author> ;
+    e:hasAge 51 .
+
+
+<person/Book/83> a <Book> ;
+    e:hasName "Knight's Chair" .
+
+<person/Author/100> a <Author> ;
+    e:hasAge 75 .
+
+
+<person/Book/84> a <Book> ;
+    e:hasName "The Black Company" .
+
+<person/Author/101> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/85> a <Book> ;
+    e:hasName "The Wild Dragon" .
+
+<person/Author/102> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/85> a <Book> ;
+    e:hasName "The Wild Dragon" .
+
+<person/Author/103> a <Author> ;
+    e:hasAge 95 .
+
+
+<person/Book/221> a <Book> ;
+    e:hasName "Shooting of the Evil Fear" .
+
+<person/Author/103> a <Author> ;
+    e:hasAge 95 .
+
+
+<person/Book/86> a <Book> ;
+    e:hasName "The Beautiful Edge" .
+
+<person/Author/104> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/87> a <Book> ;
+    e:hasName "The Wild Queen" .
+
+<person/Author/105> a <Author> ;
+    e:hasAge 50 .
+
+
+<person/Book/88> a <Book> ;
+    e:hasName "The Beautiful Secret" .
+
+<person/Author/106> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/675> a <Book> ;
+    e:hasName "The Neverending Curse" .
+
+<person/Author/106> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/88> a <Book> ;
+    e:hasName "The Beautiful Secret" .
+
+<person/Author/107> a <Author> ;
+    e:hasAge 47 .
+
+
+<person/Book/89> a <Book> ;
+    e:hasName "Steven's King" .
+
+<person/Author/108> a <Author> ;
+    e:hasAge 52 .
+
+
+<person/Book/424> a <Book> ;
+    e:hasName "Suffering of the Terrible Famine" .
+
+<person/Author/108> a <Author> ;
+    e:hasAge 52 .
+
+
+<person/Book/89> a <Book> ;
+    e:hasName "Steven's King" .
+
+<person/Author/109> a <Author> ;
+    e:hasAge 78 .
+
+
+<person/Book/90> a <Book> ;
+    e:hasName "Moon of the Radiating Shaft" .
+
+<person/Author/110> a <Author> ;
+    e:hasAge 95 .
+
+
+<person/Book/91> a <Book> ;
+    e:hasName "Story of the Forest" .
+
+<person/Author/111> a <Author> ;
+    e:hasAge 69 .
+
+
+<person/Book/92> a <Book> ;
+    e:hasName "The Neverending Rule" .
+
+<person/Author/112> a <Author> ;
+    e:hasAge 84 .
+
+
+<person/Book/310> a <Book> ;
+    e:hasName "Assassin's Pawn" .
+
+<person/Author/112> a <Author> ;
+    e:hasAge 84 .
+
+
+<person/Book/841> a <Book> ;
+    e:hasName "Dark of Corpse" .
+
+<person/Author/112> a <Author> ;
+    e:hasAge 84 .
+
+
+<person/Book/93> a <Book> ;
+    e:hasName "Oath of the Stars" .
+
+<person/Author/113> a <Author> ;
+    e:hasAge 87 .
+
+
+<person/Book/94> a <Book> ;
+    e:hasName "The Dark Cave" .
+
+<person/Author/114> a <Author> ;
+    e:hasAge 59 .
+
+
+<person/Book/95> a <Book> ;
+    e:hasName "The Evil Dark" .
+
+<person/Author/115> a <Author> ;
+    e:hasAge 67 .
+
+
+<person/Book/96> a <Book> ;
+    e:hasName "The Neverending Errand" .
+
+<person/Author/116> a <Author> ;
+    e:hasAge 36 .
+
+
+<person/Book/97> a <Book> ;
+    e:hasName "The Lost Prism" .
+
+<person/Author/117> a <Author> ;
+    e:hasAge 80 .
+
+
+<person/Book/98> a <Book> ;
+    e:hasName "The Black Prince" .
+
+<person/Author/118> a <Author> ;
+    e:hasAge 51 .
+
+
+<person/Book/99> a <Book> ;
+    e:hasName "The Radiant Oath" .
+
+<person/Author/119> a <Author> ;
+    e:hasAge 71 .
+
+
+<person/Book/100> a <Book> ;
+    e:hasName "The Wild Prince" .
+
+<person/Author/120> a <Author> ;
+    e:hasAge 69 .
+
+
+<person/Book/100> a <Book> ;
+    e:hasName "The Wild Prince" .
+
+<person/Author/121> a <Author> ;
+    e:hasAge 62 .
+
+
+<person/Book/101> a <Book> ;
+    e:hasName "Theft of Glass" .
+
+<person/Author/122> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/101> a <Book> ;
+    e:hasName "Theft of Glass" .
+
+<person/Author/123> a <Author> ;
+    e:hasAge 67 .
+
+
+<person/Book/102> a <Book> ;
+    e:hasName "Quest of Shadows" .
+
+<person/Author/124> a <Author> ;
+    e:hasAge 56 .
+
+
+<person/Book/103> a <Book> ;
+    e:hasName "Prism of Chaos" .
+
+<person/Author/125> a <Author> ;
+    e:hasAge 95 .
+
+
+<person/Book/471> a <Book> ;
+    e:hasName "Game of Thrones" .
+
+<person/Author/125> a <Author> ;
+    e:hasAge 95 .
+
+
+<person/Book/104> a <Book> ;
+    e:hasName "Way of the Stars" .
+
+<person/Author/126> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/574> a <Book> ;
+    e:hasName "Wizard of Swords" .
+
+<person/Author/126> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/104> a <Book> ;
+    e:hasName "Way of the Stars" .
+
+<person/Author/127> a <Author> ;
+    e:hasAge 70 .
+
+
+<person/Book/105> a <Book> ;
+    e:hasName "The Cold Cross of Destroying" .
+
+<person/Author/128> a <Author> ;
+    e:hasAge 78 .
+
+
+<person/Book/106> a <Book> ;
+    e:hasName "Fool's Prince" .
+
+<person/Author/129> a <Author> ;
+    e:hasAge 42 .
+
+
+<person/Book/107> a <Book> ;
+    e:hasName "Bone of Blood" .
+
+<person/Author/130> a <Author> ;
+    e:hasAge 27 .
+
+
+<person/Book/875> a <Book> ;
+    e:hasName "The Cold Crime" .
+
+<person/Author/130> a <Author> ;
+    e:hasAge 27 .
+
+
+<person/Book/108> a <Book> ;
+    e:hasName "Errand of the Stars" .
+
+<person/Author/131> a <Author> ;
+    e:hasAge 74 .
+
+
+<person/Book/136> a <Book> ;
+    e:hasName "The Shining Company" .
+
+<person/Author/131> a <Author> ;
+    e:hasAge 74 .
+
+
+<person/Book/109> a <Book> ;
+    e:hasName "Hero's Unicorn" .
+
+<person/Author/132> a <Author> ;
+    e:hasAge 20 .
+
+
+<person/Book/439> a <Book> ;
+    e:hasName "Wizard's Queen" .
+
+<person/Author/132> a <Author> ;
+    e:hasAge 20 .
+
+
+<person/Book/799> a <Book> ;
+    e:hasName "Rule of Thrones" .
+
+<person/Author/132> a <Author> ;
+    e:hasAge 20 .
+
+
+<person/Book/110> a <Book> ;
+    e:hasName "The Radiant King" .
+
+<person/Author/133> a <Author> ;
+    e:hasAge 87 .
+
+
+<person/Book/111> a <Book> ;
+    e:hasName "The Final Errand" .
+
+<person/Author/134> a <Author> ;
+    e:hasAge 66 .
+
+
+<person/Book/112> a <Book> ;
+    e:hasName "Fault of the Interesting Lover" .
+
+<person/Author/135> a <Author> ;
+    e:hasAge 77 .
+
+
+<person/Book/113> a <Book> ;
+    e:hasName "Bone of Famine" .
+
+<person/Author/136> a <Author> ;
+    e:hasAge 33 .
+
+
+<person/Book/114> a <Book> ;
+    e:hasName "The Perfect Cross of Destroying" .
+
+<person/Author/137> a <Author> ;
+    e:hasAge 59 .
+
+
+<person/Book/115> a <Book> ;
+    e:hasName "Garden of Shadows" .
+
+<person/Author/138> a <Author> ;
+    e:hasAge 94 .
+
+
+<person/Book/232> a <Book> ;
+    e:hasName "Longing of the Beautiful Shaft" .
+
+<person/Author/138> a <Author> ;
+    e:hasAge 94 .
+
+
+<person/Book/115> a <Book> ;
+    e:hasName "Garden of Shadows" .
+
+<person/Author/139> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/116> a <Book> ;
+    e:hasName "Woman of Girl" .
+
+<person/Author/140> a <Author> ;
+    e:hasAge 48 .
+
+
+<person/Book/117> a <Book> ;
+    e:hasName "The Honest Pride" .
+
+<person/Author/141> a <Author> ;
+    e:hasAge 85 .
+
+
+<person/Book/118> a <Book> ;
+    e:hasName "Princess of Flame" .
+
+<person/Author/142> a <Author> ;
+    e:hasAge 66 .
+
+
+<person/Book/119> a <Book> ;
+    e:hasName "Company of the Queen" .
+
+<person/Author/143> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/121> a <Book> ;
+    e:hasName "Wizard's Throne" .
+
+<person/Author/144> a <Author> ;
+    e:hasAge 47 .
+
+
+<person/Book/122> a <Book> ;
+    e:hasName "Garden of Flame" .
+
+<person/Author/145> a <Author> ;
+    e:hasAge 50 .
+
+
+<person/Book/123> a <Book> ;
+    e:hasName "The Unholy Bone of Stalking" .
+
+<person/Author/146> a <Author> ;
+    e:hasAge 89 .
+
+
+<person/Book/124> a <Book> ;
+    e:hasName "The Golden Apprentice" .
+
+<person/Author/147> a <Author> ;
+    e:hasAge 34 .
+
+
+<person/Book/125> a <Book> ;
+    e:hasName "Secret of the Hungering Hunger" .
+
+<person/Author/148> a <Author> ;
+    e:hasAge 26 .
+
+
+<person/Book/126> a <Book> ;
+    e:hasName "The Shining Garden" .
+
+<person/Author/149> a <Author> ;
+    e:hasAge 46 .
+
+
+<person/Book/127> a <Book> ;
+    e:hasName "The Evil Wish" .
+
+<person/Author/150> a <Author> ;
+    e:hasAge 53 .
+
+
+<person/Book/128> a <Book> ;
+    e:hasName "The Dark Cannibal of Suffering" .
+
+<person/Author/151> a <Author> ;
+    e:hasAge 57 .
+
+
+<person/Book/129> a <Book> ;
+    e:hasName "The Last Dragon" .
+
+<person/Author/152> a <Author> ;
+    e:hasAge 32 .
+
+
+<person/Book/130> a <Book> ;
+    e:hasName "Ranger of Plague" .
+
+<person/Author/153> a <Author> ;
+    e:hasAge 82 .
+
+
+<person/Book/131> a <Book> ;
+    e:hasName "The Shining Journey" .
+
+<person/Author/154> a <Author> ;
+    e:hasAge 17 .
+
+
+<person/Book/132> a <Book> ;
+    e:hasName "Magic's Army" .
+
+<person/Author/155> a <Author> ;
+    e:hasAge 16 .
+
+
+<person/Book/704> a <Book> ;
+    e:hasName "The Enormous Sword" .
+
+<person/Author/155> a <Author> ;
+    e:hasAge 16 .
+
+
+<person/Book/133> a <Book> ;
+    e:hasName "Cleric of the Stars" .
+
+<person/Author/156> a <Author> ;
+    e:hasAge 57 .
+
+
+<person/Book/134> a <Book> ;
+    e:hasName "Keeps of the Beautiful Shaft" .
+
+<person/Author/157> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/516> a <Book> ;
+    e:hasName "Assassin's King" .
+
+<person/Author/157> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/135> a <Book> ;
+    e:hasName "The Wild Chair" .
+
+<person/Author/158> a <Author> ;
+    e:hasAge 50 .
+
+
+<person/Book/137> a <Book> ;
+    e:hasName "The Radiant Ship" .
+
+<person/Author/159> a <Author> ;
+    e:hasAge 100 .
+
+
+<person/Book/137> a <Book> ;
+    e:hasName "The Radiant Ship" .
+
+<person/Author/160> a <Author> ;
+    e:hasAge 78 .
+
+
+<person/Book/618> a <Book> ;
+    e:hasName "The Hungering Longing" .
+
+<person/Author/160> a <Author> ;
+    e:hasAge 78 .
+
+
+<person/Book/138> a <Book> ;
+    e:hasName "Storm of Plague" .
+
+<person/Author/161> a <Author> ;
+    e:hasAge 97 .
+
+
+<person/Book/363> a <Book> ;
+    e:hasName "Assassin's Wizard" .
+
+<person/Author/161> a <Author> ;
+    e:hasAge 97 .
+
+
+<person/Book/140> a <Book> ;
+    e:hasName "The Black Garden" .
+
+<person/Author/162> a <Author> ;
+    e:hasAge 57 .
+
+
+<person/Book/684> a <Book> ;
+    e:hasName "The Diamond Army" .
+
+<person/Author/162> a <Author> ;
+    e:hasAge 57 .
+
+
+<person/Book/141> a <Book> ;
+    e:hasName "Storm of Blood" .
+
+<person/Author/163> a <Author> ;
+    e:hasAge 31 .
+
+
+<person/Book/143> a <Book> ;
+    e:hasName "The Mysterious Sea" .
+
+<person/Author/164> a <Author> ;
+    e:hasAge 62 .
+
+
+<person/Book/143> a <Book> ;
+    e:hasName "The Mysterious Sea" .
+
+<person/Author/165> a <Author> ;
+    e:hasAge 85 .
+
+
+<person/Book/253> a <Book> ;
+    e:hasName "The Glimmering Pawn" .
+
+<person/Author/165> a <Author> ;
+    e:hasAge 85 .
+
+
+<person/Book/144> a <Book> ;
+    e:hasName "Unicorn of Chaos" .
+
+<person/Author/166> a <Author> ;
+    e:hasAge 33 .
+
+
+<person/Book/144> a <Book> ;
+    e:hasName "Unicorn of Chaos" .
+
+<person/Author/167> a <Author> ;
+    e:hasAge 82 .
+
+
+<person/Book/144> a <Book> ;
+    e:hasName "Unicorn of Chaos" .
+
+<person/Author/168> a <Author> ;
+    e:hasAge 88 .
+
+
+<person/Book/145> a <Book> ;
+    e:hasName "The Calm Boy" .
+
+<person/Author/169> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/146> a <Book> ;
+    e:hasName "Knight's Name" .
+
+<person/Author/170> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/147> a <Book> ;
+    e:hasName "Magic's Quest" .
+
+<person/Author/171> a <Author> ;
+    e:hasAge 52 .
+
+
+<person/Book/272> a <Book> ;
+    e:hasName "The Warm Moon" .
+
+<person/Author/171> a <Author> ;
+    e:hasAge 52 .
+
+
+<person/Book/148> a <Book> ;
+    e:hasName "The Flowing Prince" .
+
+<person/Author/172> a <Author> ;
+    e:hasAge 45 .
+
+
+<person/Book/149> a <Book> ;
+    e:hasName "Knight's Dragon" .
+
+<person/Author/173> a <Author> ;
+    e:hasAge 49 .
+
+
+<person/Book/816> a <Book> ;
+    e:hasName "Tranquility of the Warm Moon" .
+
+<person/Author/173> a <Author> ;
+    e:hasAge 49 .
+
+
+<person/Book/822> a <Book> ;
+    e:hasName "The Perfect Ritual of Stalking" .
+
+<person/Author/173> a <Author> ;
+    e:hasAge 49 .
+
+
+<person/Book/150> a <Book> ;
+    e:hasName "Hero's King" .
+
+<person/Author/174> a <Author> ;
+    e:hasAge 74 .
+
+
+<person/Book/237> a <Book> ;
+    e:hasName "Princess of Chaos" .
+
+<person/Author/174> a <Author> ;
+    e:hasAge 74 .
+
+
+<person/Book/151> a <Book> ;
+    e:hasName "Sea of the Hungering Keeps" .
+
+<person/Author/175> a <Author> ;
+    e:hasAge 81 .
+
+
+<person/Book/581> a <Book> ;
+    e:hasName "Charm of the Warm Pillar" .
+
+<person/Author/175> a <Author> ;
+    e:hasAge 81 .
+
+
+<person/Book/152> a <Book> ;
+    e:hasName "The Final Horseman" .
+
+<person/Author/176> a <Author> ;
+    e:hasAge 48 .
+
+
+<person/Book/153> a <Book> ;
+    e:hasName "Tale of Plague" .
+
+<person/Author/177> a <Author> ;
+    e:hasAge 76 .
+
+
+<person/Book/154> a <Book> ;
+    e:hasName "Game of the Stars" .
+
+<person/Author/178> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/155> a <Book> ;
+    e:hasName "The Mysterious Pawn" .
+
+<person/Author/179> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/156> a <Book> ;
+    e:hasName "Knight's Quest" .
+
+<person/Author/180> a <Author> ;
+    e:hasAge 56 .
+
+
+<person/Book/182> a <Book> ;
+    e:hasName "Woman of Cannibal" .
+
+<person/Author/180> a <Author> ;
+    e:hasAge 56 .
+
+
+<person/Book/157> a <Book> ;
+    e:hasName "Lord of Shadows" .
+
+<person/Author/181> a <Author> ;
+    e:hasAge 94 .
+
+
+<person/Book/520> a <Book> ;
+    e:hasName "Throne of the Moon" .
+
+<person/Author/181> a <Author> ;
+    e:hasAge 94 .
+
+
+<person/Book/738> a <Book> ;
+    e:hasName "Magic's Prince" .
+
+<person/Author/181> a <Author> ;
+    e:hasAge 94 .
+
+
+<person/Book/158> a <Book> ;
+    e:hasName "The Crystal Prism" .
+
+<person/Author/182> a <Author> ;
+    e:hasAge 20 .
+
+
+<person/Book/159> a <Book> ;
+    e:hasName "Queen's Way" .
+
+<person/Author/183> a <Author> ;
+    e:hasAge 42 .
+
+
+<person/Book/160> a <Book> ;
+    e:hasName "Stalking of the Perfect Murder" .
+
+<person/Author/184> a <Author> ;
+    e:hasAge 79 .
+
+
+<person/Book/467> a <Book> ;
+    e:hasName "Errand of Swords" .
+
+<person/Author/184> a <Author> ;
+    e:hasAge 79 .
+
+
+<person/Book/161> a <Book> ;
+    e:hasName "Oath of Wind" .
+
+<person/Author/185> a <Author> ;
+    e:hasAge 34 .
+
+
+<person/Book/161> a <Book> ;
+    e:hasName "Oath of Wind" .
+
+<person/Author/186> a <Author> ;
+    e:hasAge 57 .
+
+
+<person/Book/910> a <Book> ;
+    e:hasName "The Glimmering Oath" .
+
+<person/Author/186> a <Author> ;
+    e:hasAge 57 .
+
+
+<person/Book/162> a <Book> ;
+    e:hasName "Magic's Queen" .
+
+<person/Author/187> a <Author> ;
+    e:hasAge 19 .
+
+
+<person/Book/163> a <Book> ;
+    e:hasName "Fool's Rule" .
+
+<person/Author/188> a <Author> ;
+    e:hasAge 73 .
+
+
+<person/Book/526> a <Book> ;
+    e:hasName "Rule of the Empire" .
+
+<person/Author/188> a <Author> ;
+    e:hasAge 73 .
+
+
+<person/Book/163> a <Book> ;
+    e:hasName "Fool's Rule" .
+
+<person/Author/189> a <Author> ;
+    e:hasAge 52 .
+
+
+<person/Book/164> a <Book> ;
+    e:hasName "King of Chaos" .
+
+<person/Author/190> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/165> a <Book> ;
+    e:hasName "The Final Prism" .
+
+<person/Author/191> a <Author> ;
+    e:hasAge 59 .
+
+
+<person/Book/165> a <Book> ;
+    e:hasName "The Final Prism" .
+
+<person/Author/192> a <Author> ;
+    e:hasAge 60 .
+
+
+<person/Book/166> a <Book> ;
+    e:hasName "Sword of the Moon" .
+
+<person/Author/193> a <Author> ;
+    e:hasAge 82 .
+
+
+<person/Book/166> a <Book> ;
+    e:hasName "Sword of the Moon" .
+
+<person/Author/194> a <Author> ;
+    e:hasAge 18 .
+
+
+<person/Book/167> a <Book> ;
+    e:hasName "The Mysterious Chair" .
+
+<person/Author/195> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/168> a <Book> ;
+    e:hasName "The Mysterious Hunger" .
+
+<person/Author/196> a <Author> ;
+    e:hasAge 53 .
+
+
+<person/Book/169> a <Book> ;
+    e:hasName "The Wild Assassin" .
+
+<person/Author/197> a <Author> ;
+    e:hasAge 22 .
+
+
+<person/Book/170> a <Book> ;
+    e:hasName "Kiss of the Beautiful Evening" .
+
+<person/Author/198> a <Author> ;
+    e:hasAge 41 .
+
+
+<person/Book/893> a <Book> ;
+    e:hasName "Sword of Glass" .
+
+<person/Author/198> a <Author> ;
+    e:hasAge 41 .
+
+
+<person/Book/171> a <Book> ;
+    e:hasName "The Crystal Prince" .
+
+<person/Author/199> a <Author> ;
+    e:hasAge 62 .
+
+
+<person/Book/172> a <Book> ;
+    e:hasName "The Neverending Paladin" .
+
+<person/Author/200> a <Author> ;
+    e:hasAge 59 .
+
+
+<person/Book/233> a <Book> ;
+    e:hasName "Army of the Empire" .
+
+<person/Author/200> a <Author> ;
+    e:hasAge 59 .
+
+
+<person/Book/173> a <Book> ;
+    e:hasName "The Unholy Bone of Killing" .
+
+<person/Author/201> a <Author> ;
+    e:hasAge 38 .
+
+
+<person/Book/174> a <Book> ;
+    e:hasName "The Neverending Dragon" .
+
+<person/Author/202> a <Author> ;
+    e:hasAge 44 .
+
+
+<person/Book/175> a <Book> ;
+    e:hasName "Assassin's Oath" .
+
+<person/Author/203> a <Author> ;
+    e:hasAge 61 .
+
+
+<person/Book/176> a <Book> ;
+    e:hasName "The Mysterious Cave" .
+
+<person/Author/204> a <Author> ;
+    e:hasAge 42 .
+
+
+<person/Book/790> a <Book> ;
+    e:hasName "The Innocent Fear of Destroying" .
+
+<person/Author/204> a <Author> ;
+    e:hasAge 42 .
+
+
+<person/Book/177> a <Book> ;
+    e:hasName "Sacrifice of the Innocent Blood" .
+
+<person/Author/205> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/178> a <Book> ;
+    e:hasName "Murder of Famine" .
+
+<person/Author/206> a <Author> ;
+    e:hasAge 98 .
+
+
+<person/Book/313> a <Book> ;
+    e:hasName "Fool's Game" .
+
+<person/Author/206> a <Author> ;
+    e:hasAge 98 .
+
+
+<person/Book/179> a <Book> ;
+    e:hasName "Crown of Swords" .
+
+<person/Author/207> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/180> a <Book> ;
+    e:hasName "The Glimmering Cave" .
+
+<person/Author/208> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/181> a <Book> ;
+    e:hasName "The Unholy Death" .
+
+<person/Author/209> a <Author> ;
+    e:hasAge 33 .
+
+
+<person/Book/182> a <Book> ;
+    e:hasName "Woman of Cannibal" .
+
+<person/Author/210> a <Author> ;
+    e:hasAge 27 .
+
+
+<person/Book/183> a <Book> ;
+    e:hasName "The Radiant Princess" .
+
+<person/Author/211> a <Author> ;
+    e:hasAge 52 .
+
+
+<person/Book/184> a <Book> ;
+    e:hasName "Crime of Fear" .
+
+<person/Author/212> a <Author> ;
+    e:hasAge 17 .
+
+
+<person/Book/185> a <Book> ;
+    e:hasName "Rule of the Bound Secret" .
+
+<person/Author/213> a <Author> ;
+    e:hasAge 24 .
+
+
+<person/Book/186> a <Book> ;
+    e:hasName "Fool's Wheel" .
+
+<person/Author/214> a <Author> ;
+    e:hasAge 23 .
+
+
+<person/Book/186> a <Book> ;
+    e:hasName "Fool's Wheel" .
+
+<person/Author/215> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/186> a <Book> ;
+    e:hasName "Fool's Wheel" .
+
+<person/Author/216> a <Author> ;
+    e:hasAge 74 .
+
+
+<person/Book/187> a <Book> ;
+    e:hasName "The Black Woman of Crucifying" .
+
+<person/Author/217> a <Author> ;
+    e:hasAge 24 .
+
+
+<person/Book/188> a <Book> ;
+    e:hasName "Story of the Moon" .
+
+<person/Author/218> a <Author> ;
+    e:hasAge 89 .
+
+
+<person/Book/189> a <Book> ;
+    e:hasName "Prince of the Queen" .
+
+<person/Author/219> a <Author> ;
+    e:hasAge 84 .
+
+
+<person/Book/190> a <Book> ;
+    e:hasName "The Radiant Staff" .
+
+<person/Author/220> a <Author> ;
+    e:hasAge 76 .
+
+
+<person/Book/191> a <Book> ;
+    e:hasName "The Radiant Crown" .
+
+<person/Author/221> a <Author> ;
+    e:hasAge 76 .
+
+
+<person/Book/192> a <Book> ;
+    e:hasName "The Troubled Cannibal of Silencing" .
+
+<person/Author/222> a <Author> ;
+    e:hasAge 21 .
+
+
+<person/Book/199> a <Book> ;
+    e:hasName "Wizard's Garden" .
+
+<person/Author/222> a <Author> ;
+    e:hasAge 21 .
+
+
+<person/Book/193> a <Book> ;
+    e:hasName "The Great Ship" .
+
+<person/Author/223> a <Author> ;
+    e:hasAge 46 .
+
+
+<person/Book/194> a <Book> ;
+    e:hasName "The Endless Empire" .
+
+<person/Author/224> a <Author> ;
+    e:hasAge 26 .
+
+
+<person/Book/195> a <Book> ;
+    e:hasName "The Unholy Woman" .
+
+<person/Author/225> a <Author> ;
+    e:hasAge 91 .
+
+
+<person/Book/197> a <Book> ;
+    e:hasName "Hug of the Enticing Shaft" .
+
+<person/Author/226> a <Author> ;
+    e:hasAge 57 .
+
+
+<person/Book/198> a <Book> ;
+    e:hasName "Tale of Chaos" .
+
+<person/Author/227> a <Author> ;
+    e:hasAge 58 .
+
+
+<person/Book/200> a <Book> ;
+    e:hasName "Dragon of Time" .
+
+<person/Author/228> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/201> a <Book> ;
+    e:hasName "Story of Radiance" .
+
+<person/Author/229> a <Author> ;
+    e:hasAge 94 .
+
+
+<person/Book/202> a <Book> ;
+    e:hasName "Theft of Death" .
+
+<person/Author/230> a <Author> ;
+    e:hasAge 40 .
+
+
+<person/Book/202> a <Book> ;
+    e:hasName "Theft of Death" .
+
+<person/Author/231> a <Author> ;
+    e:hasAge 86 .
+
+
+<person/Book/699> a <Book> ;
+    e:hasName "Rule of the Stars" .
+
+<person/Author/231> a <Author> ;
+    e:hasAge 86 .
+
+
+<person/Book/203> a <Book> ;
+    e:hasName "The Evil Dragon" .
+
+<person/Author/232> a <Author> ;
+    e:hasAge 85 .
+
+
+<person/Book/815> a <Book> ;
+    e:hasName "The Steaming Queen" .
+
+<person/Author/232> a <Author> ;
+    e:hasAge 85 .
+
+
+<person/Book/204> a <Book> ;
+    e:hasName "The Endless Paladin" .
+
+<person/Author/233> a <Author> ;
+    e:hasAge 82 .
+
+
+<person/Book/205> a <Book> ;
+    e:hasName "Spell of the Honest Delta" .
+
+<person/Author/234> a <Author> ;
+    e:hasAge 87 .
+
+
+<person/Book/206> a <Book> ;
+    e:hasName "Silencing of the Terrible Dark" .
+
+<person/Author/235> a <Author> ;
+    e:hasAge 66 .
+
+
+<person/Book/207> a <Book> ;
+    e:hasName "The Deadly Crown" .
+
+<person/Author/236> a <Author> ;
+    e:hasAge 92 .
+
+
+<person/Book/207> a <Book> ;
+    e:hasName "The Deadly Crown" .
+
+<person/Author/237> a <Author> ;
+    e:hasAge 56 .
+
+
+<person/Book/208> a <Book> ;
+    e:hasName "The Mysterious Rule" .
+
+<person/Author/238> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/208> a <Book> ;
+    e:hasName "The Mysterious Rule" .
+
+<person/Author/239> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/209> a <Book> ;
+    e:hasName "Quest of the Queen" .
+
+<person/Author/240> a <Author> ;
+    e:hasAge 57 .
+
+
+<person/Book/210> a <Book> ;
+    e:hasName "Company of Darkness" .
+
+<person/Author/241> a <Author> ;
+    e:hasAge 87 .
+
+
+<person/Book/211> a <Book> ;
+    e:hasName "King's Assassin" .
+
+<person/Author/242> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/212> a <Book> ;
+    e:hasName "The Radiating Sea" .
+
+<person/Author/243> a <Author> ;
+    e:hasAge 75 .
+
+
+<person/Book/212> a <Book> ;
+    e:hasName "The Radiating Sea" .
+
+<person/Author/244> a <Author> ;
+    e:hasAge 88 .
+
+
+<person/Book/213> a <Book> ;
+    e:hasName "The Crystal Errand" .
+
+<person/Author/245> a <Author> ;
+    e:hasAge 91 .
+
+
+<person/Book/214> a <Book> ;
+    e:hasName "Dark of Boy" .
+
+<person/Author/246> a <Author> ;
+    e:hasAge 15 .
+
+
+<person/Book/215> a <Book> ;
+    e:hasName "Throne of Blood" .
+
+<person/Author/247> a <Author> ;
+    e:hasAge 93 .
+
+
+<person/Book/216> a <Book> ;
+    e:hasName "The Calm Girl" .
+
+<person/Author/248> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/217> a <Book> ;
+    e:hasName "Hunger of the Hungering Heart" .
+
+<person/Author/249> a <Author> ;
+    e:hasAge 49 .
+
+
+<person/Book/218> a <Book> ;
+    e:hasName "The Loving Keeps" .
+
+<person/Author/250> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/649> a <Book> ;
+    e:hasName "The Evil Empire" .
+
+<person/Author/250> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/219> a <Book> ;
+    e:hasName "The Radiant Journey" .
+
+<person/Author/251> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/219> a <Book> ;
+    e:hasName "The Radiant Journey" .
+
+<person/Author/252> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/473> a <Book> ;
+    e:hasName "The Lost Unicorn" .
+
+<person/Author/252> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/220> a <Book> ;
+    e:hasName "Assassin of Flame" .
+
+<person/Author/253> a <Author> ;
+    e:hasAge 97 .
+
+
+<person/Book/222> a <Book> ;
+    e:hasName "Story of Thorns" .
+
+<person/Author/254> a <Author> ;
+    e:hasAge 42 .
+
+
+<person/Book/223> a <Book> ;
+    e:hasName "Journey of the Moon" .
+
+<person/Author/255> a <Author> ;
+    e:hasAge 92 .
+
+
+<person/Book/224> a <Book> ;
+    e:hasName "Paladin of Shadows" .
+
+<person/Author/256> a <Author> ;
+    e:hasAge 32 .
+
+
+<person/Book/224> a <Book> ;
+    e:hasName "Paladin of Shadows" .
+
+<person/Author/257> a <Author> ;
+    e:hasAge 61 .
+
+
+<person/Book/225> a <Book> ;
+    e:hasName "Wish of the Queen" .
+
+<person/Author/258> a <Author> ;
+    e:hasAge 26 .
+
+
+<person/Book/226> a <Book> ;
+    e:hasName "Steven's Theft" .
+
+<person/Author/259> a <Author> ;
+    e:hasAge 76 .
+
+
+<person/Book/227> a <Book> ;
+    e:hasName "The Hot Love" .
+
+<person/Author/260> a <Author> ;
+    e:hasAge 35 .
+
+
+<person/Book/228> a <Book> ;
+    e:hasName "Knight's Curse" .
+
+<person/Author/261> a <Author> ;
+    e:hasAge 64 .
+
+
+<person/Book/754> a <Book> ;
+    e:hasName "The Bound Kiss" .
+
+<person/Author/261> a <Author> ;
+    e:hasAge 64 .
+
+
+<person/Book/229> a <Book> ;
+    e:hasName "The Mysterious Curse" .
+
+<person/Author/262> a <Author> ;
+    e:hasAge 44 .
+
+
+<person/Book/230> a <Book> ;
+    e:hasName "Hero's Prince" .
+
+<person/Author/263> a <Author> ;
+    e:hasAge 97 .
+
+
+<person/Book/514> a <Book> ;
+    e:hasName "The Troubled Woman of Drowning" .
+
+<person/Author/263> a <Author> ;
+    e:hasAge 97 .
+
+
+<person/Book/231> a <Book> ;
+    e:hasName "The Lost Princess" .
+
+<person/Author/264> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/233> a <Book> ;
+    e:hasName "Army of the Empire" .
+
+<person/Author/265> a <Author> ;
+    e:hasAge 71 .
+
+
+<person/Book/234> a <Book> ;
+    e:hasName "The Warded Chair" .
+
+<person/Author/266> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/235> a <Book> ;
+    e:hasName "The Shining Sword" .
+
+<person/Author/267> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/236> a <Book> ;
+    e:hasName "The Enormous Garden" .
+
+<person/Author/268> a <Author> ;
+    e:hasAge 32 .
+
+
+<person/Book/238> a <Book> ;
+    e:hasName "The Steaming Name" .
+
+<person/Author/269> a <Author> ;
+    e:hasAge 60 .
+
+
+<person/Book/239> a <Book> ;
+    e:hasName "The Deadly Empire" .
+
+<person/Author/270> a <Author> ;
+    e:hasAge 72 .
+
+
+<person/Book/239> a <Book> ;
+    e:hasName "The Deadly Empire" .
+
+<person/Author/271> a <Author> ;
+    e:hasAge 78 .
+
+
+<person/Book/240> a <Book> ;
+    e:hasName "The Final Dragon" .
+
+<person/Author/272> a <Author> ;
+    e:hasAge 81 .
+
+
+<person/Book/241> a <Book> ;
+    e:hasName "Chair of Glass" .
+
+<person/Author/273> a <Author> ;
+    e:hasAge 55 .
+
+
+<person/Book/242> a <Book> ;
+    e:hasName "The Lusting Venus" .
+
+<person/Author/274> a <Author> ;
+    e:hasAge 25 .
+
+
+<person/Book/243> a <Book> ;
+    e:hasName "Hero's Queen" .
+
+<person/Author/275> a <Author> ;
+    e:hasAge 55 .
+
+
+<person/Book/244> a <Book> ;
+    e:hasName "City of the Moon" .
+
+<person/Author/276> a <Author> ;
+    e:hasAge 20 .
+
+
+<person/Book/245> a <Book> ;
+    e:hasName "Cave of Swords" .
+
+<person/Author/277> a <Author> ;
+    e:hasAge 45 .
+
+
+<person/Book/245> a <Book> ;
+    e:hasName "Cave of Swords" .
+
+<person/Author/278> a <Author> ;
+    e:hasAge 34 .
+
+
+<person/Book/721> a <Book> ;
+    e:hasName "Company of Kings" .
+
+<person/Author/278> a <Author> ;
+    e:hasAge 34 .
+
+
+<person/Book/246> a <Book> ;
+    e:hasName "The Interesting Fire" .
+
+<person/Author/279> a <Author> ;
+    e:hasAge 36 .
+
+
+<person/Book/247> a <Book> ;
+    e:hasName "Journey of the Queen" .
+
+<person/Author/280> a <Author> ;
+    e:hasAge 46 .
+
+
+<person/Book/249> a <Book> ;
+    e:hasName "Love of the Loving Love" .
+
+<person/Author/281> a <Author> ;
+    e:hasAge 62 .
+
+
+<person/Book/250> a <Book> ;
+    e:hasName "Fool's Queen" .
+
+<person/Author/282> a <Author> ;
+    e:hasAge 38 .
+
+
+<person/Book/716> a <Book> ;
+    e:hasName "The Mysterious Crown" .
+
+<person/Author/282> a <Author> ;
+    e:hasAge 38 .
+
+
+<person/Book/250> a <Book> ;
+    e:hasName "Fool's Queen" .
+
+<person/Author/283> a <Author> ;
+    e:hasAge 28 .
+
+
+<person/Book/251> a <Book> ;
+    e:hasName "Moon of the Daring Secret" .
+
+<person/Author/284> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/252> a <Book> ;
+    e:hasName "Theft of the Moon" .
+
+<person/Author/285> a <Author> ;
+    e:hasAge 16 .
+
+
+<person/Book/632> a <Book> ;
+    e:hasName "Rule of Flame" .
+
+<person/Author/285> a <Author> ;
+    e:hasAge 16 .
+
+
+<person/Book/253> a <Book> ;
+    e:hasName "The Glimmering Pawn" .
+
+<person/Author/286> a <Author> ;
+    e:hasAge 36 .
+
+
+<person/Book/254> a <Book> ;
+    e:hasName "The White Princess" .
+
+<person/Author/287> a <Author> ;
+    e:hasAge 44 .
+
+
+<person/Book/657> a <Book> ;
+    e:hasName "Longing of the Interesting Predjudice" .
+
+<person/Author/287> a <Author> ;
+    e:hasAge 44 .
+
+
+<person/Book/255> a <Book> ;
+    e:hasName "Hunger of the Hungering Hunger" .
+
+<person/Author/288> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/256> a <Book> ;
+    e:hasName "The Dark City" .
+
+<person/Author/289> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/577> a <Book> ;
+    e:hasName "The Crystal King" .
+
+<person/Author/289> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/257> a <Book> ;
+    e:hasName "The Enticing Heart" .
+
+<person/Author/290> a <Author> ;
+    e:hasAge 38 .
+
+
+<person/Book/257> a <Book> ;
+    e:hasName "The Enticing Heart" .
+
+<person/Author/291> a <Author> ;
+    e:hasAge 100 .
+
+
+<person/Book/258> a <Book> ;
+    e:hasName "The Crystal Quest" .
+
+<person/Author/292> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/259> a <Book> ;
+    e:hasName "The Innocent Girl of Slaughtering" .
+
+<person/Author/293> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/260> a <Book> ;
+    e:hasName "The Unholy Murder of Drowning" .
+
+<person/Author/294> a <Author> ;
+    e:hasAge 69 .
+
+
+<person/Book/261> a <Book> ;
+    e:hasName "The Dragonbone Quest" .
+
+<person/Author/295> a <Author> ;
+    e:hasAge 23 .
+
+
+<person/Book/262> a <Book> ;
+    e:hasName "Dark of Night" .
+
+<person/Author/296> a <Author> ;
+    e:hasAge 67 .
+
+
+<person/Book/262> a <Book> ;
+    e:hasName "Dark of Night" .
+
+<person/Author/297> a <Author> ;
+    e:hasAge 79 .
+
+
+<person/Book/263> a <Book> ;
+    e:hasName "The Quiet Famine of Slaughtering" .
+
+<person/Author/298> a <Author> ;
+    e:hasAge 84 .
+
+
+<person/Book/264> a <Book> ;
+    e:hasName "The Black Way" .
+
+<person/Author/299> a <Author> ;
+    e:hasAge 70 .
+
+
+<person/Book/265> a <Book> ;
+    e:hasName "Knight's Assassin" .
+
+<person/Author/300> a <Author> ;
+    e:hasAge 30 .
+
+
+<person/Book/266> a <Book> ;
+    e:hasName "Way of Radiance" .
+
+<person/Author/301> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/267> a <Book> ;
+    e:hasName "The Radiant Lord" .
+
+<person/Author/302> a <Author> ;
+    e:hasAge 34 .
+
+
+<person/Book/268> a <Book> ;
+    e:hasName "The Lustful Edge" .
+
+<person/Author/303> a <Author> ;
+    e:hasAge 78 .
+
+
+<person/Book/269> a <Book> ;
+    e:hasName "Rule of the Forest" .
+
+<person/Author/304> a <Author> ;
+    e:hasAge 85 .
+
+
+<person/Book/271> a <Book> ;
+    e:hasName "The Diamond Queen" .
+
+<person/Author/305> a <Author> ;
+    e:hasAge 84 .
+
+
+<person/Book/273> a <Book> ;
+    e:hasName "King of Radiance" .
+
+<person/Author/306> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/375> a <Book> ;
+    e:hasName "The Magical Empire" .
+
+<person/Author/306> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/274> a <Book> ;
+    e:hasName "Cave of Darkness" .
+
+<person/Author/307> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/674> a <Book> ;
+    e:hasName "The Still Cannibal" .
+
+<person/Author/307> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/275> a <Book> ;
+    e:hasName "The Interesting Pride" .
+
+<person/Author/308> a <Author> ;
+    e:hasAge 21 .
+
+
+<person/Book/821> a <Book> ;
+    e:hasName "King's Cleric" .
+
+<person/Author/308> a <Author> ;
+    e:hasAge 21 .
+
+
+<person/Book/276> a <Book> ;
+    e:hasName "The Shining Curse" .
+
+<person/Author/309> a <Author> ;
+    e:hasAge 39 .
+
+
+<person/Book/276> a <Book> ;
+    e:hasName "The Shining Curse" .
+
+<person/Author/310> a <Author> ;
+    e:hasAge 99 .
+
+
+<person/Book/277> a <Book> ;
+    e:hasName "Train of Blood" .
+
+<person/Author/311> a <Author> ;
+    e:hasAge 70 .
+
+
+<person/Book/278> a <Book> ;
+    e:hasName "Rule of Glass" .
+
+<person/Author/311> a <Author> ;
+    e:hasAge 70 .
+
+
+<person/Book/279> a <Book> ;
+    e:hasName "The Hungering Fire" .
+
+<person/Author/312> a <Author> ;
+    e:hasAge 90 .
+
+
+<person/Book/280> a <Book> ;
+    e:hasName "The Radiant Errand" .
+
+<person/Author/313> a <Author> ;
+    e:hasAge 50 .
+
+
+<person/Book/281> a <Book> ;
+    e:hasName "The Lustful Venus" .
+
+<person/Author/314> a <Author> ;
+    e:hasAge 47 .
+
+
+<person/Book/282> a <Book> ;
+    e:hasName "Destroying of the Calm Famine" .
+
+<person/Author/315> a <Author> ;
+    e:hasAge 74 .
+
+
+<person/Book/283> a <Book> ;
+    e:hasName "The Scary Boy" .
+
+<person/Author/316> a <Author> ;
+    e:hasAge 33 .
+
+
+<person/Book/284> a <Book> ;
+    e:hasName "Company of the World" .
+
+<person/Author/317> a <Author> ;
+    e:hasAge 88 .
+
+
+<person/Book/285> a <Book> ;
+    e:hasName "Magic's Staff" .
+
+<person/Author/318> a <Author> ;
+    e:hasAge 67 .
+
+
+<person/Book/598> a <Book> ;
+    e:hasName "Name of Glass" .
+
+<person/Author/318> a <Author> ;
+    e:hasAge 67 .
+
+
+<person/Book/286> a <Book> ;
+    e:hasName "The Neverending Cave" .
+
+<person/Author/319> a <Author> ;
+    e:hasAge 42 .
+
+
+<person/Book/287> a <Book> ;
+    e:hasName "Cleric of Darkness" .
+
+<person/Author/320> a <Author> ;
+    e:hasAge 72 .
+
+
+<person/Book/288> a <Book> ;
+    e:hasName "The Steaming Journey" .
+
+<person/Author/321> a <Author> ;
+    e:hasAge 63 .
+
+
+<person/Book/403> a <Book> ;
+    e:hasName "Errand of Chaos" .
+
+<person/Author/321> a <Author> ;
+    e:hasAge 63 .
+
+
+<person/Book/417> a <Book> ;
+    e:hasName "Love of the Real Lover" .
+
+<person/Author/321> a <Author> ;
+    e:hasAge 63 .
+
+
+<person/Book/289> a <Book> ;
+    e:hasName "The Final City" .
+
+<person/Author/322> a <Author> ;
+    e:hasAge 31 .
+
+
+<person/Book/290> a <Book> ;
+    e:hasName "Staff of Shadows" .
+
+<person/Author/323> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/397> a <Book> ;
+    e:hasName "Venus of the Radiating Evening" .
+
+<person/Author/323> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/832> a <Book> ;
+    e:hasName "The Honest Charm" .
+
+<person/Author/323> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/291> a <Book> ;
+    e:hasName "Man of Fear" .
+
+<person/Author/324> a <Author> ;
+    e:hasAge 80 .
+
+
+<person/Book/292> a <Book> ;
+    e:hasName "Journey of Plague" .
+
+<person/Author/325> a <Author> ;
+    e:hasAge 65 .
+
+
+<person/Book/824> a <Book> ;
+    e:hasName "The Scary Death of Destroying" .
+
+<person/Author/325> a <Author> ;
+    e:hasAge 65 .
+
+
+<person/Book/293> a <Book> ;
+    e:hasName "Assassin's Ranger" .
+
+<person/Author/326> a <Author> ;
+    e:hasAge 100 .
+
+
+<person/Book/294> a <Book> ;
+    e:hasName "Keeps of the Hungering Spell" .
+
+<person/Author/327> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/295> a <Book> ;
+    e:hasName "The Neverending Oath" .
+
+<person/Author/328> a <Author> ;
+    e:hasAge 51 .
+
+
+<person/Book/296> a <Book> ;
+    e:hasName "The Radiating Charm" .
+
+<person/Author/329> a <Author> ;
+    e:hasAge 22 .
+
+
+<person/Book/562> a <Book> ;
+    e:hasName "The Terrible Silence" .
+
+<person/Author/329> a <Author> ;
+    e:hasAge 22 .
+
+
+<person/Book/297> a <Book> ;
+    e:hasName "King's Throne" .
+
+<person/Author/330> a <Author> ;
+    e:hasAge 57 .
+
+
+<person/Book/298> a <Book> ;
+    e:hasName "Crime of Boy" .
+
+<person/Author/331> a <Author> ;
+    e:hasAge 16 .
+
+
+<person/Book/299> a <Book> ;
+    e:hasName "Blood of Cannibal" .
+
+<person/Author/332> a <Author> ;
+    e:hasAge 94 .
+
+
+<person/Book/300> a <Book> ;
+    e:hasName "Quest of the Stars" .
+
+<person/Author/333> a <Author> ;
+    e:hasAge 80 .
+
+
+<person/Book/301> a <Book> ;
+    e:hasName "Wizard's Errand" .
+
+<person/Author/334> a <Author> ;
+    e:hasAge 74 .
+
+
+<person/Book/302> a <Book> ;
+    e:hasName "The Dark Crime of Stalking" .
+
+<person/Author/335> a <Author> ;
+    e:hasAge 77 .
+
+
+<person/Book/303> a <Book> ;
+    e:hasName "Night of Dark" .
+
+<person/Author/336> a <Author> ;
+    e:hasAge 72 .
+
+
+<person/Book/452> a <Book> ;
+    e:hasName "Hero's Crown" .
+
+<person/Author/336> a <Author> ;
+    e:hasAge 72 .
+
+
+<person/Book/304> a <Book> ;
+    e:hasName "Wheel of Death" .
+
+<person/Author/337> a <Author> ;
+    e:hasAge 36 .
+
+
+<person/Book/305> a <Book> ;
+    e:hasName "Name of Radiance" .
+
+<person/Author/338> a <Author> ;
+    e:hasAge 90 .
+
+
+<person/Book/306> a <Book> ;
+    e:hasName "Errand of Wind" .
+
+<person/Author/339> a <Author> ;
+    e:hasAge 61 .
+
+
+<person/Book/307> a <Book> ;
+    e:hasName "Assassin's Journey" .
+
+<person/Author/340> a <Author> ;
+    e:hasAge 82 .
+
+
+<person/Book/308> a <Book> ;
+    e:hasName "Wish of Wind" .
+
+<person/Author/341> a <Author> ;
+    e:hasAge 48 .
+
+
+<person/Book/309> a <Book> ;
+    e:hasName "The Wild King" .
+
+<person/Author/342> a <Author> ;
+    e:hasAge 31 .
+
+
+<person/Book/309> a <Book> ;
+    e:hasName "The Wild King" .
+
+<person/Author/343> a <Author> ;
+    e:hasAge 23 .
+
+
+<person/Book/415> a <Book> ;
+    e:hasName "The Evil Chair" .
+
+<person/Author/343> a <Author> ;
+    e:hasAge 23 .
+
+
+<person/Book/311> a <Book> ;
+    e:hasName "Dragon of the Empire" .
+
+<person/Author/344> a <Author> ;
+    e:hasAge 60 .
+
+
+<person/Book/312> a <Book> ;
+    e:hasName "The Enormous Princess" .
+
+<person/Author/345> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/314> a <Book> ;
+    e:hasName "The Hungering Delta" .
+
+<person/Author/346> a <Author> ;
+    e:hasAge 63 .
+
+
+<person/Book/599> a <Book> ;
+    e:hasName "Edge of the Daring Husband" .
+
+<person/Author/346> a <Author> ;
+    e:hasAge 63 .
+
+
+<person/Book/315> a <Book> ;
+    e:hasName "The Wild Ranger" .
+
+<person/Author/347> a <Author> ;
+    e:hasAge 48 .
+
+
+<person/Book/316> a <Book> ;
+    e:hasName "Errand of the Forest" .
+
+<person/Author/348> a <Author> ;
+    e:hasAge 53 .
+
+
+<person/Book/572> a <Book> ;
+    e:hasName "The Last Horseman" .
+
+<person/Author/348> a <Author> ;
+    e:hasAge 53 .
+
+
+<person/Book/317> a <Book> ;
+    e:hasName "The Terrible Ritual of Crucifying" .
+
+<person/Author/349> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/323> a <Book> ;
+    e:hasName "Moon of the Lustful Predjudice" .
+
+<person/Author/349> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/616> a <Book> ;
+    e:hasName "King's King" .
+
+<person/Author/349> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/318> a <Book> ;
+    e:hasName "King's Sword" .
+
+<person/Author/350> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/738> a <Book> ;
+    e:hasName "Magic's Prince" .
+
+<person/Author/350> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/319> a <Book> ;
+    e:hasName "Prism of Blood" .
+
+<person/Author/351> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/320> a <Book> ;
+    e:hasName "Murder of the Calm Night" .
+
+<person/Author/352> a <Author> ;
+    e:hasAge 21 .
+
+
+<person/Book/321> a <Book> ;
+    e:hasName "Fear of Boy" .
+
+<person/Author/353> a <Author> ;
+    e:hasAge 69 .
+
+
+<person/Book/322> a <Book> ;
+    e:hasName "Wizard's Way" .
+
+<person/Author/354> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/324> a <Book> ;
+    e:hasName "Curse of the Moon" .
+
+<person/Author/355> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/325> a <Book> ;
+    e:hasName "The Mysterious Paladin" .
+
+<person/Author/356> a <Author> ;
+    e:hasAge 99 .
+
+
+<person/Book/326> a <Book> ;
+    e:hasName "The Glimmering Paladin" .
+
+<person/Author/357> a <Author> ;
+    e:hasAge 66 .
+
+
+<person/Book/327> a <Book> ;
+    e:hasName "The Perfect Cannibal of Following" .
+
+<person/Author/358> a <Author> ;
+    e:hasAge 96 .
+
+
+<person/Book/328> a <Book> ;
+    e:hasName "The Innocent Boy of Crucifying" .
+
+<person/Author/359> a <Author> ;
+    e:hasAge 34 .
+
+
+<person/Book/329> a <Book> ;
+    e:hasName "Spell of the Radiating Hug" .
+
+<person/Author/360> a <Author> ;
+    e:hasAge 38 .
+
+
+<person/Book/330> a <Book> ;
+    e:hasName "The White Story" .
+
+<person/Author/361> a <Author> ;
+    e:hasAge 70 .
+
+
+<person/Book/331> a <Book> ;
+    e:hasName "The Neverending Prince" .
+
+<person/Author/362> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/332> a <Book> ;
+    e:hasName "The Crystal Empire" .
+
+<person/Author/363> a <Author> ;
+    e:hasAge 29 .
+
+
+<person/Book/333> a <Book> ;
+    e:hasName "The Final Crown" .
+
+<person/Author/364> a <Author> ;
+    e:hasAge 27 .
+
+
+<person/Book/334> a <Book> ;
+    e:hasName "The Black Oath" .
+
+<person/Author/365> a <Author> ;
+    e:hasAge 24 .
+
+
+<person/Book/335> a <Book> ;
+    e:hasName "Fire of the Caring Predjudice" .
+
+<person/Author/366> a <Author> ;
+    e:hasAge 81 .
+
+
+<person/Book/336> a <Book> ;
+    e:hasName "The Last Theft" .
+
+<person/Author/367> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/337> a <Book> ;
+    e:hasName "The Golden Prism" .
+
+<person/Author/368> a <Author> ;
+    e:hasAge 78 .
+
+
+<person/Book/705> a <Book> ;
+    e:hasName "The Perfect Famine of Killing" .
+
+<person/Author/368> a <Author> ;
+    e:hasAge 78 .
+
+
+<person/Book/338> a <Book> ;
+    e:hasName "Sacrifice of the Still Death" .
+
+<person/Author/369> a <Author> ;
+    e:hasAge 48 .
+
+
+<person/Book/339> a <Book> ;
+    e:hasName "Moon of the Lustful Woman" .
+
+<person/Author/370> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/339> a <Book> ;
+    e:hasName "Moon of the Lustful Woman" .
+
+<person/Author/371> a <Author> ;
+    e:hasAge 34 .
+
+
+<person/Book/340> a <Book> ;
+    e:hasName "The Bound Venus" .
+
+<person/Author/372> a <Author> ;
+    e:hasAge 97 .
+
+
+<person/Book/340> a <Book> ;
+    e:hasName "The Bound Venus" .
+
+<person/Author/373> a <Author> ;
+    e:hasAge 45 .
+
+
+<person/Book/341> a <Book> ;
+    e:hasName "The Hungering Charm" .
+
+<person/Author/374> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/341> a <Book> ;
+    e:hasName "The Hungering Charm" .
+
+<person/Author/375> a <Author> ;
+    e:hasAge 28 .
+
+
+<person/Book/342> a <Book> ;
+    e:hasName "Train of Silence" .
+
+<person/Author/376> a <Author> ;
+    e:hasAge 96 .
+
+
+<person/Book/442> a <Book> ;
+    e:hasName "The Black Wizard" .
+
+<person/Author/376> a <Author> ;
+    e:hasAge 96 .
+
+
+<person/Book/343> a <Book> ;
+    e:hasName "Ship of Flame" .
+
+<person/Author/377> a <Author> ;
+    e:hasAge 39 .
+
+
+<person/Book/344> a <Book> ;
+    e:hasName "Throne of Death" .
+
+<person/Author/378> a <Author> ;
+    e:hasAge 77 .
+
+
+<person/Book/345> a <Book> ;
+    e:hasName "Assassin's Wheel" .
+
+<person/Author/379> a <Author> ;
+    e:hasAge 33 .
+
+
+<person/Book/346> a <Book> ;
+    e:hasName "The Golden Garden" .
+
+<person/Author/380> a <Author> ;
+    e:hasAge 66 .
+
+
+<person/Book/347> a <Book> ;
+    e:hasName "Cross of Death" .
+
+<person/Author/381> a <Author> ;
+    e:hasAge 82 .
+
+
+<person/Book/348> a <Book> ;
+    e:hasName "The Scary Cross of Suffering" .
+
+<person/Author/382> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/349> a <Book> ;
+    e:hasName "Man of the Mysterious Fire" .
+
+<person/Author/383> a <Author> ;
+    e:hasAge 24 .
+
+
+<person/Book/350> a <Book> ;
+    e:hasName "The Magical Dragon" .
+
+<person/Author/384> a <Author> ;
+    e:hasAge 15 .
+
+
+<person/Book/351> a <Book> ;
+    e:hasName "The Flowing Wheel" .
+
+<person/Author/385> a <Author> ;
+    e:hasAge 64 .
+
+
+<person/Book/352> a <Book> ;
+    e:hasName "Magic's Story" .
+
+<person/Author/386> a <Author> ;
+    e:hasAge 22 .
+
+
+<person/Book/353> a <Book> ;
+    e:hasName "Man of Blood" .
+
+<person/Author/387> a <Author> ;
+    e:hasAge 39 .
+
+
+<person/Book/853> a <Book> ;
+    e:hasName "The Glimmering Ship" .
+
+<person/Author/387> a <Author> ;
+    e:hasAge 39 .
+
+
+<person/Book/354> a <Book> ;
+    e:hasName "Corpse of Murder" .
+
+<person/Author/388> a <Author> ;
+    e:hasAge 80 .
+
+
+<person/Book/355> a <Book> ;
+    e:hasName "Rule of the Bound Keeps" .
+
+<person/Author/389> a <Author> ;
+    e:hasAge 17 .
+
+
+<person/Book/356> a <Book> ;
+    e:hasName "Queen's Princess" .
+
+<person/Author/390> a <Author> ;
+    e:hasAge 28 .
+
+
+<person/Book/357> a <Book> ;
+    e:hasName "Story of Flame" .
+
+<person/Author/391> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/358> a <Book> ;
+    e:hasName "The Glimmering Rule" .
+
+<person/Author/392> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/359> a <Book> ;
+    e:hasName "Company of Death" .
+
+<person/Author/393> a <Author> ;
+    e:hasAge 39 .
+
+
+<person/Book/360> a <Book> ;
+    e:hasName "The Endless Wizard" .
+
+<person/Author/394> a <Author> ;
+    e:hasAge 95 .
+
+
+<person/Book/578> a <Book> ;
+    e:hasName "The Glimmering Curse" .
+
+<person/Author/394> a <Author> ;
+    e:hasAge 95 .
+
+
+<person/Book/361> a <Book> ;
+    e:hasName "Princess of the World" .
+
+<person/Author/395> a <Author> ;
+    e:hasAge 88 .
+
+
+<person/Book/361> a <Book> ;
+    e:hasName "Princess of the World" .
+
+<person/Author/396> a <Author> ;
+    e:hasAge 62 .
+
+
+<person/Book/362> a <Book> ;
+    e:hasName "Queen's Ranger" .
+
+<person/Author/397> a <Author> ;
+    e:hasAge 64 .
+
+
+<person/Book/363> a <Book> ;
+    e:hasName "Assassin's Wizard" .
+
+<person/Author/398> a <Author> ;
+    e:hasAge 45 .
+
+
+<person/Book/364> a <Book> ;
+    e:hasName "Way of the World" .
+
+<person/Author/399> a <Author> ;
+    e:hasAge 66 .
+
+
+<person/Book/365> a <Book> ;
+    e:hasName "The Holy Staff" .
+
+<person/Author/400> a <Author> ;
+    e:hasAge 63 .
+
+
+<person/Book/366> a <Book> ;
+    e:hasName "Lord of Chaos" .
+
+<person/Author/401> a <Author> ;
+    e:hasAge 50 .
+
+
+<person/Book/367> a <Book> ;
+    e:hasName "The Lost King" .
+
+<person/Author/402> a <Author> ;
+    e:hasAge 80 .
+
+
+<person/Book/368> a <Book> ;
+    e:hasName "The Crystal Story" .
+
+<person/Author/403> a <Author> ;
+    e:hasAge 63 .
+
+
+<person/Book/369> a <Book> ;
+    e:hasName "The Warm Delta" .
+
+<person/Author/404> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/370> a <Book> ;
+    e:hasName "The Caring Delta" .
+
+<person/Author/405> a <Author> ;
+    e:hasAge 73 .
+
+
+<person/Book/370> a <Book> ;
+    e:hasName "The Caring Delta" .
+
+<person/Author/406> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/371> a <Book> ;
+    e:hasName "King of Glass" .
+
+<person/Author/407> a <Author> ;
+    e:hasAge 19 .
+
+
+<person/Book/372> a <Book> ;
+    e:hasName "The Last Wizard" .
+
+<person/Author/408> a <Author> ;
+    e:hasAge 43 .
+
+
+<person/Book/373> a <Book> ;
+    e:hasName "Journey of Wind" .
+
+<person/Author/409> a <Author> ;
+    e:hasAge 93 .
+
+
+<person/Book/374> a <Book> ;
+    e:hasName "The Caring Love" .
+
+<person/Author/410> a <Author> ;
+    e:hasAge 50 .
+
+
+<person/Book/375> a <Book> ;
+    e:hasName "The Magical Empire" .
+
+<person/Author/411> a <Author> ;
+    e:hasAge 89 .
+
+
+<person/Book/376> a <Book> ;
+    e:hasName "Assassin's Lord" .
+
+<person/Author/412> a <Author> ;
+    e:hasAge 53 .
+
+
+<person/Book/377> a <Book> ;
+    e:hasName "The Quiet Murder of Following" .
+
+<person/Author/413> a <Author> ;
+    e:hasAge 98 .
+
+
+<person/Book/378> a <Book> ;
+    e:hasName "Sacrifice of the Still Silence" .
+
+<person/Author/414> a <Author> ;
+    e:hasAge 48 .
+
+
+<person/Book/379> a <Book> ;
+    e:hasName "The Hot Shaft" .
+
+<person/Author/415> a <Author> ;
+    e:hasAge 40 .
+
+
+<person/Book/380> a <Book> ;
+    e:hasName "Unicorn of Flame" .
+
+<person/Author/416> a <Author> ;
+    e:hasAge 42 .
+
+
+<person/Book/381> a <Book> ;
+    e:hasName "The Dark Army" .
+
+<person/Author/417> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/382> a <Book> ;
+    e:hasName "The Black Staff" .
+
+<person/Author/418> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/382> a <Book> ;
+    e:hasName "The Black Staff" .
+
+<person/Author/419> a <Author> ;
+    e:hasAge 56 .
+
+
+<person/Book/911> a <Book> ;
+    e:hasName "The Dark Ritual" .
+
+<person/Author/419> a <Author> ;
+    e:hasAge 56 .
+
+
+<person/Book/383> a <Book> ;
+    e:hasName "Hero's Cave" .
+
+<person/Author/420> a <Author> ;
+    e:hasAge 82 .
+
+
+<person/Book/384> a <Book> ;
+    e:hasName "The Radiant Storm" .
+
+<person/Author/421> a <Author> ;
+    e:hasAge 21 .
+
+
+<person/Book/385> a <Book> ;
+    e:hasName "Game of the Moon" .
+
+<person/Author/422> a <Author> ;
+    e:hasAge 63 .
+
+
+<person/Book/412> a <Book> ;
+    e:hasName "The Radiant Horseman" .
+
+<person/Author/422> a <Author> ;
+    e:hasAge 63 .
+
+
+<person/Book/569> a <Book> ;
+    e:hasName "Ship of the Empire" .
+
+<person/Author/422> a <Author> ;
+    e:hasAge 63 .
+
+
+<person/Book/386> a <Book> ;
+    e:hasName "Assassin of Shadows" .
+
+<person/Author/423> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/386> a <Book> ;
+    e:hasName "Assassin of Shadows" .
+
+<person/Author/424> a <Author> ;
+    e:hasAge 87 .
+
+
+<person/Book/388> a <Book> ;
+    e:hasName "The Scary Crime of Stalking" .
+
+<person/Author/425> a <Author> ;
+    e:hasAge 78 .
+
+
+<person/Book/389> a <Book> ;
+    e:hasName "Shaft of the Hungering Love" .
+
+<person/Author/426> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/390> a <Book> ;
+    e:hasName "The Daring Predjudice" .
+
+<person/Author/427> a <Author> ;
+    e:hasAge 16 .
+
+
+<person/Book/391> a <Book> ;
+    e:hasName "The Flowing Journey" .
+
+<person/Author/428> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/392> a <Book> ;
+    e:hasName "Story of Thrones" .
+
+<person/Author/429> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/393> a <Book> ;
+    e:hasName "The Black Cannibal of Following" .
+
+<person/Author/430> a <Author> ;
+    e:hasAge 97 .
+
+
+<person/Book/411> a <Book> ;
+    e:hasName "Hero's Horseman" .
+
+<person/Author/430> a <Author> ;
+    e:hasAge 97 .
+
+
+<person/Book/394> a <Book> ;
+    e:hasName "The Bound Spell" .
+
+<person/Author/431> a <Author> ;
+    e:hasAge 22 .
+
+
+<person/Book/396> a <Book> ;
+    e:hasName "Assassin of Plague" .
+
+<person/Author/432> a <Author> ;
+    e:hasAge 67 .
+
+
+<person/Book/398> a <Book> ;
+    e:hasName "Canyon of the Lusting Evening" .
+
+<person/Author/433> a <Author> ;
+    e:hasAge 90 .
+
+
+<person/Book/399> a <Book> ;
+    e:hasName "Rule of the Bound Pride" .
+
+<person/Author/434> a <Author> ;
+    e:hasAge 98 .
+
+
+<person/Book/493> a <Book> ;
+    e:hasName "Crown of Blood" .
+
+<person/Author/434> a <Author> ;
+    e:hasAge 98 .
+
+
+<person/Book/400> a <Book> ;
+    e:hasName "The Hot Canyon" .
+
+<person/Author/435> a <Author> ;
+    e:hasAge 38 .
+
+
+<person/Book/401> a <Book> ;
+    e:hasName "Dragon of Chaos" .
+
+<person/Author/436> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/706> a <Book> ;
+    e:hasName "Woman of Cross" .
+
+<person/Author/436> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/402> a <Book> ;
+    e:hasName "Horseman of Kings" .
+
+<person/Author/437> a <Author> ;
+    e:hasAge 48 .
+
+
+<person/Book/404> a <Book> ;
+    e:hasName "The Caring Fire" .
+
+<person/Author/438> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/405> a <Book> ;
+    e:hasName "Lord of Glass" .
+
+<person/Author/439> a <Author> ;
+    e:hasAge 29 .
+
+
+<person/Book/405> a <Book> ;
+    e:hasName "Lord of Glass" .
+
+<person/Author/440> a <Author> ;
+    e:hasAge 28 .
+
+
+<person/Book/406> a <Book> ;
+    e:hasName "The Terrible Crime" .
+
+<person/Author/441> a <Author> ;
+    e:hasAge 82 .
+
+
+<person/Book/449> a <Book> ;
+    e:hasName "Boy of Man" .
+
+<person/Author/441> a <Author> ;
+    e:hasAge 82 .
+
+
+<person/Book/407> a <Book> ;
+    e:hasName "Name of Blood" .
+
+<person/Author/442> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/408> a <Book> ;
+    e:hasName "The Calm Woman of Crucifying" .
+
+<person/Author/443> a <Author> ;
+    e:hasAge 90 .
+
+
+<person/Book/409> a <Book> ;
+    e:hasName "Queen's Garden" .
+
+<person/Author/444> a <Author> ;
+    e:hasAge 15 .
+
+
+<person/Book/410> a <Book> ;
+    e:hasName "The Caring Hunger" .
+
+<person/Author/445> a <Author> ;
+    e:hasAge 57 .
+
+
+<person/Book/414> a <Book> ;
+    e:hasName "Heart of the Lustful Evening" .
+
+<person/Author/446> a <Author> ;
+    e:hasAge 62 .
+
+
+<person/Book/416> a <Book> ;
+    e:hasName "Throne of Flame" .
+
+<person/Author/447> a <Author> ;
+    e:hasAge 34 .
+
+
+<person/Book/418> a <Book> ;
+    e:hasName "The Quiet Boy of Murder" .
+
+<person/Author/448> a <Author> ;
+    e:hasAge 44 .
+
+
+<person/Book/419> a <Book> ;
+    e:hasName "The Calm Famine of Destroying" .
+
+<person/Author/449> a <Author> ;
+    e:hasAge 60 .
+
+
+<person/Book/420> a <Book> ;
+    e:hasName "The Golden Empire" .
+
+<person/Author/450> a <Author> ;
+    e:hasAge 31 .
+
+
+<person/Book/421> a <Book> ;
+    e:hasName "Hero's Company" .
+
+<person/Author/451> a <Author> ;
+    e:hasAge 35 .
+
+
+<person/Book/422> a <Book> ;
+    e:hasName "Canyon of the Glowing Husband" .
+
+<person/Author/452> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/423> a <Book> ;
+    e:hasName "The Dragonbone Oath" .
+
+<person/Author/453> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/541> a <Book> ;
+    e:hasName "The Glimmering Staff" .
+
+<person/Author/453> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/426> a <Book> ;
+    e:hasName "The Golden Company" .
+
+<person/Author/454> a <Author> ;
+    e:hasAge 97 .
+
+
+<person/Book/427> a <Book> ;
+    e:hasName "Evening of the Caring Longing" .
+
+<person/Author/455> a <Author> ;
+    e:hasAge 49 .
+
+
+<person/Book/428> a <Book> ;
+    e:hasName "Shaft of the Glowing Rule" .
+
+<person/Author/456> a <Author> ;
+    e:hasAge 29 .
+
+
+<person/Book/429> a <Book> ;
+    e:hasName "Assassin's Storm" .
+
+<person/Author/457> a <Author> ;
+    e:hasAge 67 .
+
+
+<person/Book/794> a <Book> ;
+    e:hasName "Magic's Cleric" .
+
+<person/Author/457> a <Author> ;
+    e:hasAge 67 .
+
+
+<person/Book/430> a <Book> ;
+    e:hasName "The Smooth Love" .
+
+<person/Author/458> a <Author> ;
+    e:hasAge 64 .
+
+
+<person/Book/431> a <Book> ;
+    e:hasName "The Final Wheel" .
+
+<person/Author/459> a <Author> ;
+    e:hasAge 94 .
+
+
+<person/Book/432> a <Book> ;
+    e:hasName "Chair of the Queen" .
+
+<person/Author/460> a <Author> ;
+    e:hasAge 62 .
+
+
+<person/Book/433> a <Book> ;
+    e:hasName "The Quiet Bone of Silencing" .
+
+<person/Author/461> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/661> a <Book> ;
+    e:hasName "Way of Thrones" .
+
+<person/Author/461> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/434> a <Book> ;
+    e:hasName "The Steaming Horde" .
+
+<person/Author/462> a <Author> ;
+    e:hasAge 59 .
+
+
+<person/Book/435> a <Book> ;
+    e:hasName "Secret of the Caring Edge" .
+
+<person/Author/463> a <Author> ;
+    e:hasAge 20 .
+
+
+<person/Book/436> a <Book> ;
+    e:hasName "The Radiant Prince" .
+
+<person/Author/464> a <Author> ;
+    e:hasAge 34 .
+
+
+<person/Book/437> a <Book> ;
+    e:hasName "The Warded Tale" .
+
+<person/Author/465> a <Author> ;
+    e:hasAge 16 .
+
+
+<person/Book/437> a <Book> ;
+    e:hasName "The Warded Tale" .
+
+<person/Author/466> a <Author> ;
+    e:hasAge 46 .
+
+
+<person/Book/438> a <Book> ;
+    e:hasName "Prince of Death" .
+
+<person/Author/467> a <Author> ;
+    e:hasAge 88 .
+
+
+<person/Book/440> a <Book> ;
+    e:hasName "King of Thorns" .
+
+<person/Author/468> a <Author> ;
+    e:hasAge 37 .
+
+
+<person/Book/835> a <Book> ;
+    e:hasName "Woman of the Honest Heart" .
+
+<person/Author/468> a <Author> ;
+    e:hasAge 37 .
+
+
+<person/Book/441> a <Book> ;
+    e:hasName "Boy of Cross" .
+
+<person/Author/469> a <Author> ;
+    e:hasAge 21 .
+
+
+<person/Book/443> a <Book> ;
+    e:hasName "The Mysterious Shaft" .
+
+<person/Author/470> a <Author> ;
+    e:hasAge 76 .
+
+
+<person/Book/444> a <Book> ;
+    e:hasName "Delta of the Warm Lover" .
+
+<person/Author/471> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/445> a <Book> ;
+    e:hasName "The Lost Prince" .
+
+<person/Author/472> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/446> a <Book> ;
+    e:hasName "King's Errand" .
+
+<person/Author/473> a <Author> ;
+    e:hasAge 24 .
+
+
+<person/Book/447> a <Book> ;
+    e:hasName "Blood of Silence" .
+
+<person/Author/474> a <Author> ;
+    e:hasAge 100 .
+
+
+<person/Book/448> a <Book> ;
+    e:hasName "Steven's Name" .
+
+<person/Author/475> a <Author> ;
+    e:hasAge 68 .
+
+
+<person/Book/449> a <Book> ;
+    e:hasName "Boy of Man" .
+
+<person/Author/476> a <Author> ;
+    e:hasAge 98 .
+
+
+<person/Book/450> a <Book> ;
+    e:hasName "Wizard of the Stars" .
+
+<person/Author/477> a <Author> ;
+    e:hasAge 48 .
+
+
+<person/Book/742> a <Book> ;
+    e:hasName "Moon of the Honest Heart" .
+
+<person/Author/477> a <Author> ;
+    e:hasAge 48 .
+
+
+<person/Book/451> a <Book> ;
+    e:hasName "Prism of Darkness" .
+
+<person/Author/478> a <Author> ;
+    e:hasAge 36 .
+
+
+<person/Book/453> a <Book> ;
+    e:hasName "The Holy Curse" .
+
+<person/Author/479> a <Author> ;
+    e:hasAge 84 .
+
+
+<person/Book/455> a <Book> ;
+    e:hasName "The Evil Cave" .
+
+<person/Author/480> a <Author> ;
+    e:hasAge 35 .
+
+
+<person/Book/456> a <Book> ;
+    e:hasName "Sword of Darkness" .
+
+<person/Author/481> a <Author> ;
+    e:hasAge 57 .
+
+
+<person/Book/457> a <Book> ;
+    e:hasName "Magic's Lord" .
+
+<person/Author/482> a <Author> ;
+    e:hasAge 51 .
+
+
+<person/Book/458> a <Book> ;
+    e:hasName "The Troubled Night of Drowning" .
+
+<person/Author/483> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/459> a <Book> ;
+    e:hasName "The Still Famine" .
+
+<person/Author/484> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/622> a <Book> ;
+    e:hasName "Staff of Magic" .
+
+<person/Author/484> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/460> a <Book> ;
+    e:hasName "The Last Company" .
+
+<person/Author/485> a <Author> ;
+    e:hasAge 51 .
+
+
+<person/Book/461> a <Book> ;
+    e:hasName "The Terrible Woman of Shooting" .
+
+<person/Author/486> a <Author> ;
+    e:hasAge 43 .
+
+
+<person/Book/461> a <Book> ;
+    e:hasName "The Terrible Woman of Shooting" .
+
+<person/Author/487> a <Author> ;
+    e:hasAge 49 .
+
+
+<person/Book/462> a <Book> ;
+    e:hasName "Assassin of Death" .
+
+<person/Author/488> a <Author> ;
+    e:hasAge 57 .
+
+
+<person/Book/463> a <Book> ;
+    e:hasName "The Endless Cleric" .
+
+<person/Author/489> a <Author> ;
+    e:hasAge 17 .
+
+
+<person/Book/464> a <Book> ;
+    e:hasName "Wheel of Blood" .
+
+<person/Author/490> a <Author> ;
+    e:hasAge 83 .
+
+
+<person/Book/464> a <Book> ;
+    e:hasName "Wheel of Blood" .
+
+<person/Author/491> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/465> a <Book> ;
+    e:hasName "The Wild Cave" .
+
+<person/Author/492> a <Author> ;
+    e:hasAge 85 .
+
+
+<person/Book/466> a <Book> ;
+    e:hasName "Knight's Throne" .
+
+<person/Author/493> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/466> a <Book> ;
+    e:hasName "Knight's Throne" .
+
+<person/Author/494> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/468> a <Book> ;
+    e:hasName "The Terrible Dark" .
+
+<person/Author/495> a <Author> ;
+    e:hasAge 61 .
+
+
+<person/Book/469> a <Book> ;
+    e:hasName "The White Army" .
+
+<person/Author/496> a <Author> ;
+    e:hasAge 32 .
+
+
+<person/Book/470> a <Book> ;
+    e:hasName "Curse of the Stars" .
+
+<person/Author/497> a <Author> ;
+    e:hasAge 27 .
+
+
+<person/Book/471> a <Book> ;
+    e:hasName "Game of Thrones" .
+
+<person/Author/498> a <Author> ;
+    e:hasAge 64 .
+
+
+<person/Book/472> a <Book> ;
+    e:hasName "The Radiant Pawn" .
+
+<person/Author/499> a <Author> ;
+    e:hasAge 81 .
+
+
+<person/Book/473> a <Book> ;
+    e:hasName "The Lost Unicorn" .
+
+<person/Author/500> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/473> a <Book> ;
+    e:hasName "The Lost Unicorn" .
+
+<person/Author/501> a <Author> ;
+    e:hasAge 25 .
+
+
+<person/Book/474> a <Book> ;
+    e:hasName "The Dark Garden" .
+
+<person/Author/502> a <Author> ;
+    e:hasAge 54 .
+
+
+<person/Book/475> a <Book> ;
+    e:hasName "The Dragonbone Paladin" .
+
+<person/Author/503> a <Author> ;
+    e:hasAge 38 .
+
+
+<person/Book/476> a <Book> ;
+    e:hasName "The Hungering Attraction" .
+
+<person/Author/504> a <Author> ;
+    e:hasAge 99 .
+
+
+<person/Book/773> a <Book> ;
+    e:hasName "Rule of the World" .
+
+<person/Author/504> a <Author> ;
+    e:hasAge 99 .
+
+
+<person/Book/477> a <Book> ;
+    e:hasName "Knight's Crown" .
+
+<person/Author/505> a <Author> ;
+    e:hasAge 26 .
+
+
+<person/Book/478> a <Book> ;
+    e:hasName "Assassin of Darkness" .
+
+<person/Author/506> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/479> a <Book> ;
+    e:hasName "Corpse of Night" .
+
+<person/Author/507> a <Author> ;
+    e:hasAge 53 .
+
+
+<person/Book/480> a <Book> ;
+    e:hasName "Silence of Fear" .
+
+<person/Author/508> a <Author> ;
+    e:hasAge 73 .
+
+
+<person/Book/481> a <Book> ;
+    e:hasName "Pawn of Ages" .
+
+<person/Author/509> a <Author> ;
+    e:hasAge 55 .
+
+
+<person/Book/482> a <Book> ;
+    e:hasName "The White Garden" .
+
+<person/Author/510> a <Author> ;
+    e:hasAge 76 .
+
+
+<person/Book/765> a <Book> ;
+    e:hasName "Cross of Murder" .
+
+<person/Author/510> a <Author> ;
+    e:hasAge 76 .
+
+
+<person/Book/483> a <Book> ;
+    e:hasName "Wizard of Glass" .
+
+<person/Author/511> a <Author> ;
+    e:hasAge 87 .
+
+
+<person/Book/484> a <Book> ;
+    e:hasName "The Cold Bone of Following" .
+
+<person/Author/512> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/485> a <Book> ;
+    e:hasName "King's Journey" .
+
+<person/Author/513> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/486> a <Book> ;
+    e:hasName "The Warded Cleric" .
+
+<person/Author/514> a <Author> ;
+    e:hasAge 67 .
+
+
+<person/Book/487> a <Book> ;
+    e:hasName "The Mysterious King" .
+
+<person/Author/515> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/488> a <Book> ;
+    e:hasName "Quest of Ages" .
+
+<person/Author/516> a <Author> ;
+    e:hasAge 37 .
+
+
+<person/Book/489> a <Book> ;
+    e:hasName "Magic's Unicorn" .
+
+<person/Author/517> a <Author> ;
+    e:hasAge 68 .
+
+
+<person/Book/490> a <Book> ;
+    e:hasName "The Holy Empire" .
+
+<person/Author/518> a <Author> ;
+    e:hasAge 54 .
+
+
+<person/Book/491> a <Book> ;
+    e:hasName "Throne of Radiance" .
+
+<person/Author/519> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/722> a <Book> ;
+    e:hasName "Empire of Plague" .
+
+<person/Author/519> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/492> a <Book> ;
+    e:hasName "The Lustful Kiss" .
+
+<person/Author/520> a <Author> ;
+    e:hasAge 32 .
+
+
+<person/Book/494> a <Book> ;
+    e:hasName "Name of Wind" .
+
+<person/Author/521> a <Author> ;
+    e:hasAge 32 .
+
+
+<person/Book/495> a <Book> ;
+    e:hasName "The Daring Kiss" .
+
+<person/Author/522> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/496> a <Book> ;
+    e:hasName "Man of Dark" .
+
+<person/Author/523> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/497> a <Book> ;
+    e:hasName "The Evil Blood" .
+
+<person/Author/524> a <Author> ;
+    e:hasAge 57 .
+
+
+<person/Book/497> a <Book> ;
+    e:hasName "The Evil Blood" .
+
+<person/Author/525> a <Author> ;
+    e:hasAge 52 .
+
+
+<person/Book/498> a <Book> ;
+    e:hasName "The Troubled Corpse of Murder" .
+
+<person/Author/526> a <Author> ;
+    e:hasAge 63 .
+
+
+<person/Book/607> a <Book> ;
+    e:hasName "Sword of the World" .
+
+<person/Author/526> a <Author> ;
+    e:hasAge 63 .
+
+
+<person/Book/499> a <Book> ;
+    e:hasName "Man of Cannibal" .
+
+<person/Author/527> a <Author> ;
+    e:hasAge 60 .
+
+
+<person/Book/500> a <Book> ;
+    e:hasName "The Diamond Lord" .
+
+<person/Author/528> a <Author> ;
+    e:hasAge 59 .
+
+
+<person/Book/501> a <Book> ;
+    e:hasName "Canyon of the Enticing Evening" .
+
+<person/Author/529> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/502> a <Book> ;
+    e:hasName "The Troubled Crime of Killing" .
+
+<person/Author/530> a <Author> ;
+    e:hasAge 39 .
+
+
+<person/Book/503> a <Book> ;
+    e:hasName "Army of Glass" .
+
+<person/Author/531> a <Author> ;
+    e:hasAge 58 .
+
+
+<person/Book/504> a <Book> ;
+    e:hasName "The Terrible Ritual of Suffering" .
+
+<person/Author/532> a <Author> ;
+    e:hasAge 21 .
+
+
+<person/Book/505> a <Book> ;
+    e:hasName "Wizard's Journey" .
+
+<person/Author/533> a <Author> ;
+    e:hasAge 56 .
+
+
+<person/Book/505> a <Book> ;
+    e:hasName "Wizard's Journey" .
+
+<person/Author/534> a <Author> ;
+    e:hasAge 71 .
+
+
+<person/Book/506> a <Book> ;
+    e:hasName "The Crystal Assassin" .
+
+<person/Author/535> a <Author> ;
+    e:hasAge 66 .
+
+
+<person/Book/507> a <Book> ;
+    e:hasName "The Great Chair" .
+
+<person/Author/536> a <Author> ;
+    e:hasAge 98 .
+
+
+<person/Book/508> a <Book> ;
+    e:hasName "The Last Game" .
+
+<person/Author/537> a <Author> ;
+    e:hasAge 66 .
+
+
+<person/Book/509> a <Book> ;
+    e:hasName "The Black Chair" .
+
+<person/Author/538> a <Author> ;
+    e:hasAge 49 .
+
+
+<person/Book/510> a <Book> ;
+    e:hasName "Hero's Dragon" .
+
+<person/Author/539> a <Author> ;
+    e:hasAge 26 .
+
+
+<person/Book/511> a <Book> ;
+    e:hasName "Queen of the World" .
+
+<person/Author/540> a <Author> ;
+    e:hasAge 81 .
+
+
+<person/Book/512> a <Book> ;
+    e:hasName "Cave of the Moon" .
+
+<person/Author/541> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/513> a <Book> ;
+    e:hasName "The Black City" .
+
+<person/Author/542> a <Author> ;
+    e:hasAge 47 .
+
+
+<person/Book/515> a <Book> ;
+    e:hasName "The Final Tale" .
+
+<person/Author/543> a <Author> ;
+    e:hasAge 39 .
+
+
+<person/Book/517> a <Book> ;
+    e:hasName "The Calm Ritual of Destroying" .
+
+<person/Author/544> a <Author> ;
+    e:hasAge 32 .
+
+
+<person/Book/518> a <Book> ;
+    e:hasName "Shaft of the Daring Pillar" .
+
+<person/Author/545> a <Author> ;
+    e:hasAge 20 .
+
+
+<person/Book/519> a <Book> ;
+    e:hasName "Charm of the Hungering Tranquility" .
+
+<person/Author/546> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/520> a <Book> ;
+    e:hasName "Throne of the Moon" .
+
+<person/Author/547> a <Author> ;
+    e:hasAge 90 .
+
+
+<person/Book/521> a <Book> ;
+    e:hasName "Rule of Blood" .
+
+<person/Author/548> a <Author> ;
+    e:hasAge 88 .
+
+
+<person/Book/522> a <Book> ;
+    e:hasName "The Black Princess" .
+
+<person/Author/549> a <Author> ;
+    e:hasAge 78 .
+
+
+<person/Book/522> a <Book> ;
+    e:hasName "The Black Princess" .
+
+<person/Author/550> a <Author> ;
+    e:hasAge 69 .
+
+
+<person/Book/523> a <Book> ;
+    e:hasName "Fool's Throne" .
+
+<person/Author/551> a <Author> ;
+    e:hasAge 65 .
+
+
+<person/Book/524> a <Book> ;
+    e:hasName "The Hungering Pillar" .
+
+<person/Author/552> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/525> a <Book> ;
+    e:hasName "Quest of the Forest" .
+
+<person/Author/553> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/526> a <Book> ;
+    e:hasName "Rule of the Empire" .
+
+<person/Author/554> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/528> a <Book> ;
+    e:hasName "Assassin's Apprentice" .
+
+<person/Author/555> a <Author> ;
+    e:hasAge 91 .
+
+
+<person/Book/529> a <Book> ;
+    e:hasName "The Enormous Army" .
+
+<person/Author/556> a <Author> ;
+    e:hasAge 21 .
+
+
+<person/Book/530> a <Book> ;
+    e:hasName "The Still Man" .
+
+<person/Author/557> a <Author> ;
+    e:hasAge 63 .
+
+
+<person/Book/531> a <Book> ;
+    e:hasName "The Great Prism" .
+
+<person/Author/558> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/531> a <Book> ;
+    e:hasName "The Great Prism" .
+
+<person/Author/559> a <Author> ;
+    e:hasAge 96 .
+
+
+<person/Book/532> a <Book> ;
+    e:hasName "The Enormous Game" .
+
+<person/Author/560> a <Author> ;
+    e:hasAge 91 .
+
+
+<person/Book/532> a <Book> ;
+    e:hasName "The Enormous Game" .
+
+<person/Author/561> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/533> a <Book> ;
+    e:hasName "Canyon of the Honest Longing" .
+
+<person/Author/562> a <Author> ;
+    e:hasAge 74 .
+
+
+<person/Book/534> a <Book> ;
+    e:hasName "Knight's Tale" .
+
+<person/Author/563> a <Author> ;
+    e:hasAge 71 .
+
+
+<person/Book/535> a <Book> ;
+    e:hasName "Pillar of the Enticing Wife" .
+
+<person/Author/564> a <Author> ;
+    e:hasAge 58 .
+
+
+<person/Book/878> a <Book> ;
+    e:hasName "Night of Cross" .
+
+<person/Author/564> a <Author> ;
+    e:hasAge 58 .
+
+
+<person/Book/536> a <Book> ;
+    e:hasName "Assassin's Tale" .
+
+<person/Author/565> a <Author> ;
+    e:hasAge 94 .
+
+
+<person/Book/537> a <Book> ;
+    e:hasName "The Beautiful Canyon" .
+
+<person/Author/566> a <Author> ;
+    e:hasAge 39 .
+
+
+<person/Book/538> a <Book> ;
+    e:hasName "Destroying of the Terrible Death" .
+
+<person/Author/567> a <Author> ;
+    e:hasAge 90 .
+
+
+<person/Book/539> a <Book> ;
+    e:hasName "The Flowing Errand" .
+
+<person/Author/568> a <Author> ;
+    e:hasAge 79 .
+
+
+<person/Book/540> a <Book> ;
+    e:hasName "Woman of Silence" .
+
+<person/Author/569> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/541> a <Book> ;
+    e:hasName "The Glimmering Staff" .
+
+<person/Author/570> a <Author> ;
+    e:hasAge 15 .
+
+
+<person/Book/542> a <Book> ;
+    e:hasName "Army of Darkness" .
+
+<person/Author/571> a <Author> ;
+    e:hasAge 28 .
+
+
+<person/Book/543> a <Book> ;
+    e:hasName "Attraction of the Honest Spell" .
+
+<person/Author/572> a <Author> ;
+    e:hasAge 60 .
+
+
+<person/Book/544> a <Book> ;
+    e:hasName "The Golden Cleric" .
+
+<person/Author/573> a <Author> ;
+    e:hasAge 23 .
+
+
+<person/Book/545> a <Book> ;
+    e:hasName "Paladin of Time" .
+
+<person/Author/574> a <Author> ;
+    e:hasAge 52 .
+
+
+<person/Book/546> a <Book> ;
+    e:hasName "Train of Fear" .
+
+<person/Author/575> a <Author> ;
+    e:hasAge 98 .
+
+
+<person/Book/547> a <Book> ;
+    e:hasName "Man of Man" .
+
+<person/Author/576> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/548> a <Book> ;
+    e:hasName "The Evil Princess" .
+
+<person/Author/577> a <Author> ;
+    e:hasAge 66 .
+
+
+<person/Book/549> a <Book> ;
+    e:hasName "Lover of the Mysterious Pillar" .
+
+<person/Author/578> a <Author> ;
+    e:hasAge 34 .
+
+
+<person/Book/550> a <Book> ;
+    e:hasName "The Dark Journey" .
+
+<person/Author/579> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/551> a <Book> ;
+    e:hasName "Assassin of Thorns" .
+
+<person/Author/580> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/908> a <Book> ;
+    e:hasName "The Still Ritual of Stalking" .
+
+<person/Author/580> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/552> a <Book> ;
+    e:hasName "Hero's Throne" .
+
+<person/Author/581> a <Author> ;
+    e:hasAge 70 .
+
+
+<person/Book/553> a <Book> ;
+    e:hasName "Journey of the Empire" .
+
+<person/Author/582> a <Author> ;
+    e:hasAge 22 .
+
+
+<person/Book/554> a <Book> ;
+    e:hasName "The Loving Lover" .
+
+<person/Author/583> a <Author> ;
+    e:hasAge 73 .
+
+
+<person/Book/555> a <Book> ;
+    e:hasName "Fool's Storm" .
+
+<person/Author/584> a <Author> ;
+    e:hasAge 27 .
+
+
+<person/Book/555> a <Book> ;
+    e:hasName "Fool's Storm" .
+
+<person/Author/585> a <Author> ;
+    e:hasAge 25 .
+
+
+<person/Book/556> a <Book> ;
+    e:hasName "The Daring Woman" .
+
+<person/Author/586> a <Author> ;
+    e:hasAge 32 .
+
+
+<person/Book/557> a <Book> ;
+    e:hasName "The Radiant Way" .
+
+<person/Author/587> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/558> a <Book> ;
+    e:hasName "The White Horde" .
+
+<person/Author/588> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/559> a <Book> ;
+    e:hasName "The Endless Sword" .
+
+<person/Author/589> a <Author> ;
+    e:hasAge 28 .
+
+
+<person/Book/560> a <Book> ;
+    e:hasName "Curse of Plague" .
+
+<person/Author/590> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/561> a <Book> ;
+    e:hasName "Paladin of the Stars" .
+
+<person/Author/591> a <Author> ;
+    e:hasAge 84 .
+
+
+<person/Book/563> a <Book> ;
+    e:hasName "The Glowing Fire" .
+
+<person/Author/592> a <Author> ;
+    e:hasAge 98 .
+
+
+<person/Book/564> a <Book> ;
+    e:hasName "Night of Ritual" .
+
+<person/Author/593> a <Author> ;
+    e:hasAge 50 .
+
+
+<person/Book/565> a <Book> ;
+    e:hasName "Prince of Kings" .
+
+<person/Author/594> a <Author> ;
+    e:hasAge 32 .
+
+
+<person/Book/566> a <Book> ;
+    e:hasName "The Troubled Crime" .
+
+<person/Author/595> a <Author> ;
+    e:hasAge 92 .
+
+
+<person/Book/567> a <Book> ;
+    e:hasName "Ritual of Dark" .
+
+<person/Author/596> a <Author> ;
+    e:hasAge 32 .
+
+
+<person/Book/601> a <Book> ;
+    e:hasName "Love of the Interesting Woman" .
+
+<person/Author/596> a <Author> ;
+    e:hasAge 32 .
+
+
+<person/Book/611> a <Book> ;
+    e:hasName "The Flowing Throne" .
+
+<person/Author/596> a <Author> ;
+    e:hasAge 32 .
+
+
+<person/Book/568> a <Book> ;
+    e:hasName "King's Prism" .
+
+<person/Author/597> a <Author> ;
+    e:hasAge 95 .
+
+
+<person/Book/570> a <Book> ;
+    e:hasName "Wish of Blood" .
+
+<person/Author/598> a <Author> ;
+    e:hasAge 57 .
+
+
+<person/Book/571> a <Book> ;
+    e:hasName "Crucifying of the Calm Blood" .
+
+<person/Author/599> a <Author> ;
+    e:hasAge 40 .
+
+
+<person/Book/573> a <Book> ;
+    e:hasName "The Evil Quest" .
+
+<person/Author/600> a <Author> ;
+    e:hasAge 91 .
+
+
+<person/Book/575> a <Book> ;
+    e:hasName "King of Blood" .
+
+<person/Author/601> a <Author> ;
+    e:hasAge 67 .
+
+
+<person/Book/576> a <Book> ;
+    e:hasName "City of the Stars" .
+
+<person/Author/602> a <Author> ;
+    e:hasAge 59 .
+
+
+<person/Book/579> a <Book> ;
+    e:hasName "Rule of the Real Keeps" .
+
+<person/Author/603> a <Author> ;
+    e:hasAge 32 .
+
+
+<person/Book/580> a <Book> ;
+    e:hasName "The Mysterious Tale" .
+
+<person/Author/604> a <Author> ;
+    e:hasAge 67 .
+
+
+<person/Book/580> a <Book> ;
+    e:hasName "The Mysterious Tale" .
+
+<person/Author/605> a <Author> ;
+    e:hasAge 43 .
+
+
+<person/Book/582> a <Book> ;
+    e:hasName "Prism of Shadows" .
+
+<person/Author/606> a <Author> ;
+    e:hasAge 86 .
+
+
+<person/Book/583> a <Book> ;
+    e:hasName "The Terrible Night of Killing" .
+
+<person/Author/607> a <Author> ;
+    e:hasAge 57 .
+
+
+<person/Book/682> a <Book> ;
+    e:hasName "Hero's Empire" .
+
+<person/Author/607> a <Author> ;
+    e:hasAge 57 .
+
+
+<person/Book/584> a <Book> ;
+    e:hasName "Queen of Shadows" .
+
+<person/Author/608> a <Author> ;
+    e:hasAge 32 .
+
+
+<person/Book/585> a <Book> ;
+    e:hasName "Sword of the Stars" .
+
+<person/Author/609> a <Author> ;
+    e:hasAge 96 .
+
+
+<person/Book/586> a <Book> ;
+    e:hasName "The Shining Rule" .
+
+<person/Author/610> a <Author> ;
+    e:hasAge 77 .
+
+
+<person/Book/587> a <Book> ;
+    e:hasName "King of Time" .
+
+<person/Author/611> a <Author> ;
+    e:hasAge 17 .
+
+
+<person/Book/588> a <Book> ;
+    e:hasName "Rule of the Queen" .
+
+<person/Author/612> a <Author> ;
+    e:hasAge 95 .
+
+
+<person/Book/589> a <Book> ;
+    e:hasName "Queen's Wheel" .
+
+<person/Author/613> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/590> a <Book> ;
+    e:hasName "Steven's Paladin" .
+
+<person/Author/614> a <Author> ;
+    e:hasAge 89 .
+
+
+<person/Book/591> a <Book> ;
+    e:hasName "Army of Wind" .
+
+<person/Author/615> a <Author> ;
+    e:hasAge 35 .
+
+
+<person/Book/729> a <Book> ;
+    e:hasName "Way of Swords" .
+
+<person/Author/615> a <Author> ;
+    e:hasAge 35 .
+
+
+<person/Book/592> a <Book> ;
+    e:hasName "The Hot Rule" .
+
+<person/Author/616> a <Author> ;
+    e:hasAge 24 .
+
+
+<person/Book/593> a <Book> ;
+    e:hasName "Princess of Radiance" .
+
+<person/Author/617> a <Author> ;
+    e:hasAge 45 .
+
+
+<person/Book/594> a <Book> ;
+    e:hasName "The Neverending Queen" .
+
+<person/Author/618> a <Author> ;
+    e:hasAge 75 .
+
+
+<person/Book/595> a <Book> ;
+    e:hasName "Prince of the Moon" .
+
+<person/Author/619> a <Author> ;
+    e:hasAge 70 .
+
+
+<person/Book/596> a <Book> ;
+    e:hasName "Wife of the Hot Tranquility" .
+
+<person/Author/620> a <Author> ;
+    e:hasAge 20 .
+
+
+<person/Book/597> a <Book> ;
+    e:hasName "City of Time" .
+
+<person/Author/621> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/600> a <Book> ;
+    e:hasName "Wife of the Real Fire" .
+
+<person/Author/622> a <Author> ;
+    e:hasAge 33 .
+
+
+<person/Book/602> a <Book> ;
+    e:hasName "The Shining Unicorn" .
+
+<person/Author/623> a <Author> ;
+    e:hasAge 96 .
+
+
+<person/Book/603> a <Book> ;
+    e:hasName "Silence of Woman" .
+
+<person/Author/624> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/604> a <Book> ;
+    e:hasName "Horseman of Wind" .
+
+<person/Author/625> a <Author> ;
+    e:hasAge 52 .
+
+
+<person/Book/605> a <Book> ;
+    e:hasName "Company of Plague" .
+
+<person/Author/626> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/606> a <Book> ;
+    e:hasName "The Evil Blood of Sacrifice" .
+
+<person/Author/627> a <Author> ;
+    e:hasAge 51 .
+
+
+<person/Book/608> a <Book> ;
+    e:hasName "Queen's Errand" .
+
+<person/Author/628> a <Author> ;
+    e:hasAge 64 .
+
+
+<person/Book/609> a <Book> ;
+    e:hasName "The Magical Ship" .
+
+<person/Author/629> a <Author> ;
+    e:hasAge 81 .
+
+
+<person/Book/610> a <Book> ;
+    e:hasName "The Enormous Name" .
+
+<person/Author/630> a <Author> ;
+    e:hasAge 99 .
+
+
+<person/Book/798> a <Book> ;
+    e:hasName "The Quiet Silence of Slaughtering" .
+
+<person/Author/630> a <Author> ;
+    e:hasAge 99 .
+
+
+<person/Book/612> a <Book> ;
+    e:hasName "The Lost Errand" .
+
+<person/Author/631> a <Author> ;
+    e:hasAge 18 .
+
+
+<person/Book/612> a <Book> ;
+    e:hasName "The Lost Errand" .
+
+<person/Author/632> a <Author> ;
+    e:hasAge 62 .
+
+
+<person/Book/613> a <Book> ;
+    e:hasName "The Dragonbone Dragon" .
+
+<person/Author/633> a <Author> ;
+    e:hasAge 94 .
+
+
+<person/Book/614> a <Book> ;
+    e:hasName "Attraction of the Caring Fire" .
+
+<person/Author/634> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/615> a <Book> ;
+    e:hasName "Keeps of the Honest Moon" .
+
+<person/Author/635> a <Author> ;
+    e:hasAge 71 .
+
+
+<person/Book/617> a <Book> ;
+    e:hasName "Queen of Wind" .
+
+<person/Author/636> a <Author> ;
+    e:hasAge 17 .
+
+
+<person/Book/619> a <Book> ;
+    e:hasName "The Beautiful Spell" .
+
+<person/Author/637> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/620> a <Book> ;
+    e:hasName "Knight's Game" .
+
+<person/Author/638> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/621> a <Book> ;
+    e:hasName "Army of Kings" .
+
+<person/Author/639> a <Author> ;
+    e:hasAge 67 .
+
+
+<person/Book/623> a <Book> ;
+    e:hasName "The Quiet Death of Suffering" .
+
+<person/Author/640> a <Author> ;
+    e:hasAge 51 .
+
+
+<person/Book/624> a <Book> ;
+    e:hasName "Assassin's Horseman" .
+
+<person/Author/641> a <Author> ;
+    e:hasAge 74 .
+
+
+<person/Book/625> a <Book> ;
+    e:hasName "Empire of Glass" .
+
+<person/Author/642> a <Author> ;
+    e:hasAge 40 .
+
+
+<person/Book/625> a <Book> ;
+    e:hasName "Empire of Glass" .
+
+<person/Author/643> a <Author> ;
+    e:hasAge 89 .
+
+
+<person/Book/626> a <Book> ;
+    e:hasName "Steven's Ship" .
+
+<person/Author/644> a <Author> ;
+    e:hasAge 94 .
+
+
+<person/Book/714> a <Book> ;
+    e:hasName "Train of Train" .
+
+<person/Author/644> a <Author> ;
+    e:hasAge 94 .
+
+
+<person/Book/627> a <Book> ;
+    e:hasName "Sacrifice of the Calm Night" .
+
+<person/Author/645> a <Author> ;
+    e:hasAge 25 .
+
+
+<person/Book/628> a <Book> ;
+    e:hasName "Chair of Magic" .
+
+<person/Author/646> a <Author> ;
+    e:hasAge 66 .
+
+
+<person/Book/629> a <Book> ;
+    e:hasName "Woman of the Beautiful Husband" .
+
+<person/Author/647> a <Author> ;
+    e:hasAge 25 .
+
+
+<person/Book/630> a <Book> ;
+    e:hasName "The Innocent Murder" .
+
+<person/Author/648> a <Author> ;
+    e:hasAge 96 .
+
+
+<person/Book/631> a <Book> ;
+    e:hasName "Keeps of the Hungering Rule" .
+
+<person/Author/649> a <Author> ;
+    e:hasAge 66 .
+
+
+<person/Book/633> a <Book> ;
+    e:hasName "The Neverending Ranger" .
+
+<person/Author/650> a <Author> ;
+    e:hasAge 27 .
+
+
+<person/Book/634> a <Book> ;
+    e:hasName "Dragon of the World" .
+
+<person/Author/651> a <Author> ;
+    e:hasAge 26 .
+
+
+<person/Book/636> a <Book> ;
+    e:hasName "Train of Night" .
+
+<person/Author/652> a <Author> ;
+    e:hasAge 96 .
+
+
+<person/Book/662> a <Book> ;
+    e:hasName "Husband of the Mysterious Keeps" .
+
+<person/Author/652> a <Author> ;
+    e:hasAge 96 .
+
+
+<person/Book/637> a <Book> ;
+    e:hasName "Horde of the Forest" .
+
+<person/Author/653> a <Author> ;
+    e:hasAge 97 .
+
+
+<person/Book/691> a <Book> ;
+    e:hasName "Staff of the Moon" .
+
+<person/Author/653> a <Author> ;
+    e:hasAge 97 .
+
+
+<person/Book/638> a <Book> ;
+    e:hasName "Lord of Radiance" .
+
+<person/Author/654> a <Author> ;
+    e:hasAge 18 .
+
+
+<person/Book/639> a <Book> ;
+    e:hasName "The Enticing Edge" .
+
+<person/Author/655> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/639> a <Book> ;
+    e:hasName "The Enticing Edge" .
+
+<person/Author/656> a <Author> ;
+    e:hasAge 52 .
+
+
+<person/Book/640> a <Book> ;
+    e:hasName "Dragon of Thorns" .
+
+<person/Author/657> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/717> a <Book> ;
+    e:hasName "Assassin of Swords" .
+
+<person/Author/657> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/641> a <Book> ;
+    e:hasName "Ranger of Time" .
+
+<person/Author/658> a <Author> ;
+    e:hasAge 66 .
+
+
+<person/Book/642> a <Book> ;
+    e:hasName "Princess of Time" .
+
+<person/Author/659> a <Author> ;
+    e:hasAge 64 .
+
+
+<person/Book/643> a <Book> ;
+    e:hasName "Empire of the World" .
+
+<person/Author/660> a <Author> ;
+    e:hasAge 30 .
+
+
+<person/Book/645> a <Book> ;
+    e:hasName "Famine of Girl" .
+
+<person/Author/661> a <Author> ;
+    e:hasAge 77 .
+
+
+<person/Book/646> a <Book> ;
+    e:hasName "Fear of Cross" .
+
+<person/Author/662> a <Author> ;
+    e:hasAge 35 .
+
+
+<person/Book/647> a <Book> ;
+    e:hasName "Curse of the Empire" .
+
+<person/Author/663> a <Author> ;
+    e:hasAge 86 .
+
+
+<person/Book/648> a <Book> ;
+    e:hasName "Destroying of the Still Ritual" .
+
+<person/Author/664> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/650> a <Book> ;
+    e:hasName "Murder of Corpse" .
+
+<person/Author/665> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/651> a <Book> ;
+    e:hasName "Fool's Cave" .
+
+<person/Author/666> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/652> a <Book> ;
+    e:hasName "Love of the Honest Charm" .
+
+<person/Author/667> a <Author> ;
+    e:hasAge 23 .
+
+
+<person/Book/653> a <Book> ;
+    e:hasName "Theft of Shadows" .
+
+<person/Author/668> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/654> a <Book> ;
+    e:hasName "Staff of the Stars" .
+
+<person/Author/669> a <Author> ;
+    e:hasAge 37 .
+
+
+<person/Book/655> a <Book> ;
+    e:hasName "The Enticing Man" .
+
+<person/Author/670> a <Author> ;
+    e:hasAge 74 .
+
+
+<person/Book/656> a <Book> ;
+    e:hasName "Paladin of Kings" .
+
+<person/Author/671> a <Author> ;
+    e:hasAge 59 .
+
+
+<person/Book/658> a <Book> ;
+    e:hasName "The Hungering Keeps" .
+
+<person/Author/672> a <Author> ;
+    e:hasAge 50 .
+
+
+<person/Book/659> a <Book> ;
+    e:hasName "Company of Wind" .
+
+<person/Author/673> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/660> a <Book> ;
+    e:hasName "The Warm Fault" .
+
+<person/Author/674> a <Author> ;
+    e:hasAge 54 .
+
+
+<person/Book/663> a <Book> ;
+    e:hasName "The Neverending Ship" .
+
+<person/Author/675> a <Author> ;
+    e:hasAge 60 .
+
+
+<person/Book/828> a <Book> ;
+    e:hasName "The Dragonbone Wizard" .
+
+<person/Author/675> a <Author> ;
+    e:hasAge 60 .
+
+
+<person/Book/664> a <Book> ;
+    e:hasName "The Warded Army" .
+
+<person/Author/676> a <Author> ;
+    e:hasAge 85 .
+
+
+<person/Book/665> a <Book> ;
+    e:hasName "The White Prism" .
+
+<person/Author/677> a <Author> ;
+    e:hasAge 30 .
+
+
+<person/Book/666> a <Book> ;
+    e:hasName "Curse of Wind" .
+
+<person/Author/678> a <Author> ;
+    e:hasAge 90 .
+
+
+<person/Book/667> a <Book> ;
+    e:hasName "The Deadly Ranger" .
+
+<person/Author/679> a <Author> ;
+    e:hasAge 27 .
+
+
+<person/Book/668> a <Book> ;
+    e:hasName "Queen's Queen" .
+
+<person/Author/680> a <Author> ;
+    e:hasAge 40 .
+
+
+<person/Book/870> a <Book> ;
+    e:hasName "The Last Army" .
+
+<person/Author/680> a <Author> ;
+    e:hasAge 40 .
+
+
+<person/Book/669> a <Book> ;
+    e:hasName "Cave of Time" .
+
+<person/Author/681> a <Author> ;
+    e:hasAge 91 .
+
+
+<person/Book/670> a <Book> ;
+    e:hasName "Throne of Chaos" .
+
+<person/Author/682> a <Author> ;
+    e:hasAge 61 .
+
+
+<person/Book/671> a <Book> ;
+    e:hasName "The Lusting Man" .
+
+<person/Author/683> a <Author> ;
+    e:hasAge 49 .
+
+
+<person/Book/672> a <Book> ;
+    e:hasName "City of the World" .
+
+<person/Author/684> a <Author> ;
+    e:hasAge 33 .
+
+
+<person/Book/673> a <Book> ;
+    e:hasName "The Beautiful Man" .
+
+<person/Author/685> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/676> a <Book> ;
+    e:hasName "The Wild Horde" .
+
+<person/Author/686> a <Author> ;
+    e:hasAge 73 .
+
+
+<person/Book/677> a <Book> ;
+    e:hasName "Edge of the Bound Edge" .
+
+<person/Author/687> a <Author> ;
+    e:hasAge 52 .
+
+
+<person/Book/831> a <Book> ;
+    e:hasName "Stalking of the Dark Fear" .
+
+<person/Author/687> a <Author> ;
+    e:hasAge 52 .
+
+
+<person/Book/678> a <Book> ;
+    e:hasName "Rule of Plague" .
+
+<person/Author/688> a <Author> ;
+    e:hasAge 30 .
+
+
+<person/Book/679> a <Book> ;
+    e:hasName "Assassin of Wind" .
+
+<person/Author/689> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/680> a <Book> ;
+    e:hasName "Lover of the Lustful Husband" .
+
+<person/Author/690> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/681> a <Book> ;
+    e:hasName "The Deadly Company" .
+
+<person/Author/690> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/683> a <Book> ;
+    e:hasName "The Mysterious Prism" .
+
+<person/Author/691> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/685> a <Book> ;
+    e:hasName "Lord of Flame" .
+
+<person/Author/692> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/686> a <Book> ;
+    e:hasName "Ranger of Flame" .
+
+<person/Author/693> a <Author> ;
+    e:hasAge 31 .
+
+
+<person/Book/687> a <Book> ;
+    e:hasName "The Great Name" .
+
+<person/Author/694> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/688> a <Book> ;
+    e:hasName "The Deadly Pawn" .
+
+<person/Author/695> a <Author> ;
+    e:hasAge 43 .
+
+
+<person/Book/689> a <Book> ;
+    e:hasName "The Unholy Man of Destroying" .
+
+<person/Author/696> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/690> a <Book> ;
+    e:hasName "The Enticing Spell" .
+
+<person/Author/697> a <Author> ;
+    e:hasAge 23 .
+
+
+<person/Book/692> a <Book> ;
+    e:hasName "The Neverending Garden" .
+
+<person/Author/698> a <Author> ;
+    e:hasAge 97 .
+
+
+<person/Book/693> a <Book> ;
+    e:hasName "Storm of Wind" .
+
+<person/Author/699> a <Author> ;
+    e:hasAge 50 .
+
+
+<person/Book/694> a <Book> ;
+    e:hasName "Knight's Cleric" .
+
+<person/Author/700> a <Author> ;
+    e:hasAge 57 .
+
+
+<person/Book/695> a <Book> ;
+    e:hasName "The Great Way" .
+
+<person/Author/701> a <Author> ;
+    e:hasAge 89 .
+
+
+<person/Book/696> a <Book> ;
+    e:hasName "The Smooth Fire" .
+
+<person/Author/702> a <Author> ;
+    e:hasAge 49 .
+
+
+<person/Book/697> a <Book> ;
+    e:hasName "Silencing of the Cold Dark" .
+
+<person/Author/703> a <Author> ;
+    e:hasAge 31 .
+
+
+<person/Book/698> a <Book> ;
+    e:hasName "The Crystal Queen" .
+
+<person/Author/704> a <Author> ;
+    e:hasAge 33 .
+
+
+<person/Book/700> a <Book> ;
+    e:hasName "Storm of Magic" .
+
+<person/Author/705> a <Author> ;
+    e:hasAge 16 .
+
+
+<person/Book/701> a <Book> ;
+    e:hasName "The Holy Ship" .
+
+<person/Author/706> a <Author> ;
+    e:hasAge 89 .
+
+
+<person/Book/702> a <Book> ;
+    e:hasName "The Warm Husband" .
+
+<person/Author/707> a <Author> ;
+    e:hasAge 89 .
+
+
+<person/Book/703> a <Book> ;
+    e:hasName "Oath of Shadows" .
+
+<person/Author/708> a <Author> ;
+    e:hasAge 76 .
+
+
+<person/Book/707> a <Book> ;
+    e:hasName "The Magical Throne" .
+
+<person/Author/709> a <Author> ;
+    e:hasAge 70 .
+
+
+<person/Book/708> a <Book> ;
+    e:hasName "Theft of Thorns" .
+
+<person/Author/710> a <Author> ;
+    e:hasAge 70 .
+
+
+<person/Book/709> a <Book> ;
+    e:hasName "The Great Errand" .
+
+<person/Author/711> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/710> a <Book> ;
+    e:hasName "The Beautiful Tranquility" .
+
+<person/Author/712> a <Author> ;
+    e:hasAge 43 .
+
+
+<person/Book/711> a <Book> ;
+    e:hasName "Rule of Radiance" .
+
+<person/Author/713> a <Author> ;
+    e:hasAge 67 .
+
+
+<person/Book/712> a <Book> ;
+    e:hasName "Knight's Paladin" .
+
+<person/Author/714> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/713> a <Book> ;
+    e:hasName "The Evil Tale" .
+
+<person/Author/715> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/715> a <Book> ;
+    e:hasName "Wizard of Blood" .
+
+<person/Author/716> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/718> a <Book> ;
+    e:hasName "The Dark Ship" .
+
+<person/Author/717> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/719> a <Book> ;
+    e:hasName "City of Swords" .
+
+<person/Author/718> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/734> a <Book> ;
+    e:hasName "The Wild Throne" .
+
+<person/Author/718> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/720> a <Book> ;
+    e:hasName "Drowning of the Unholy Silence" .
+
+<person/Author/719> a <Author> ;
+    e:hasAge 40 .
+
+
+<person/Book/723> a <Book> ;
+    e:hasName "The Daring Wife" .
+
+<person/Author/720> a <Author> ;
+    e:hasAge 38 .
+
+
+<person/Book/724> a <Book> ;
+    e:hasName "The Magical Horseman" .
+
+<person/Author/721> a <Author> ;
+    e:hasAge 92 .
+
+
+<person/Book/725> a <Book> ;
+    e:hasName "Bone of Woman" .
+
+<person/Author/722> a <Author> ;
+    e:hasAge 45 .
+
+
+<person/Book/726> a <Book> ;
+    e:hasName "Princess of Kings" .
+
+<person/Author/723> a <Author> ;
+    e:hasAge 32 .
+
+
+<person/Book/727> a <Book> ;
+    e:hasName "Rule of the Hot Kiss" .
+
+<person/Author/724> a <Author> ;
+    e:hasAge 18 .
+
+
+<person/Book/728> a <Book> ;
+    e:hasName "The Enticing Wife" .
+
+<person/Author/725> a <Author> ;
+    e:hasAge 61 .
+
+
+<person/Book/730> a <Book> ;
+    e:hasName "Silence of Cross" .
+
+<person/Author/726> a <Author> ;
+    e:hasAge 20 .
+
+
+<person/Book/731> a <Book> ;
+    e:hasName "The Lost Curse" .
+
+<person/Author/727> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/732> a <Book> ;
+    e:hasName "Keeps of the Loving Spell" .
+
+<person/Author/728> a <Author> ;
+    e:hasAge 30 .
+
+
+<person/Book/733> a <Book> ;
+    e:hasName "The Caring Man" .
+
+<person/Author/729> a <Author> ;
+    e:hasAge 55 .
+
+
+<person/Book/735> a <Book> ;
+    e:hasName "Sea of the Warm Charm" .
+
+<person/Author/730> a <Author> ;
+    e:hasAge 22 .
+
+
+<person/Book/736> a <Book> ;
+    e:hasName "Fool's Lord" .
+
+<person/Author/731> a <Author> ;
+    e:hasAge 51 .
+
+
+<person/Book/737> a <Book> ;
+    e:hasName "Dragon of Death" .
+
+<person/Author/732> a <Author> ;
+    e:hasAge 96 .
+
+
+<person/Book/739> a <Book> ;
+    e:hasName "The Mysterious Wheel" .
+
+<person/Author/733> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/740> a <Book> ;
+    e:hasName "The Enormous Cave" .
+
+<person/Author/734> a <Author> ;
+    e:hasAge 92 .
+
+
+<person/Book/741> a <Book> ;
+    e:hasName "The Flowing Empire" .
+
+<person/Author/735> a <Author> ;
+    e:hasAge 82 .
+
+
+<person/Book/743> a <Book> ;
+    e:hasName "Delta of the Smooth Woman" .
+
+<person/Author/736> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/744> a <Book> ;
+    e:hasName "The Hungering Canyon" .
+
+<person/Author/737> a <Author> ;
+    e:hasAge 77 .
+
+
+<person/Book/745> a <Book> ;
+    e:hasName "Wizard's Wizard" .
+
+<person/Author/738> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/746> a <Book> ;
+    e:hasName "Crown of Glass" .
+
+<person/Author/739> a <Author> ;
+    e:hasAge 77 .
+
+
+<person/Book/748> a <Book> ;
+    e:hasName "The Terrible Corpse of Suffering" .
+
+<person/Author/740> a <Author> ;
+    e:hasAge 28 .
+
+
+<person/Book/907> a <Book> ;
+    e:hasName "The Cold Woman of Following" .
+
+<person/Author/740> a <Author> ;
+    e:hasAge 28 .
+
+
+<person/Book/749> a <Book> ;
+    e:hasName "The Troubled Corpse of Stalking" .
+
+<person/Author/741> a <Author> ;
+    e:hasAge 46 .
+
+
+<person/Book/750> a <Book> ;
+    e:hasName "Woman of Corpse" .
+
+<person/Author/742> a <Author> ;
+    e:hasAge 94 .
+
+
+<person/Book/751> a <Book> ;
+    e:hasName "The Magical Wheel" .
+
+<person/Author/743> a <Author> ;
+    e:hasAge 40 .
+
+
+<person/Book/752> a <Book> ;
+    e:hasName "Lord of the Queen" .
+
+<person/Author/744> a <Author> ;
+    e:hasAge 21 .
+
+
+<person/Book/753> a <Book> ;
+    e:hasName "The Interesting Love" .
+
+<person/Author/745> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/810> a <Book> ;
+    e:hasName "The Bound Love" .
+
+<person/Author/745> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/755> a <Book> ;
+    e:hasName "Errand of Death" .
+
+<person/Author/746> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/757> a <Book> ;
+    e:hasName "Wizard's Horde" .
+
+<person/Author/747> a <Author> ;
+    e:hasAge 28 .
+
+
+<person/Book/758> a <Book> ;
+    e:hasName "Evening of the Smooth Evening" .
+
+<person/Author/748> a <Author> ;
+    e:hasAge 38 .
+
+
+<person/Book/759> a <Book> ;
+    e:hasName "The Lusting Hug" .
+
+<person/Author/749> a <Author> ;
+    e:hasAge 85 .
+
+
+<person/Book/760> a <Book> ;
+    e:hasName "Empire of Radiance" .
+
+<person/Author/750> a <Author> ;
+    e:hasAge 79 .
+
+
+<person/Book/761> a <Book> ;
+    e:hasName "Throne of Magic" .
+
+<person/Author/751> a <Author> ;
+    e:hasAge 40 .
+
+
+<person/Book/762> a <Book> ;
+    e:hasName "The Steaming Horseman" .
+
+<person/Author/752> a <Author> ;
+    e:hasAge 77 .
+
+
+<person/Book/763> a <Book> ;
+    e:hasName "Pillar of the Bound Hug" .
+
+<person/Author/753> a <Author> ;
+    e:hasAge 76 .
+
+
+<person/Book/764> a <Book> ;
+    e:hasName "Story of the World" .
+
+<person/Author/754> a <Author> ;
+    e:hasAge 48 .
+
+
+<person/Book/766> a <Book> ;
+    e:hasName "Wizard's Name" .
+
+<person/Author/755> a <Author> ;
+    e:hasAge 71 .
+
+
+<person/Book/767> a <Book> ;
+    e:hasName "Way of Blood" .
+
+<person/Author/756> a <Author> ;
+    e:hasAge 86 .
+
+
+<person/Book/767> a <Book> ;
+    e:hasName "Way of Blood" .
+
+<person/Author/757> a <Author> ;
+    e:hasAge 94 .
+
+
+<person/Book/768> a <Book> ;
+    e:hasName "The Dark Night" .
+
+<person/Author/758> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/769> a <Book> ;
+    e:hasName "Love of the Interesting Hug" .
+
+<person/Author/759> a <Author> ;
+    e:hasAge 73 .
+
+
+<person/Book/770> a <Book> ;
+    e:hasName "Woman of the Radiating Lover" .
+
+<person/Author/760> a <Author> ;
+    e:hasAge 50 .
+
+
+<person/Book/876> a <Book> ;
+    e:hasName "Fool's Errand" .
+
+<person/Author/760> a <Author> ;
+    e:hasAge 50 .
+
+
+<person/Book/771> a <Book> ;
+    e:hasName "Hug of the Enticing Fire" .
+
+<person/Author/761> a <Author> ;
+    e:hasAge 35 .
+
+
+<person/Book/772> a <Book> ;
+    e:hasName "Drowning of the Terrible Woman" .
+
+<person/Author/762> a <Author> ;
+    e:hasAge 84 .
+
+
+<person/Book/774> a <Book> ;
+    e:hasName "Fear of Crime" .
+
+<person/Author/763> a <Author> ;
+    e:hasAge 68 .
+
+
+<person/Book/775> a <Book> ;
+    e:hasName "Canyon of the Smooth Keeps" .
+
+<person/Author/764> a <Author> ;
+    e:hasAge 81 .
+
+
+<person/Book/776> a <Book> ;
+    e:hasName "The Quiet Blood of Drowning" .
+
+<person/Author/765> a <Author> ;
+    e:hasAge 86 .
+
+
+<person/Book/777> a <Book> ;
+    e:hasName "The White Assassin" .
+
+<person/Author/766> a <Author> ;
+    e:hasAge 88 .
+
+
+<person/Book/778> a <Book> ;
+    e:hasName "Tale of the Empire" .
+
+<person/Author/767> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/779> a <Book> ;
+    e:hasName "Cleric of the Forest" .
+
+<person/Author/768> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/780> a <Book> ;
+    e:hasName "Assassin's Throne" .
+
+<person/Author/769> a <Author> ;
+    e:hasAge 34 .
+
+
+<person/Book/781> a <Book> ;
+    e:hasName "The Dragonbone Empire" .
+
+<person/Author/770> a <Author> ;
+    e:hasAge 84 .
+
+
+<person/Book/782> a <Book> ;
+    e:hasName "The Glimmering Storm" .
+
+<person/Author/771> a <Author> ;
+    e:hasAge 88 .
+
+
+<person/Book/783> a <Book> ;
+    e:hasName "Unicorn of Kings" .
+
+<person/Author/772> a <Author> ;
+    e:hasAge 59 .
+
+
+<person/Book/784> a <Book> ;
+    e:hasName "Journey of Chaos" .
+
+<person/Author/773> a <Author> ;
+    e:hasAge 80 .
+
+
+<person/Book/785> a <Book> ;
+    e:hasName "Assassin's Horde" .
+
+<person/Author/774> a <Author> ;
+    e:hasAge 91 .
+
+
+<person/Book/786> a <Book> ;
+    e:hasName "Longing of the Lusting Secret" .
+
+<person/Author/775> a <Author> ;
+    e:hasAge 94 .
+
+
+<person/Book/787> a <Book> ;
+    e:hasName "Edge of the Lusting Spell" .
+
+<person/Author/776> a <Author> ;
+    e:hasAge 79 .
+
+
+<person/Book/788> a <Book> ;
+    e:hasName "Apprentice of the Empire" .
+
+<person/Author/777> a <Author> ;
+    e:hasAge 18 .
+
+
+<person/Book/791> a <Book> ;
+    e:hasName "The Steaming Paladin" .
+
+<person/Author/778> a <Author> ;
+    e:hasAge 72 .
+
+
+<person/Book/792> a <Book> ;
+    e:hasName "Murder of the Calm Cannibal" .
+
+<person/Author/779> a <Author> ;
+    e:hasAge 34 .
+
+
+<person/Book/793> a <Book> ;
+    e:hasName "The Black Cave" .
+
+<person/Author/780> a <Author> ;
+    e:hasAge 98 .
+
+
+<person/Book/795> a <Book> ;
+    e:hasName "The Evil Staff" .
+
+<person/Author/781> a <Author> ;
+    e:hasAge 44 .
+
+
+<person/Book/796> a <Book> ;
+    e:hasName "Silencing of the Unholy Murder" .
+
+<person/Author/782> a <Author> ;
+    e:hasAge 79 .
+
+
+<person/Book/851> a <Book> ;
+    e:hasName "The Neverending Way" .
+
+<person/Author/782> a <Author> ;
+    e:hasAge 79 .
+
+
+<person/Book/797> a <Book> ;
+    e:hasName "The Interesting Woman" .
+
+<person/Author/783> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/863> a <Book> ;
+    e:hasName "Fool's King" .
+
+<person/Author/783> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/800> a <Book> ;
+    e:hasName "Garden of Kings" .
+
+<person/Author/784> a <Author> ;
+    e:hasAge 80 .
+
+
+<person/Book/801> a <Book> ;
+    e:hasName "Silencing of the Scary Night" .
+
+<person/Author/785> a <Author> ;
+    e:hasAge 66 .
+
+
+<person/Book/802> a <Book> ;
+    e:hasName "Curse of Radiance" .
+
+<person/Author/786> a <Author> ;
+    e:hasAge 41 .
+
+
+<person/Book/803> a <Book> ;
+    e:hasName "Night of Famine" .
+
+<person/Author/787> a <Author> ;
+    e:hasAge 32 .
+
+
+<person/Book/804> a <Book> ;
+    e:hasName "Suffering of the Perfect Ritual" .
+
+<person/Author/788> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/805> a <Book> ;
+    e:hasName "The Innocent Blood" .
+
+<person/Author/789> a <Author> ;
+    e:hasAge 56 .
+
+
+<person/Book/806> a <Book> ;
+    e:hasName "Fault of the Bound Woman" .
+
+<person/Author/790> a <Author> ;
+    e:hasAge 22 .
+
+
+<person/Book/807> a <Book> ;
+    e:hasName "Drowning of the Black Death" .
+
+<person/Author/791> a <Author> ;
+    e:hasAge 46 .
+
+
+<person/Book/808> a <Book> ;
+    e:hasName "Knight's Wheel" .
+
+<person/Author/792> a <Author> ;
+    e:hasAge 78 .
+
+
+<person/Book/852> a <Book> ;
+    e:hasName "The Loving Secret" .
+
+<person/Author/792> a <Author> ;
+    e:hasAge 78 .
+
+
+<person/Book/809> a <Book> ;
+    e:hasName "Oath of Plague" .
+
+<person/Author/793> a <Author> ;
+    e:hasAge 100 .
+
+
+<person/Book/811> a <Book> ;
+    e:hasName "The Bound Charm" .
+
+<person/Author/794> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/812> a <Book> ;
+    e:hasName "The Dark Man of Following" .
+
+<person/Author/795> a <Author> ;
+    e:hasAge 64 .
+
+
+<person/Book/814> a <Book> ;
+    e:hasName "The Unholy Silence" .
+
+<person/Author/796> a <Author> ;
+    e:hasAge 37 .
+
+
+<person/Book/817> a <Book> ;
+    e:hasName "Predjudice of the Hot Heart" .
+
+<person/Author/797> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/818> a <Book> ;
+    e:hasName "Venus of the Loving Rule" .
+
+<person/Author/798> a <Author> ;
+    e:hasAge 40 .
+
+
+<person/Book/819> a <Book> ;
+    e:hasName "The Holy Prism" .
+
+<person/Author/799> a <Author> ;
+    e:hasAge 58 .
+
+
+<person/Book/820> a <Book> ;
+    e:hasName "The Enticing Pillar" .
+
+<person/Author/800> a <Author> ;
+    e:hasAge 79 .
+
+
+<person/Book/823> a <Book> ;
+    e:hasName "The Golden Curse" .
+
+<person/Author/801> a <Author> ;
+    e:hasAge 78 .
+
+
+<person/Book/825> a <Book> ;
+    e:hasName "Cleric of Time" .
+
+<person/Author/802> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/826> a <Book> ;
+    e:hasName "Garden of Darkness" .
+
+<person/Author/803> a <Author> ;
+    e:hasAge 67 .
+
+
+<person/Book/827> a <Book> ;
+    e:hasName "The Honest Woman" .
+
+<person/Author/804> a <Author> ;
+    e:hasAge 74 .
+
+
+<person/Book/829> a <Book> ;
+    e:hasName "Pawn of the Queen" .
+
+<person/Author/805> a <Author> ;
+    e:hasAge 52 .
+
+
+<person/Book/830> a <Book> ;
+    e:hasName "Theft of Chaos" .
+
+<person/Author/806> a <Author> ;
+    e:hasAge 81 .
+
+
+<person/Book/833> a <Book> ;
+    e:hasName "Fear of Train" .
+
+<person/Author/807> a <Author> ;
+    e:hasAge 40 .
+
+
+<person/Book/834> a <Book> ;
+    e:hasName "Suffering of the Dark Woman" .
+
+<person/Author/808> a <Author> ;
+    e:hasAge 21 .
+
+
+<person/Book/836> a <Book> ;
+    e:hasName "Horde of the World" .
+
+<person/Author/809> a <Author> ;
+    e:hasAge 58 .
+
+
+<person/Book/837> a <Book> ;
+    e:hasName "The Black Ranger" .
+
+<person/Author/810> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/838> a <Book> ;
+    e:hasName "Throne of Swords" .
+
+<person/Author/811> a <Author> ;
+    e:hasAge 86 .
+
+
+<person/Book/839> a <Book> ;
+    e:hasName "Charm of the Lustful Love" .
+
+<person/Author/812> a <Author> ;
+    e:hasAge 35 .
+
+
+<person/Book/840> a <Book> ;
+    e:hasName "The Steaming Sword" .
+
+<person/Author/813> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/842> a <Book> ;
+    e:hasName "Evening of the Glowing Love" .
+
+<person/Author/814> a <Author> ;
+    e:hasAge 20 .
+
+
+<person/Book/843> a <Book> ;
+    e:hasName "The Still Cannibal of Stalking" .
+
+<person/Author/815> a <Author> ;
+    e:hasAge 40 .
+
+
+<person/Book/844> a <Book> ;
+    e:hasName "Slaughtering of the Cold Train" .
+
+<person/Author/816> a <Author> ;
+    e:hasAge 88 .
+
+
+<person/Book/845> a <Book> ;
+    e:hasName "The Magical Lord" .
+
+<person/Author/817> a <Author> ;
+    e:hasAge 81 .
+
+
+<person/Book/846> a <Book> ;
+    e:hasName "Way of Thorns" .
+
+<person/Author/818> a <Author> ;
+    e:hasAge 73 .
+
+
+<person/Book/847> a <Book> ;
+    e:hasName "The Deadly Army" .
+
+<person/Author/819> a <Author> ;
+    e:hasAge 57 .
+
+
+<person/Book/848> a <Book> ;
+    e:hasName "The Lusting Predjudice" .
+
+<person/Author/820> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/849> a <Book> ;
+    e:hasName "Dragon of Kings" .
+
+<person/Author/821> a <Author> ;
+    e:hasAge 18 .
+
+
+<person/Book/850> a <Book> ;
+    e:hasName "Lover of the Mysterious Attraction" .
+
+<person/Author/822> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/854> a <Book> ;
+    e:hasName "Boy of Night" .
+
+<person/Author/823> a <Author> ;
+    e:hasAge 100 .
+
+
+<person/Book/855> a <Book> ;
+    e:hasName "The Smooth Hug" .
+
+<person/Author/824> a <Author> ;
+    e:hasAge 58 .
+
+
+<person/Book/856> a <Book> ;
+    e:hasName "Ritual of Blood" .
+
+<person/Author/825> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/857> a <Book> ;
+    e:hasName "Assassin of the Forest" .
+
+<person/Author/826> a <Author> ;
+    e:hasAge 81 .
+
+
+<person/Book/858> a <Book> ;
+    e:hasName "Errand of Thrones" .
+
+<person/Author/827> a <Author> ;
+    e:hasAge 37 .
+
+
+<person/Book/859> a <Book> ;
+    e:hasName "Princess of Swords" .
+
+<person/Author/828> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/860> a <Book> ;
+    e:hasName "The Dark Princess" .
+
+<person/Author/829> a <Author> ;
+    e:hasAge 41 .
+
+
+<person/Book/861> a <Book> ;
+    e:hasName "Company of Blood" .
+
+<person/Author/830> a <Author> ;
+    e:hasAge 55 .
+
+
+<person/Book/862> a <Book> ;
+    e:hasName "Steven's Storm" .
+
+<person/Author/831> a <Author> ;
+    e:hasAge 64 .
+
+
+<person/Book/864> a <Book> ;
+    e:hasName "City of Wind" .
+
+<person/Author/832> a <Author> ;
+    e:hasAge 97 .
+
+
+<person/Book/865> a <Book> ;
+    e:hasName "The Steaming Chair" .
+
+<person/Author/833> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/866> a <Book> ;
+    e:hasName "Way of Shadows" .
+
+<person/Author/834> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/867> a <Book> ;
+    e:hasName "Wizard's Ranger" .
+
+<person/Author/835> a <Author> ;
+    e:hasAge 93 .
+
+
+<person/Book/868> a <Book> ;
+    e:hasName "Princess of Death" .
+
+<person/Author/836> a <Author> ;
+    e:hasAge 39 .
+
+
+<person/Book/869> a <Book> ;
+    e:hasName "The Holy Quest" .
+
+<person/Author/837> a <Author> ;
+    e:hasAge 22 .
+
+
+<person/Book/871> a <Book> ;
+    e:hasName "Queen of Flame" .
+
+<person/Author/838> a <Author> ;
+    e:hasAge 23 .
+
+
+<person/Book/873> a <Book> ;
+    e:hasName "The Diamond Horde" .
+
+<person/Author/839> a <Author> ;
+    e:hasAge 70 .
+
+
+<person/Book/874> a <Book> ;
+    e:hasName "The Mysterious Throne" .
+
+<person/Author/840> a <Author> ;
+    e:hasAge 54 .
+
+
+<person/Book/877> a <Book> ;
+    e:hasName "The Neverending Crown" .
+
+<person/Author/841> a <Author> ;
+    e:hasAge 60 .
+
+
+<person/Book/879> a <Book> ;
+    e:hasName "Pride of the Caring Tranquility" .
+
+<person/Author/842> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/880> a <Book> ;
+    e:hasName "Steven's Apprentice" .
+
+<person/Author/843> a <Author> ;
+    e:hasAge 46 .
+
+
+<person/Book/881> a <Book> ;
+    e:hasName "The Hungering Fault" .
+
+<person/Author/844> a <Author> ;
+    e:hasAge 89 .
+
+
+<person/Book/882> a <Book> ;
+    e:hasName "Assassin's Unicorn" .
+
+<person/Author/845> a <Author> ;
+    e:hasAge 81 .
+
+
+<person/Book/883> a <Book> ;
+    e:hasName "Tale of Radiance" .
+
+<person/Author/846> a <Author> ;
+    e:hasAge 30 .
+
+
+<person/Book/884> a <Book> ;
+    e:hasName "Curse of Blood" .
+
+<person/Author/847> a <Author> ;
+    e:hasAge 50 .
+
+
+<person/Book/885> a <Book> ;
+    e:hasName "The Crystal Rule" .
+
+<person/Author/848> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/886> a <Book> ;
+    e:hasName "Errand of Plague" .
+
+<person/Author/849> a <Author> ;
+    e:hasAge 34 .
+
+
+<person/Book/888> a <Book> ;
+    e:hasName "Horde of Death" .
+
+<person/Author/850> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/889> a <Book> ;
+    e:hasName "Name of Darkness" .
+
+<person/Author/851> a <Author> ;
+    e:hasAge 21 .
+
+
+<person/Book/890> a <Book> ;
+    e:hasName "The Neverending Chair" .
+
+<person/Author/852> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/891> a <Book> ;
+    e:hasName "The Lustful Delta" .
+
+<person/Author/853> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/892> a <Book> ;
+    e:hasName "The Enormous Story" .
+
+<person/Author/854> a <Author> ;
+    e:hasAge 28 .
+
+
+<person/Book/895> a <Book> ;
+    e:hasName "Garden of Glass" .
+
+<person/Author/855> a <Author> ;
+    e:hasAge 41 .
+
+
+<person/Book/896> a <Book> ;
+    e:hasName "The Lost Wish" .
+
+<person/Author/856> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/897> a <Book> ;
+    e:hasName "Assassin's Army" .
+
+<person/Author/857> a <Author> ;
+    e:hasAge 35 .
+
+
+<person/Book/898> a <Book> ;
+    e:hasName "Attraction of the Hungering Husband" .
+
+<person/Author/858> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/900> a <Book> ;
+    e:hasName "The Shining Game" .
+
+<person/Author/859> a <Author> ;
+    e:hasAge 69 .
+
+
+<person/Book/901> a <Book> ;
+    e:hasName "Crucifying of the Calm Man" .
+
+<person/Author/860> a <Author> ;
+    e:hasAge 88 .
+
+
+<person/Book/902> a <Book> ;
+    e:hasName "Queen's Throne" .
+
+<person/Author/861> a <Author> ;
+    e:hasAge None .
+
+
+<person/Book/903> a <Book> ;
+    e:hasName "The Mysterious Canyon" .
+
+<person/Author/862> a <Author> ;
+    e:hasAge 87 .
+
+
+<person/Book/904> a <Book> ;
+    e:hasName "Tranquility of the Mysterious Venus" .
+
+<person/Author/863> a <Author> ;
+    e:hasAge 33 .
+
+
+<person/Book/905> a <Book> ;
+    e:hasName "Staff of the Queen" .
+
+<person/Author/864> a <Author> ;
+    e:hasAge 69 .
+
+
+<person/Book/906> a <Book> ;
+    e:hasName "Storm of Glass" .
+
+<person/Author/865> a <Author> ;
+    e:hasAge 89 .
+
+
+<person/Book/909> a <Book> ;
+    e:hasName "Suffering of the Innocent Girl" .
+
+<person/Author/866> a <Author> ;
+    e:hasAge 78 .
+
+
+<person/Book/912> a <Book> ;
+    e:hasName "Horseman of Radiance" .
+
+<person/Author/867> a <Author> ;
+    e:hasAge 40 .
+
+
+<person/Book/913> a <Book> ;
+    e:hasName "Cleric of Ages" .
+
+<person/Author/868> a <Author> ;
+    e:hasAge 78 .
+
+
+<person/Book/914> a <Book> ;
+    e:hasName "The Lost Storm" .
+
+<person/Author/869> a <Author> ;
+    e:hasAge 93 .
+
+
+<person/Book/915> a <Book> ;
+    e:hasName "The Scary Blood of Destroying" .
+
+<person/Author/870> a <Author> ;
+    e:hasAge 20 .
+

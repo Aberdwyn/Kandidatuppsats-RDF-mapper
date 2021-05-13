@@ -22,6 +22,7 @@ directive @join(on: String!) on FIELD_DEFINITION
 type Book {
     id: ID! @lt(id:"Book/20")
     authors: [Author!] @join(on:"Author.id")
+    
 }
 
 type Author {
