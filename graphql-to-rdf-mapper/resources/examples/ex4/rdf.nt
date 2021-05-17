@@ -1,0 +1,5 @@
+@base <http://example.org#> .
+@prefix e: <http://example.org#> .
+        <person/Author/675> a <Author> .
+        <person/Author/675> e:hasAge "None" .
+        <person/Author/675> e:hasName "Brandon Arden" .
