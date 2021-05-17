@@ -220,9 +220,13 @@ def write_data_to_file():
                 else:
                     file.write(', "knows": null')
             d20 = random.randint(1, 20)
-            if d20 > 4:
+            if d20 >= 3:
                 file.write(f', "age": {random.randint(15, 100)}')
-            else: 
+            elif d20 == 1:
+                #5% chance that age does not exist
+                pass
+            elif d20 == 2: 
+                #5% chance that age is null
                 file.write(', "age": null')
             file.write(', description: "" },\n')
         file.write('    },\n')
