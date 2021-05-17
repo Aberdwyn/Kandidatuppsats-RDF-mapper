@@ -1,5 +1,4 @@
 @base <http://example.org#> .
 @prefix e: <http://example.org#> .
 
-<person/{Person.id}> a <Person> ;
-    e:hasName "{Person.name}" .
+<book/{Book.id}> a <Book> .
