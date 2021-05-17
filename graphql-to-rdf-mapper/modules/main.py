@@ -13,7 +13,6 @@ def main(graphql_mapping_schema, rdf_mapping_schema):
     rdf_template = ''
 
     query = query_utils.build_graphql_query(graphql_mapping_schema)
-    
     # Execute query and get results organized as collections
     collections = query_utils.request(query, graphql_endpoint_url)
     # Filters are executed on collections and reduce their cardinalities
@@ -23,9 +22,9 @@ def main(graphql_mapping_schema, rdf_mapping_schema):
     # WARNING: If there exists no valid join key between two collections this is equivalent to producing a cross-product.
     results = join_utils.apply_join(collections, graphql_mapping_schema)
     print("Result size:", len(results))
-    print("Print the first 10 results")
-    for i in range(10):
-        print(results[i])
+    #print("Print the first 10 results")
+    #for i in range(10):
+    #    print(results[i])
     print()
     
     # Generate RDF
