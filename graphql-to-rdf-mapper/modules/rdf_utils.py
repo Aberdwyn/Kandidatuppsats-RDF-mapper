@@ -20,26 +20,63 @@ def apply_rdf_template(filename, results):
     - Variable list fields: Do we need to add conditionals to the generated tmeplate for this?
     """
     rdf_mapping_schema = open(filename, "r").read()
+    #print(re.findall(r'\{(.*?)\.(.*?)\}', rdf_mapping_schema))
 
     # Rename all variables according to the 'collection_field' format
     # Pass a function instead of a pattern to sub()
     f = lambda p: f"${{result['{get_collection_name(p.group(1))}_{p.group(2)}']}}"
-    print(f)
-    s = re.sub(r'\{(.+)\.(.+)\}', f, rdf_mapping_schema)
+    s = re.sub(r'\{(.*?)\.(.*?)\}', f, rdf_mapping_schema)
+    #print(s)
+
+    #save rdf turtle prefixes in a string
+    prefixes = ""
+    for result in re.findall(r'\@.*?[\r\n]', s):
+        prefixes += result
     
-    template_string = "% for result in data:\n" + s + "\n% endfor"
-    # Check out the generate template
+    #remove rdf turtle prefixes from template
+    s = re.sub(r'\@.*?[\r\n]', "", s)
+    #print(s)
+
+    #split triples
+    s = re.findall(r'\<.*? \.', s)
+    print(s)
+    
+
+    #template_string = "% for result in data:\n" 
+    #for triple in s:
+    #    data = re.findall(r"\['(.*?)'\]", triple)
+    #    print(data)
+    #    template_string += "    <% \n"
+    #    template_string += "        all_keys_exist = True \n"
+    #    template_string += "            for key in data: \n"
+    #    template_string += "                if not key in result: \n"
+    #    template_string += "                    all_keys_exist = False  \n"
+    #    template_string += "    %> \n"
+    #    template_string += "    %if all_keys_exist: \n"
+    #    template_string += "        " + triple + "\n"
+    #    template_string += "    %endif \n"
+    #template_string += "%endfor"
+    
+
+
+
+    template_string = "% for result in data:\n" 
+    for triple in s:
+        data = re.findall(r"\['(.*?)'\]", triple)
+        print(data)
+        #could probably look nicer with string formating
+        template_string += "    % if " + "'" + data[0] + "'" + " in result: \n"
+        template_string += "        " + triple + "\n"
+        template_string += "    % endif\n"
+    template_string += "% endfor"
+    # Check out the generated template
     print("Template string:")
     print(template_string)
     print()
 
-    #save rdf turtle prefixes in a string
-    prefixes = ""
-    for result in re.findall(r'\@.*?[\r\n]', template_string):
-        prefixes += result
     
-    #remove rdf turtle prefixes from template
-    template_string = re.sub(r'\@.*?[\r\n]', "", template_string)
+    
+
     
     template = Template(template_string)
     rdf_data = template.render(data=results)
@@ -54,8 +91,8 @@ def apply_rdf_template(filename, results):
     g.parse("rdf.nt", format='n3')
 
     import pprint
-    for stmt in g:
-        pprint.pprint(stmt)
+    #for stmt in g:
+    #    pprint.pprint(stmt)
 
 
     return rdf_data

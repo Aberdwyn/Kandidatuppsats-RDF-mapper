@@ -1,0 +1,35 @@
+"""Assert that the value of the field is equal to some value."""
+directive @eq(string: String, id: ID) on FIELD_DEFINITION
+
+"""Assert that the value of the list field contains some value."""
+directive @contains(string: String, id: ID) on FIELD_DEFINITION
+
+"""Assert that the size of the list field is equal to some value."""
+directive @size(int: Int, id: ID, gt: Boolean=False, lt: Boolean=False) on FIELD_DEFINITION
+
+"""Assert that the value of the field is a value in the supplied list."""
+directive @in(string: String, id: ID) on FIELD_DEFINITION
+
+"""Assert that the value of the field is greater than some value."""
+directive @lt(int: Int, id: ID) on FIELD_DEFINITION
+
+"""Assert that the value of the field is less than some value."""
+directive @gt(int: Int, id: ID) on FIELD_DEFINITION
+
+"""Join a collection with antoher on a field (default: inner join)."""
+directive @join(on: String!) on FIELD_DEFINITION
+
+type Book {
+    id: ID! 
+    authors: [Author!]
+    title: String!
+}
+
+type Author {
+    id: ID!
+    name: String!
+    age: Int
+}
+
+
+
