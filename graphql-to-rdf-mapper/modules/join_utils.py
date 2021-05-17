@@ -127,12 +127,7 @@ def apply_join(collections, graphql_mapping_schema):
         #print(join_key)
         # Found no field to join on, resort to union
         if join_key == None:
-            for collection_name, collection in collections.items():
-                if collection_name in joined_collections:
-                    continue
-                results = cross_product(results, collection)
-                joined_collections.add(collection_name)
-                break
+            continue
         else:
             results = join(results, collections, join_key)
             joined_collections.add(join_key[0][0])
