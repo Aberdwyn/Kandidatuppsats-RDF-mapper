@@ -888,919 +888,1836 @@
         <person/Author/886> a <Author> .
         <person/Author/887> a <Author> .
         <book/Book/1> a <Book> .
+        <book/Book/1> e:hasTitle "The Great King" .
         <book/Book/2> a <Book> .
+        <book/Book/2> e:hasTitle "The Dark Man of Destroying" .
         <book/Book/3> a <Book> .
+        <book/Book/3> e:hasTitle "Name of Ages" .
         <book/Book/4> a <Book> .
+        <book/Book/4> e:hasTitle "The Hot Venus" .
         <book/Book/5> a <Book> .
+        <book/Book/5> e:hasTitle "Steven's Army" .
         <book/Book/6> a <Book> .
+        <book/Book/6> e:hasTitle "The Neverending Quest" .
         <book/Book/7> a <Book> .
+        <book/Book/7> e:hasTitle "Oath of the Forest" .
         <book/Book/8> a <Book> .
+        <book/Book/8> e:hasTitle "Fool's Lord" .
         <book/Book/9> a <Book> .
+        <book/Book/9> e:hasTitle "The Perfect Death of Drowning" .
         <book/Book/10> a <Book> .
+        <book/Book/10> e:hasTitle "Crucifying of the Troubled Night" .
         <book/Book/11> a <Book> .
+        <book/Book/11> e:hasTitle "Wizard of the Moon" .
         <book/Book/12> a <Book> .
+        <book/Book/12> e:hasTitle "The Crystal Tale" .
         <book/Book/13> a <Book> .
+        <book/Book/13> e:hasTitle "The Diamond Wish" .
         <book/Book/14> a <Book> .
+        <book/Book/14> e:hasTitle "Rule of the World" .
         <book/Book/15> a <Book> .
+        <book/Book/15> e:hasTitle "Unicorn of Thrones" .
         <book/Book/16> a <Book> .
+        <book/Book/16> e:hasTitle "The Mysterious Sword" .
         <book/Book/17> a <Book> .
+        <book/Book/17> e:hasTitle "The Last Pawn" .
         <book/Book/18> a <Book> .
+        <book/Book/18> e:hasTitle "The Golden Journey" .
         <book/Book/19> a <Book> .
+        <book/Book/19> e:hasTitle "Bone of Silence" .
         <book/Book/20> a <Book> .
+        <book/Book/20> e:hasTitle "The Evil Wish" .
         <book/Book/21> a <Book> .
+        <book/Book/21> e:hasTitle "Pillar of the Daring Longing" .
         <book/Book/22> a <Book> .
+        <book/Book/22> e:hasTitle "King's Cave" .
         <book/Book/23> a <Book> .
+        <book/Book/23> e:hasTitle "Canyon of the Smooth Hug" .
         <book/Book/24> a <Book> .
+        <book/Book/24> e:hasTitle "King of Chaos" .
         <book/Book/25> a <Book> .
+        <book/Book/25> e:hasTitle "City of Ages" .
         <book/Book/26> a <Book> .
+        <book/Book/26> e:hasTitle "The Deadly Name" .
         <book/Book/27> a <Book> .
+        <book/Book/27> e:hasTitle "Boy of Cannibal" .
         <book/Book/28> a <Book> .
+        <book/Book/28> e:hasTitle "Company of the Empire" .
         <book/Book/29> a <Book> .
+        <book/Book/29> e:hasTitle "The Glowing Venus" .
         <book/Book/30> a <Book> .
+        <book/Book/30> e:hasTitle "The Radiating Spell" .
         <book/Book/31> a <Book> .
+        <book/Book/31> e:hasTitle "The Lustful Hunger" .
         <book/Book/32> a <Book> .
+        <book/Book/32> e:hasTitle "The Innocent Woman of Drowning" .
         <book/Book/33> a <Book> .
+        <book/Book/33> e:hasTitle "Magic's Army" .
         <book/Book/34> a <Book> .
+        <book/Book/34> e:hasTitle "The Wild Horde" .
         <book/Book/35> a <Book> .
+        <book/Book/35> e:hasTitle "The Daring Fault" .
         <book/Book/36> a <Book> .
+        <book/Book/36> e:hasTitle "Apprentice of Kings" .
         <book/Book/37> a <Book> .
+        <book/Book/37> e:hasTitle "The Wild Storm" .
         <book/Book/38> a <Book> .
+        <book/Book/38> e:hasTitle "The Caring Heart" .
         <book/Book/39> a <Book> .
+        <book/Book/39> e:hasTitle "The Dragonbone Journey" .
         <book/Book/40> a <Book> .
+        <book/Book/40> e:hasTitle "Cave of Plague" .
         <book/Book/41> a <Book> .
+        <book/Book/41> e:hasTitle "The Dark Throne" .
         <book/Book/42> a <Book> .
+        <book/Book/42> e:hasTitle "The Hungering Pillar" .
         <book/Book/43> a <Book> .
+        <book/Book/43> e:hasTitle "Love of the Beautiful Rule" .
         <book/Book/44> a <Book> .
+        <book/Book/44> e:hasTitle "Night of Murder" .
         <book/Book/45> a <Book> .
+        <book/Book/45> e:hasTitle "Game of Thorns" .
         <book/Book/46> a <Book> .
+        <book/Book/46> e:hasTitle "Steven's Ranger" .
         <book/Book/47> a <Book> .
+        <book/Book/47> e:hasTitle "The Mysterious Way" .
         <book/Book/48> a <Book> .
+        <book/Book/48> e:hasTitle "Woman of Dark" .
         <book/Book/49> a <Book> .
+        <book/Book/49> e:hasTitle "Magic's Ranger" .
         <book/Book/50> a <Book> .
+        <book/Book/50> e:hasTitle "Fire of the Real Lover" .
         <book/Book/51> a <Book> .
+        <book/Book/51> e:hasTitle "The Golden Assassin" .
         <book/Book/52> a <Book> .
+        <book/Book/52> e:hasTitle "Wizard's Ranger" .
         <book/Book/53> a <Book> .
+        <book/Book/53> e:hasTitle "The Shining Chair" .
         <book/Book/54> a <Book> .
+        <book/Book/54> e:hasTitle "The Enormous Crown" .
         <book/Book/55> a <Book> .
+        <book/Book/55> e:hasTitle "Errand of Chaos" .
         <book/Book/56> a <Book> .
+        <book/Book/56> e:hasTitle "The Perfect Crime" .
         <book/Book/57> a <Book> .
+        <book/Book/57> e:hasTitle "Dark of Fear" .
         <book/Book/58> a <Book> .
+        <book/Book/58> e:hasTitle "Hunger of the Radiating Attraction" .
         <book/Book/59> a <Book> .
+        <book/Book/59> e:hasTitle "Empire of the Moon" .
         <book/Book/60> a <Book> .
+        <book/Book/60> e:hasTitle "Hero's Game" .
         <book/Book/61> a <Book> .
+        <book/Book/61> e:hasTitle "The Wild Crown" .
         <book/Book/62> a <Book> .
+        <book/Book/62> e:hasTitle "The Great City" .
         <book/Book/63> a <Book> .
+        <book/Book/63> e:hasTitle "The Interesting Predjudice" .
         <book/Book/64> a <Book> .
+        <book/Book/64> e:hasTitle "Keeps of the Bound Attraction" .
         <book/Book/65> a <Book> .
+        <book/Book/65> e:hasTitle "The Great Staff" .
         <book/Book/66> a <Book> .
+        <book/Book/66> e:hasTitle "Journey of Glass" .
         <book/Book/67> a <Book> .
+        <book/Book/67> e:hasTitle "Tale of Chaos" .
         <book/Book/68> a <Book> .
+        <book/Book/68> e:hasTitle "The Great Rule" .
         <book/Book/69> a <Book> .
+        <book/Book/69> e:hasTitle "Ship of the Forest" .
         <book/Book/70> a <Book> .
+        <book/Book/70> e:hasTitle "Murder of Famine" .
         <book/Book/71> a <Book> .
+        <book/Book/71> e:hasTitle "Magic's Sword" .
         <book/Book/72> a <Book> .
+        <book/Book/72> e:hasTitle "Predjudice of the Glowing Wife" .
         <book/Book/73> a <Book> .
+        <book/Book/73> e:hasTitle "Drowning of the Scary Blood" .
         <book/Book/74> a <Book> .
+        <book/Book/74> e:hasTitle "Woman of the Mysterious Sea" .
         <book/Book/75> a <Book> .
+        <book/Book/75> e:hasTitle "The Warded Tale" .
         <book/Book/76> a <Book> .
+        <book/Book/76> e:hasTitle "The Dragonbone Cleric" .
         <book/Book/77> a <Book> .
+        <book/Book/77> e:hasTitle "Army of the Stars" .
         <book/Book/78> a <Book> .
+        <book/Book/78> e:hasTitle "Death of Ritual" .
         <book/Book/79> a <Book> .
+        <book/Book/79> e:hasTitle "Silence of Woman" .
         <book/Book/80> a <Book> .
+        <book/Book/80> e:hasTitle "The Perfect Murder of Crucifying" .
         <book/Book/81> a <Book> .
+        <book/Book/81> e:hasTitle "The Caring Man" .
         <book/Book/82> a <Book> .
+        <book/Book/82> e:hasTitle "The Golden Sword" .
         <book/Book/83> a <Book> .
+        <book/Book/83> e:hasTitle "The Enormous Unicorn" .
         <book/Book/84> a <Book> .
+        <book/Book/84> e:hasTitle "The Radiant Chair" .
         <book/Book/85> a <Book> .
+        <book/Book/85> e:hasTitle "Ship of the Empire" .
         <book/Book/86> a <Book> .
+        <book/Book/86> e:hasTitle "The Bound Rule" .
         <book/Book/87> a <Book> .
+        <book/Book/87> e:hasTitle "Man of the Warm Spell" .
         <book/Book/88> a <Book> .
+        <book/Book/88> e:hasTitle "Knight's King" .
         <book/Book/89> a <Book> .
+        <book/Book/89> e:hasTitle "Murder of Boy" .
         <book/Book/90> a <Book> .
+        <book/Book/90> e:hasTitle "The Enormous Cave" .
         <book/Book/91> a <Book> .
+        <book/Book/91> e:hasTitle "Crown of Ages" .
         <book/Book/92> a <Book> .
+        <book/Book/92> e:hasTitle "Night of Ritual" .
         <book/Book/93> a <Book> .
+        <book/Book/93> e:hasTitle "Rule of Plague" .
         <book/Book/94> a <Book> .
+        <book/Book/94> e:hasTitle "Lord of Swords" .
         <book/Book/95> a <Book> .
+        <book/Book/95> e:hasTitle "Rule of the Bound Kiss" .
         <book/Book/96> a <Book> .
+        <book/Book/96> e:hasTitle "Curse of Radiance" .
         <book/Book/97> a <Book> .
+        <book/Book/97> e:hasTitle "Boy of Night" .
         <book/Book/98> a <Book> .
+        <book/Book/98> e:hasTitle "Tale of Time" .
         <book/Book/99> a <Book> .
+        <book/Book/99> e:hasTitle "Tranquility of the Enticing Fire" .
         <book/Book/100> a <Book> .
+        <book/Book/100> e:hasTitle "The Real Sea" .
         <book/Book/101> a <Book> .
+        <book/Book/101> e:hasTitle "Hero's Cave" .
         <book/Book/102> a <Book> .
+        <book/Book/102> e:hasTitle "The Dark Silence of Following" .
         <book/Book/103> a <Book> .
+        <book/Book/103> e:hasTitle "The Shining Queen" .
         <book/Book/104> a <Book> .
+        <book/Book/104> e:hasTitle "Assassin's Ship" .
         <book/Book/105> a <Book> .
+        <book/Book/105> e:hasTitle "Wizard of Shadows" .
         <book/Book/106> a <Book> .
+        <book/Book/106> e:hasTitle "Story of Thrones" .
         <book/Book/107> a <Book> .
+        <book/Book/107> e:hasTitle "Kiss of the Daring Husband" .
         <book/Book/108> a <Book> .
+        <book/Book/108> e:hasTitle "Rule of Chaos" .
         <book/Book/109> a <Book> .
+        <book/Book/109> e:hasTitle "The Glimmering City" .
         <book/Book/110> a <Book> .
+        <book/Book/110> e:hasTitle "The Endless Tale" .
         <book/Book/111> a <Book> .
+        <book/Book/111> e:hasTitle "Pride of the Honest Attraction" .
         <book/Book/112> a <Book> .
+        <book/Book/112> e:hasTitle "Pillar of the Smooth Predjudice" .
         <book/Book/113> a <Book> .
+        <book/Book/113> e:hasTitle "Wizard's Curse" .
         <book/Book/114> a <Book> .
+        <book/Book/114> e:hasTitle "Cannibal of Boy" .
         <book/Book/115> a <Book> .
+        <book/Book/115> e:hasTitle "The Evil Murder" .
         <book/Book/116> a <Book> .
+        <book/Book/116> e:hasTitle "The Warded Cleric" .
         <book/Book/117> a <Book> .
+        <book/Book/117> e:hasTitle "The Warded Assassin" .
         <book/Book/118> a <Book> .
+        <book/Book/118> e:hasTitle "The Mysterious Throne" .
         <book/Book/119> a <Book> .
+        <book/Book/119> e:hasTitle "Storm of the Queen" .
         <book/Book/120> a <Book> .
+        <book/Book/120> e:hasTitle "The Diamond Sword" .
         <book/Book/121> a <Book> .
+        <book/Book/121> e:hasTitle "Sacrifice of the Evil Woman" .
         <book/Book/122> a <Book> .
+        <book/Book/122> e:hasTitle "The Beautiful Sea" .
         <book/Book/123> a <Book> .
+        <book/Book/123> e:hasTitle "Chair of Plague" .
         <book/Book/124> a <Book> .
+        <book/Book/124> e:hasTitle "Ship of Kings" .
         <book/Book/125> a <Book> .
+        <book/Book/125> e:hasTitle "Heart of the Mysterious Predjudice" .
         <book/Book/126> a <Book> .
+        <book/Book/126> e:hasTitle "Girl of Cannibal" .
         <book/Book/127> a <Book> .
+        <book/Book/127> e:hasTitle "Shooting of the Calm Night" .
         <book/Book/128> a <Book> .
+        <book/Book/128> e:hasTitle "Pillar of the Lusting Spell" .
         <book/Book/129> a <Book> .
+        <book/Book/129> e:hasTitle "Wizard of Time" .
         <book/Book/130> a <Book> .
+        <book/Book/130> e:hasTitle "The Mysterious Pillar" .
         <book/Book/131> a <Book> .
+        <book/Book/131> e:hasTitle "The Dark Curse" .
         <book/Book/132> a <Book> .
+        <book/Book/132> e:hasTitle "The Glimmering Quest" .
         <book/Book/133> a <Book> .
+        <book/Book/133> e:hasTitle "The Calm Cannibal" .
         <book/Book/134> a <Book> .
+        <book/Book/134> e:hasTitle "The Hungering Pride" .
         <book/Book/135> a <Book> .
+        <book/Book/135> e:hasTitle "Fool's Army" .
         <book/Book/136> a <Book> .
+        <book/Book/136> e:hasTitle "The Black Rule" .
         <book/Book/137> a <Book> .
+        <book/Book/137> e:hasTitle "Name of Shadows" .
         <book/Book/138> a <Book> .
+        <book/Book/138> e:hasTitle "Queen of the Forest" .
         <book/Book/139> a <Book> .
+        <book/Book/139> e:hasTitle "The Radiant Rule" .
         <book/Book/140> a <Book> .
+        <book/Book/140> e:hasTitle "The Deadly Chair" .
         <book/Book/141> a <Book> .
+        <book/Book/141> e:hasTitle "Murder of Man" .
         <book/Book/142> a <Book> .
+        <book/Book/142> e:hasTitle "Wizard of Blood" .
         <book/Book/143> a <Book> .
+        <book/Book/143> e:hasTitle "The Caring Hunger" .
         <book/Book/144> a <Book> .
+        <book/Book/144> e:hasTitle "Unicorn of Plague" .
         <book/Book/145> a <Book> .
+        <book/Book/145> e:hasTitle "Queen's Name" .
         <book/Book/146> a <Book> .
+        <book/Book/146> e:hasTitle "The Wild Garden" .
         <book/Book/147> a <Book> .
+        <book/Book/147> e:hasTitle "The Last Crown" .
         <book/Book/148> a <Book> .
+        <book/Book/148> e:hasTitle "The Evil City" .
         <book/Book/149> a <Book> .
+        <book/Book/149> e:hasTitle "The Glowing Tranquility" .
         <book/Book/150> a <Book> .
+        <book/Book/150> e:hasTitle "The Flowing Curse" .
         <book/Book/151> a <Book> .
+        <book/Book/151> e:hasTitle "Journey of Kings" .
         <book/Book/152> a <Book> .
+        <book/Book/152> e:hasTitle "Following of the Still Corpse" .
         <book/Book/153> a <Book> .
+        <book/Book/153> e:hasTitle "The Holy Dragon" .
         <book/Book/154> a <Book> .
+        <book/Book/154> e:hasTitle "The Hungering Love" .
         <book/Book/155> a <Book> .
+        <book/Book/155> e:hasTitle "Wheel of the Forest" .
         <book/Book/156> a <Book> .
+        <book/Book/156> e:hasTitle "The Flowing City" .
         <book/Book/157> a <Book> .
+        <book/Book/157> e:hasTitle "Wheel of the Queen" .
         <book/Book/158> a <Book> .
+        <book/Book/158> e:hasTitle "The Steaming Rule" .
         <book/Book/159> a <Book> .
+        <book/Book/159> e:hasTitle "The Mysterious Longing" .
         <book/Book/160> a <Book> .
+        <book/Book/160> e:hasTitle "Paladin of Thrones" .
         <book/Book/161> a <Book> .
+        <book/Book/161> e:hasTitle "Queen's Staff" .
         <book/Book/162> a <Book> .
+        <book/Book/162> e:hasTitle "The Scary Death" .
         <book/Book/163> a <Book> .
+        <book/Book/163> e:hasTitle "The Flowing Story" .
         <book/Book/164> a <Book> .
+        <book/Book/164> e:hasTitle "Quest of Thorns" .
         <book/Book/165> a <Book> .
+        <book/Book/165> e:hasTitle "Army of the Forest" .
         <book/Book/166> a <Book> .
+        <book/Book/166> e:hasTitle "The Enormous Journey" .
         <book/Book/167> a <Book> .
+        <book/Book/167> e:hasTitle "Fool's Storm" .
         <book/Book/168> a <Book> .
+        <book/Book/168> e:hasTitle "Horseman of the Stars" .
         <book/Book/169> a <Book> .
+        <book/Book/169> e:hasTitle "The Neverending Tale" .
         <book/Book/170> a <Book> .
+        <book/Book/170> e:hasTitle "Sword of Thorns" .
         <book/Book/171> a <Book> .
+        <book/Book/171> e:hasTitle "The Radiant King" .
         <book/Book/172> a <Book> .
+        <book/Book/172> e:hasTitle "The Shining Pawn" .
         <book/Book/173> a <Book> .
+        <book/Book/173> e:hasTitle "Throne of the Empire" .
         <book/Book/174> a <Book> .
+        <book/Book/174> e:hasTitle "Name of Kings" .
         <book/Book/175> a <Book> .
+        <book/Book/175> e:hasTitle "Paladin of the World" .
         <book/Book/176> a <Book> .
+        <book/Book/176> e:hasTitle "Crucifying of the Scary Fear" .
         <book/Book/177> a <Book> .
+        <book/Book/177> e:hasTitle "Staff of Thrones" .
         <book/Book/178> a <Book> .
+        <book/Book/178> e:hasTitle "The Evil Man of Destroying" .
         <book/Book/179> a <Book> .
+        <book/Book/179> e:hasTitle "The Mysterious Quest" .
         <book/Book/180> a <Book> .
+        <book/Book/180> e:hasTitle "King's Story" .
         <book/Book/181> a <Book> .
+        <book/Book/181> e:hasTitle "The Enticing Hug" .
         <book/Book/182> a <Book> .
+        <book/Book/182> e:hasTitle "The Diamond Tale" .
         <book/Book/183> a <Book> .
+        <book/Book/183> e:hasTitle "Wife of the Real Love" .
         <book/Book/184> a <Book> .
+        <book/Book/184> e:hasTitle "The Enticing Canyon" .
         <book/Book/185> a <Book> .
+        <book/Book/185> e:hasTitle "Sea of the Bound Man" .
         <book/Book/186> a <Book> .
+        <book/Book/186> e:hasTitle "Woman of Cross" .
         <book/Book/187> a <Book> .
+        <book/Book/187> e:hasTitle "The Magical Theft" .
         <book/Book/188> a <Book> .
+        <book/Book/188> e:hasTitle "The Diamond Theft" .
         <book/Book/189> a <Book> .
+        <book/Book/189> e:hasTitle "The Loving Heart" .
         <book/Book/190> a <Book> .
+        <book/Book/190> e:hasTitle "The Glowing Hug" .
         <book/Book/191> a <Book> .
+        <book/Book/191> e:hasTitle "The Beautiful Heart" .
         <book/Book/192> a <Book> .
+        <book/Book/192> e:hasTitle "Hero's Wizard" .
         <book/Book/193> a <Book> .
+        <book/Book/193> e:hasTitle "The Glowing Rule" .
         <book/Book/194> a <Book> .
+        <book/Book/194> e:hasTitle "The Loving Rule" .
         <book/Book/195> a <Book> .
+        <book/Book/195> e:hasTitle "Ranger of the Stars" .
         <book/Book/196> a <Book> .
+        <book/Book/196> e:hasTitle "Steven's Queen" .
         <book/Book/197> a <Book> .
+        <book/Book/197> e:hasTitle "Story of the Empire" .
         <book/Book/198> a <Book> .
+        <book/Book/198> e:hasTitle "Paladin of the Moon" .
         <book/Book/199> a <Book> .
+        <book/Book/199> e:hasTitle "Fool's Name" .
         <book/Book/200> a <Book> .
+        <book/Book/200> e:hasTitle "Queen of Thorns" .
         <book/Book/201> a <Book> .
+        <book/Book/201> e:hasTitle "The Scary Night" .
         <book/Book/202> a <Book> .
+        <book/Book/202> e:hasTitle "The Still Dark of Stalking" .
         <book/Book/203> a <Book> .
+        <book/Book/203> e:hasTitle "Queen's Cave" .
         <book/Book/204> a <Book> .
+        <book/Book/204> e:hasTitle "The Black Cannibal of Silencing" .
         <book/Book/205> a <Book> .
+        <book/Book/205> e:hasTitle "The Unholy Fear" .
         <book/Book/206> a <Book> .
+        <book/Book/206> e:hasTitle "The Real Hunger" .
         <book/Book/207> a <Book> .
+        <book/Book/207> e:hasTitle "The Black Sword" .
         <book/Book/208> a <Book> .
+        <book/Book/208> e:hasTitle "Death of Crime" .
         <book/Book/209> a <Book> .
+        <book/Book/209> e:hasTitle "The Glimmering Wish" .
         <book/Book/210> a <Book> .
+        <book/Book/210> e:hasTitle "The Lost Staff" .
         <book/Book/211> a <Book> .
+        <book/Book/211> e:hasTitle "The Dark Lord" .
         <book/Book/212> a <Book> .
+        <book/Book/212> e:hasTitle "The Mysterious Cleric" .
         <book/Book/213> a <Book> .
+        <book/Book/213> e:hasTitle "The Evil Empire" .
         <book/Book/214> a <Book> .
+        <book/Book/214> e:hasTitle "Charm of the Hot Attraction" .
         <book/Book/215> a <Book> .
+        <book/Book/215> e:hasTitle "Way of the Empire" .
         <book/Book/216> a <Book> .
+        <book/Book/216> e:hasTitle "The Still Night of Following" .
         <book/Book/217> a <Book> .
+        <book/Book/217> e:hasTitle "The Evil Cannibal of Killing" .
         <book/Book/218> a <Book> .
+        <book/Book/218> e:hasTitle "Boy of Famine" .
         <book/Book/219> a <Book> .
+        <book/Book/219> e:hasTitle "The Enormous Ship" .
         <book/Book/220> a <Book> .
+        <book/Book/220> e:hasTitle "Story of Flame" .
         <book/Book/221> a <Book> .
+        <book/Book/221> e:hasTitle "Wizard's Assassin" .
         <book/Book/222> a <Book> .
+        <book/Book/222> e:hasTitle "Assassin of the Stars" .
         <book/Book/223> a <Book> .
+        <book/Book/223> e:hasTitle "Prism of Chaos" .
         <book/Book/224> a <Book> .
+        <book/Book/224> e:hasTitle "The Radiant Company" .
         <book/Book/225> a <Book> .
+        <book/Book/225> e:hasTitle "The Final Journey" .
         <book/Book/226> a <Book> .
+        <book/Book/226> e:hasTitle "Way of Wind" .
         <book/Book/227> a <Book> .
+        <book/Book/227> e:hasTitle "The Dark Dark of Suffering" .
         <book/Book/228> a <Book> .
+        <book/Book/228> e:hasTitle "Magic's Tale" .
         <book/Book/229> a <Book> .
+        <book/Book/229> e:hasTitle "Tale of the Empire" .
         <book/Book/230> a <Book> .
+        <book/Book/230> e:hasTitle "The Deadly Horseman" .
         <book/Book/231> a <Book> .
+        <book/Book/231> e:hasTitle "Army of Chaos" .
         <book/Book/232> a <Book> .
+        <book/Book/232> e:hasTitle "Dragon of the Empire" .
         <book/Book/233> a <Book> .
+        <book/Book/233> e:hasTitle "Horseman of Thorns" .
         <book/Book/234> a <Book> .
+        <book/Book/234> e:hasTitle "The Cold Night of Destroying" .
         <book/Book/235> a <Book> .
+        <book/Book/235> e:hasTitle "Steven's Wizard" .
         <book/Book/236> a <Book> .
+        <book/Book/236> e:hasTitle "The Black Theft" .
         <book/Book/237> a <Book> .
+        <book/Book/237> e:hasTitle "Sword of Kings" .
         <book/Book/238> a <Book> .
+        <book/Book/238> e:hasTitle "The Calm Dark" .
         <book/Book/239> a <Book> .
+        <book/Book/239> e:hasTitle "The Deadly Ranger" .
         <book/Book/240> a <Book> .
+        <book/Book/240> e:hasTitle "The Crystal Garden" .
         <book/Book/241> a <Book> .
+        <book/Book/241> e:hasTitle "The Crystal Unicorn" .
         <book/Book/242> a <Book> .
+        <book/Book/242> e:hasTitle "Wizard's Tale" .
         <book/Book/243> a <Book> .
+        <book/Book/243> e:hasTitle "Fool's Cleric" .
         <book/Book/244> a <Book> .
+        <book/Book/244> e:hasTitle "Attraction of the Lustful Woman" .
         <book/Book/245> a <Book> .
+        <book/Book/245> e:hasTitle "The Hot Delta" .
         <book/Book/246> a <Book> .
+        <book/Book/246> e:hasTitle "Man of Fear" .
         <book/Book/247> a <Book> .
+        <book/Book/247> e:hasTitle "The Calm Cross of Slaughtering" .
         <book/Book/248> a <Book> .
+        <book/Book/248> e:hasTitle "The Mysterious Ship" .
         <book/Book/249> a <Book> .
+        <book/Book/249> e:hasTitle "The Final Prince" .
         <book/Book/250> a <Book> .
+        <book/Book/250> e:hasTitle "Cave of Wind" .
         <book/Book/251> a <Book> .
+        <book/Book/251> e:hasTitle "Night of Silence" .
         <book/Book/252> a <Book> .
+        <book/Book/252> e:hasTitle "Fool's Empire" .
         <book/Book/253> a <Book> .
+        <book/Book/253> e:hasTitle "Storm of Flame" .
         <book/Book/254> a <Book> .
+        <book/Book/254> e:hasTitle "Fire of the Lustful Kiss" .
         <book/Book/255> a <Book> .
+        <book/Book/255> e:hasTitle "The Honest Keeps" .
         <book/Book/256> a <Book> .
+        <book/Book/256> e:hasTitle "Sacrifice of the Quiet Ritual" .
         <book/Book/257> a <Book> .
+        <book/Book/257> e:hasTitle "The Final Princess" .
         <book/Book/258> a <Book> .
+        <book/Book/258> e:hasTitle "Princess of Time" .
         <book/Book/259> a <Book> .
+        <book/Book/259> e:hasTitle "Sea of the Honest Shaft" .
         <book/Book/260> a <Book> .
+        <book/Book/260> e:hasTitle "The Hungering Attraction" .
         <book/Book/261> a <Book> .
+        <book/Book/261> e:hasTitle "The Evil Prince" .
         <book/Book/262> a <Book> .
+        <book/Book/262> e:hasTitle "The Calm Murder" .
         <book/Book/263> a <Book> .
+        <book/Book/263> e:hasTitle "Love of the Interesting Tranquility" .
         <book/Book/264> a <Book> .
+        <book/Book/264> e:hasTitle "Journey of the Forest" .
         <book/Book/265> a <Book> .
+        <book/Book/265> e:hasTitle "The Final Prism" .
         <book/Book/266> a <Book> .
+        <book/Book/266> e:hasTitle "The Evil Game" .
         <book/Book/267> a <Book> .
+        <book/Book/267> e:hasTitle "The Daring Fire" .
         <book/Book/268> a <Book> .
+        <book/Book/268> e:hasTitle "Queen's Garden" .
         <book/Book/269> a <Book> .
+        <book/Book/269> e:hasTitle "The Flowing Dragon" .
         <book/Book/270> a <Book> .
+        <book/Book/270> e:hasTitle "The Deadly Wizard" .
         <book/Book/271> a <Book> .
+        <book/Book/271> e:hasTitle "Queen's Apprentice" .
         <book/Book/272> a <Book> .
+        <book/Book/272> e:hasTitle "Pillar of the Beautiful Sea" .
         <book/Book/273> a <Book> .
+        <book/Book/273> e:hasTitle "The Lustful Moon" .
         <book/Book/274> a <Book> .
+        <book/Book/274> e:hasTitle "Fear of Bone" .
         <book/Book/275> a <Book> .
+        <book/Book/275> e:hasTitle "Predjudice of the Mysterious Pillar" .
         <book/Book/276> a <Book> .
+        <book/Book/276> e:hasTitle "Tranquility of the Hungering Venus" .
         <book/Book/277> a <Book> .
+        <book/Book/277> e:hasTitle "The Glowing Wife" .
         <book/Book/278> a <Book> .
+        <book/Book/278> e:hasTitle "Destroying of the Innocent Dark" .
         <book/Book/279> a <Book> .
+        <book/Book/279> e:hasTitle "Stalking of the Quiet Cannibal" .
         <book/Book/280> a <Book> .
+        <book/Book/280> e:hasTitle "The Caring Moon" .
         <book/Book/281> a <Book> .
+        <book/Book/281> e:hasTitle "Sacrifice of the Black Girl" .
         <book/Book/282> a <Book> .
+        <book/Book/282> e:hasTitle "Pawn of Death" .
         <book/Book/283> a <Book> .
+        <book/Book/283> e:hasTitle "The Shining Name" .
         <book/Book/284> a <Book> .
+        <book/Book/284> e:hasTitle "Attraction of the Mysterious Delta" .
         <book/Book/285> a <Book> .
+        <book/Book/285> e:hasTitle "The Deadly Dragon" .
         <book/Book/286> a <Book> .
+        <book/Book/286> e:hasTitle "Pillar of the Hot Fire" .
         <book/Book/287> a <Book> .
+        <book/Book/287> e:hasTitle "Unicorn of the Queen" .
         <book/Book/288> a <Book> .
+        <book/Book/288> e:hasTitle "Assassin of Chaos" .
         <book/Book/289> a <Book> .
+        <book/Book/289> e:hasTitle "The Shining Wizard" .
         <book/Book/290> a <Book> .
+        <book/Book/290> e:hasTitle "Steven's Horseman" .
         <book/Book/291> a <Book> .
+        <book/Book/291> e:hasTitle "Killing of the Evil Night" .
         <book/Book/292> a <Book> .
+        <book/Book/292> e:hasTitle "Hero's Storm" .
         <book/Book/293> a <Book> .
+        <book/Book/293> e:hasTitle "Game of Blood" .
         <book/Book/294> a <Book> .
+        <book/Book/294> e:hasTitle "Knight's Curse" .
         <book/Book/295> a <Book> .
+        <book/Book/295> e:hasTitle "The Crystal Quest" .
         <book/Book/296> a <Book> .
+        <book/Book/296> e:hasTitle "Chair of Swords" .
         <book/Book/297> a <Book> .
+        <book/Book/297> e:hasTitle "Cave of Flame" .
         <book/Book/298> a <Book> .
+        <book/Book/298> e:hasTitle "The Golden Way" .
         <book/Book/299> a <Book> .
+        <book/Book/299> e:hasTitle "Magic's Garden" .
         <book/Book/300> a <Book> .
+        <book/Book/300> e:hasTitle "Rule of Magic" .
         <book/Book/301> a <Book> .
+        <book/Book/301> e:hasTitle "Theft of Swords" .
         <book/Book/302> a <Book> .
+        <book/Book/302> e:hasTitle "The Mysterious Rule" .
         <book/Book/303> a <Book> .
+        <book/Book/303> e:hasTitle "The Terrible Night" .
         <book/Book/304> a <Book> .
+        <book/Book/304> e:hasTitle "The Neverending Horseman" .
         <book/Book/305> a <Book> .
+        <book/Book/305> e:hasTitle "The Radiating Lover" .
         <book/Book/306> a <Book> .
+        <book/Book/306> e:hasTitle "The Radiant Lord" .
         <book/Book/307> a <Book> .
+        <book/Book/307> e:hasTitle "Throne of Flame" .
         <book/Book/308> a <Book> .
+        <book/Book/308> e:hasTitle "Magic's Story" .
         <book/Book/309> a <Book> .
+        <book/Book/309> e:hasTitle "The Golden Wizard" .
         <book/Book/310> a <Book> .
+        <book/Book/310> e:hasTitle "The Endless Storm" .
         <book/Book/311> a <Book> .
+        <book/Book/311> e:hasTitle "Man of Cross" .
         <book/Book/312> a <Book> .
+        <book/Book/312> e:hasTitle "The Flowing Wizard" .
         <book/Book/313> a <Book> .
+        <book/Book/313> e:hasTitle "The Enormous City" .
         <book/Book/314> a <Book> .
+        <book/Book/314> e:hasTitle "The Glimmering Garden" .
         <book/Book/315> a <Book> .
+        <book/Book/315> e:hasTitle "Canyon of the Daring Hug" .
         <book/Book/316> a <Book> .
+        <book/Book/316> e:hasTitle "Magic's Prince" .
         <book/Book/317> a <Book> .
+        <book/Book/317> e:hasTitle "Way of the Queen" .
         <book/Book/318> a <Book> .
+        <book/Book/318> e:hasTitle "The Steaming Lord" .
         <book/Book/319> a <Book> .
+        <book/Book/319> e:hasTitle "The Dragonbone Company" .
         <book/Book/320> a <Book> .
+        <book/Book/320> e:hasTitle "Theft of the Moon" .
         <book/Book/321> a <Book> .
+        <book/Book/321> e:hasTitle "Dragon of Darkness" .
         <book/Book/322> a <Book> .
+        <book/Book/322> e:hasTitle "The Diamond Prism" .
         <book/Book/323> a <Book> .
+        <book/Book/323> e:hasTitle "Empire of the Forest" .
         <book/Book/324> a <Book> .
+        <book/Book/324> e:hasTitle "Tale of the Stars" .
         <book/Book/325> a <Book> .
+        <book/Book/325> e:hasTitle "The Glimmering Cleric" .
         <book/Book/326> a <Book> .
+        <book/Book/326> e:hasTitle "Queen of the Queen" .
         <book/Book/327> a <Book> .
+        <book/Book/327> e:hasTitle "The Evil Storm" .
         <book/Book/328> a <Book> .
+        <book/Book/328> e:hasTitle "The Enormous Way" .
         <book/Book/329> a <Book> .
+        <book/Book/329> e:hasTitle "Crown of Swords" .
         <book/Book/330> a <Book> .
+        <book/Book/330> e:hasTitle "The Troubled Bone of Murder" .
         <book/Book/331> a <Book> .
+        <book/Book/331> e:hasTitle "The Dark Tale" .
         <book/Book/332> a <Book> .
+        <book/Book/332> e:hasTitle "Wish of Kings" .
         <book/Book/333> a <Book> .
+        <book/Book/333> e:hasTitle "Oath of Radiance" .
         <book/Book/334> a <Book> .
+        <book/Book/334> e:hasTitle "Assassin of Time" .
         <book/Book/335> a <Book> .
+        <book/Book/335> e:hasTitle "Love of the Daring Charm" .
         <book/Book/336> a <Book> .
+        <book/Book/336> e:hasTitle "The Evil Sword" .
         <book/Book/337> a <Book> .
+        <book/Book/337> e:hasTitle "Rule of the Radiating Man" .
         <book/Book/338> a <Book> .
+        <book/Book/338> e:hasTitle "The Bound Woman" .
         <book/Book/339> a <Book> .
+        <book/Book/339> e:hasTitle "The Innocent Corpse of Murder" .
         <book/Book/340> a <Book> .
+        <book/Book/340> e:hasTitle "The Perfect Fear" .
         <book/Book/341> a <Book> .
+        <book/Book/341> e:hasTitle "Fool's Prince" .
         <book/Book/342> a <Book> .
+        <book/Book/342> e:hasTitle "Ranger of Kings" .
         <book/Book/343> a <Book> .
+        <book/Book/343> e:hasTitle "Hunger of the Hot Shaft" .
         <book/Book/344> a <Book> .
+        <book/Book/344> e:hasTitle "Dragon of the Stars" .
         <book/Book/345> a <Book> .
+        <book/Book/345> e:hasTitle "Throne of Blood" .
         <book/Book/346> a <Book> .
+        <book/Book/346> e:hasTitle "Apprentice of Blood" .
         <book/Book/347> a <Book> .
+        <book/Book/347> e:hasTitle "The Golden City" .
         <book/Book/348> a <Book> .
+        <book/Book/348> e:hasTitle "Ship of the Stars" .
         <book/Book/349> a <Book> .
+        <book/Book/349> e:hasTitle "Journey of Darkness" .
         <book/Book/350> a <Book> .
+        <book/Book/350> e:hasTitle "The Steaming Sword" .
         <book/Book/351> a <Book> .
+        <book/Book/351> e:hasTitle "Pawn of Ages" .
         <book/Book/352> a <Book> .
+        <book/Book/352> e:hasTitle "Secret of the Beautiful Heart" .
         <book/Book/353> a <Book> .
+        <book/Book/353> e:hasTitle "Woman of Ritual" .
         <book/Book/354> a <Book> .
+        <book/Book/354> e:hasTitle "The Great Sword" .
         <book/Book/355> a <Book> .
+        <book/Book/355> e:hasTitle "The Dark Sword" .
         <book/Book/356> a <Book> .
+        <book/Book/356> e:hasTitle "The Mysterious Journey" .
         <book/Book/357> a <Book> .
+        <book/Book/357> e:hasTitle "The Warm Lover" .
         <book/Book/358> a <Book> .
+        <book/Book/358> e:hasTitle "The Caring Predjudice" .
         <book/Book/359> a <Book> .
+        <book/Book/359> e:hasTitle "Cleric of Magic" .
         <book/Book/360> a <Book> .
+        <book/Book/360> e:hasTitle "Paladin of Darkness" .
         <book/Book/361> a <Book> .
+        <book/Book/361> e:hasTitle "The Mysterious Predjudice" .
         <book/Book/362> a <Book> .
+        <book/Book/362> e:hasTitle "The Scary Train of Suffering" .
         <book/Book/363> a <Book> .
+        <book/Book/363> e:hasTitle "Death of Train" .
         <book/Book/364> a <Book> .
+        <book/Book/364> e:hasTitle "Death of Murder" .
         <book/Book/365> a <Book> .
+        <book/Book/365> e:hasTitle "The Lost Apprentice" .
         <book/Book/366> a <Book> .
+        <book/Book/366> e:hasTitle "Night of Boy" .
         <book/Book/367> a <Book> .
+        <book/Book/367> e:hasTitle "The Last Staff" .
         <book/Book/368> a <Book> .
+        <book/Book/368> e:hasTitle "Crime of Girl" .
         <book/Book/369> a <Book> .
+        <book/Book/369> e:hasTitle "Assassin's Cleric" .
         <book/Book/370> a <Book> .
+        <book/Book/370> e:hasTitle "Queen's Army" .
         <book/Book/371> a <Book> .
+        <book/Book/371> e:hasTitle "Storm of Blood" .
         <book/Book/372> a <Book> .
+        <book/Book/372> e:hasTitle "Horseman of Flame" .
         <book/Book/373> a <Book> .
+        <book/Book/373> e:hasTitle "Wife of the Honest Hug" .
         <book/Book/374> a <Book> .
+        <book/Book/374> e:hasTitle "Fire of the Warm Pillar" .
         <book/Book/375> a <Book> .
+        <book/Book/375> e:hasTitle "Charm of the Honest Moon" .
         <book/Book/376> a <Book> .
+        <book/Book/376> e:hasTitle "The Dragonbone Prince" .
         <book/Book/377> a <Book> .
+        <book/Book/377> e:hasTitle "Company of Radiance" .
         <book/Book/378> a <Book> .
+        <book/Book/378> e:hasTitle "The Warm Rule" .
         <book/Book/379> a <Book> .
+        <book/Book/379> e:hasTitle "The Cold Man of Destroying" .
         <book/Book/380> a <Book> .
+        <book/Book/380> e:hasTitle "The Innocent Murder" .
         <book/Book/381> a <Book> .
+        <book/Book/381> e:hasTitle "Hunger of the Glowing Attraction" .
         <book/Book/382> a <Book> .
+        <book/Book/382> e:hasTitle "The Magical Story" .
         <book/Book/383> a <Book> .
+        <book/Book/383> e:hasTitle "The Diamond Paladin" .
         <book/Book/384> a <Book> .
+        <book/Book/384> e:hasTitle "The Great Theft" .
         <book/Book/385> a <Book> .
+        <book/Book/385> e:hasTitle "Fool's Rule" .
         <book/Book/386> a <Book> .
+        <book/Book/386> e:hasTitle "Lord of Plague" .
         <book/Book/387> a <Book> .
+        <book/Book/387> e:hasTitle "Curse of Thorns" .
         <book/Book/388> a <Book> .
+        <book/Book/388> e:hasTitle "The Warded Chair" .
         <book/Book/389> a <Book> .
+        <book/Book/389> e:hasTitle "Wish of Plague" .
         <book/Book/390> a <Book> .
+        <book/Book/390> e:hasTitle "Garden of the Stars" .
         <book/Book/391> a <Book> .
+        <book/Book/391> e:hasTitle "Magic's Errand" .
         <book/Book/392> a <Book> .
+        <book/Book/392> e:hasTitle "Hero's City" .
         <book/Book/393> a <Book> .
+        <book/Book/393> e:hasTitle "Prince of Wind" .
         <book/Book/394> a <Book> .
+        <book/Book/394> e:hasTitle "Queen's Crown" .
         <book/Book/395> a <Book> .
+        <book/Book/395> e:hasTitle "The Lost Queen" .
         <book/Book/396> a <Book> .
+        <book/Book/396> e:hasTitle "Wizard's Theft" .
         <book/Book/397> a <Book> .
+        <book/Book/397> e:hasTitle "Princess of Darkness" .
         <book/Book/398> a <Book> .
+        <book/Book/398> e:hasTitle "The Radiant Ranger" .
         <book/Book/399> a <Book> .
+        <book/Book/399> e:hasTitle "Errand of Blood" .
         <book/Book/400> a <Book> .
+        <book/Book/400> e:hasTitle "Magic's Unicorn" .
         <book/Book/401> a <Book> .
+        <book/Book/401> e:hasTitle "The Dark Dark of Shooting" .
         <book/Book/402> a <Book> .
+        <book/Book/402> e:hasTitle "Steven's Pawn" .
         <book/Book/403> a <Book> .
+        <book/Book/403> e:hasTitle "The Troubled Girl of Murder" .
         <book/Book/404> a <Book> .
+        <book/Book/404> e:hasTitle "Wish of the Stars" .
         <book/Book/405> a <Book> .
+        <book/Book/405> e:hasTitle "Storm of Shadows" .
         <book/Book/406> a <Book> .
+        <book/Book/406> e:hasTitle "King's Lord" .
         <book/Book/407> a <Book> .
+        <book/Book/407> e:hasTitle "Knight's Princess" .
         <book/Book/408> a <Book> .
+        <book/Book/408> e:hasTitle "Love of the Mysterious Pride" .
         <book/Book/409> a <Book> .
+        <book/Book/409> e:hasTitle "The Smooth Venus" .
         <book/Book/410> a <Book> .
+        <book/Book/410> e:hasTitle "Lord of the Forest" .
         <book/Book/411> a <Book> .
+        <book/Book/411> e:hasTitle "Girl of Crime" .
         <book/Book/412> a <Book> .
+        <book/Book/412> e:hasTitle "The Beautiful Husband" .
         <book/Book/413> a <Book> .
+        <book/Book/413> e:hasTitle "Pride of the Interesting Predjudice" .
         <book/Book/414> a <Book> .
+        <book/Book/414> e:hasTitle "Following of the Perfect Night" .
         <book/Book/415> a <Book> .
+        <book/Book/415> e:hasTitle "Queen's Dragon" .
         <book/Book/416> a <Book> .
+        <book/Book/416> e:hasTitle "The Evil Horde" .
         <book/Book/417> a <Book> .
+        <book/Book/417> e:hasTitle "Horde of the Moon" .
         <book/Book/418> a <Book> .
+        <book/Book/418> e:hasTitle "Man of Night" .
         <book/Book/419> a <Book> .
+        <book/Book/419> e:hasTitle "Steven's Curse" .
         <book/Book/420> a <Book> .
+        <book/Book/420> e:hasTitle "Killing of the Evil Famine" .
         <book/Book/421> a <Book> .
+        <book/Book/421> e:hasTitle "Knight's Army" .
         <book/Book/422> a <Book> .
+        <book/Book/422> e:hasTitle "Following of the Evil Fear" .
         <book/Book/423> a <Book> .
+        <book/Book/423> e:hasTitle "Crime of Silence" .
         <book/Book/424> a <Book> .
+        <book/Book/424> e:hasTitle "Hero's Errand" .
         <book/Book/425> a <Book> .
+        <book/Book/425> e:hasTitle "The Golden Wish" .
         <book/Book/426> a <Book> .
+        <book/Book/426> e:hasTitle "The Great Army" .
         <book/Book/427> a <Book> .
+        <book/Book/427> e:hasTitle "The Black Apprentice" .
         <book/Book/428> a <Book> .
+        <book/Book/428> e:hasTitle "Night of Dark" .
         <book/Book/429> a <Book> .
+        <book/Book/429> e:hasTitle "The Dragonbone Paladin" .
         <book/Book/430> a <Book> .
+        <book/Book/430> e:hasTitle "The Dark Cross" .
         <book/Book/431> a <Book> .
+        <book/Book/431> e:hasTitle "Ship of Thrones" .
         <book/Book/432> a <Book> .
+        <book/Book/432> e:hasTitle "The Holy Theft" .
         <book/Book/433> a <Book> .
+        <book/Book/433> e:hasTitle "The Enormous Ranger" .
         <book/Book/434> a <Book> .
+        <book/Book/434> e:hasTitle "Ritual of Ritual" .
         <book/Book/435> a <Book> .
+        <book/Book/435> e:hasTitle "Queen's Way" .
         <book/Book/436> a <Book> .
+        <book/Book/436> e:hasTitle "Blood of Bone" .
         <book/Book/437> a <Book> .
+        <book/Book/437> e:hasTitle "Steven's Cave" .
         <book/Book/438> a <Book> .
+        <book/Book/438> e:hasTitle "The Neverending Game" .
         <book/Book/439> a <Book> .
+        <book/Book/439> e:hasTitle "Errand of Swords" .
         <book/Book/440> a <Book> .
+        <book/Book/440> e:hasTitle "The Great Curse" .
         <book/Book/441> a <Book> .
+        <book/Book/441> e:hasTitle "Garden of Shadows" .
         <book/Book/442> a <Book> .
+        <book/Book/442> e:hasTitle "The Enormous Apprentice" .
         <book/Book/443> a <Book> .
+        <book/Book/443> e:hasTitle "Hero's Sword" .
         <book/Book/444> a <Book> .
+        <book/Book/444> e:hasTitle "The Evil Cross" .
         <book/Book/445> a <Book> .
+        <book/Book/445> e:hasTitle "Knight's Journey" .
         <book/Book/446> a <Book> .
+        <book/Book/446> e:hasTitle "Pride of the Hungering Tranquility" .
         <book/Book/447> a <Book> .
+        <book/Book/447> e:hasTitle "The Perfect Ritual of Killing" .
         <book/Book/448> a <Book> .
+        <book/Book/448> e:hasTitle "The Innocent Ritual" .
         <book/Book/449> a <Book> .
+        <book/Book/449> e:hasTitle "The Interesting Husband" .
         <book/Book/450> a <Book> .
+        <book/Book/450> e:hasTitle "The Innocent Girl of Killing" .
         <book/Book/451> a <Book> .
+        <book/Book/451> e:hasTitle "Knight's Prism" .
         <book/Book/452> a <Book> .
+        <book/Book/452> e:hasTitle "Secret of the Lusting Woman" .
         <book/Book/453> a <Book> .
+        <book/Book/453> e:hasTitle "Wizard's Oath" .
         <book/Book/454> a <Book> .
+        <book/Book/454> e:hasTitle "Magic's Wizard" .
         <book/Book/455> a <Book> .
+        <book/Book/455> e:hasTitle "Paladin of Death" .
         <book/Book/456> a <Book> .
+        <book/Book/456> e:hasTitle "The Shining Horseman" .
         <book/Book/457> a <Book> .
+        <book/Book/457> e:hasTitle "The Final Sword" .
         <book/Book/458> a <Book> .
+        <book/Book/458> e:hasTitle "The Evil Throne" .
         <book/Book/459> a <Book> .
+        <book/Book/459> e:hasTitle "Rule of the Honest Secret" .
         <book/Book/460> a <Book> .
+        <book/Book/460> e:hasTitle "The Black Ranger" .
         <book/Book/461> a <Book> .
+        <book/Book/461> e:hasTitle "Girl of Train" .
         <book/Book/462> a <Book> .
+        <book/Book/462> e:hasTitle "The Wild Curse" .
         <book/Book/463> a <Book> .
+        <book/Book/463> e:hasTitle "Attraction of the Lustful Sea" .
         <book/Book/464> a <Book> .
+        <book/Book/464> e:hasTitle "Paladin of Chaos" .
         <book/Book/465> a <Book> .
+        <book/Book/465> e:hasTitle "Rule of Time" .
         <book/Book/466> a <Book> .
+        <book/Book/466> e:hasTitle "The Warded Name" .
         <book/Book/467> a <Book> .
+        <book/Book/467> e:hasTitle "Husband of the Loving Fault" .
         <book/Book/468> a <Book> .
+        <book/Book/468> e:hasTitle "Fool's Quest" .
         <book/Book/469> a <Book> .
+        <book/Book/469> e:hasTitle "Following of the Still Girl" .
         <book/Book/470> a <Book> .
+        <book/Book/470> e:hasTitle "Steven's Apprentice" .
         <book/Book/471> a <Book> .
+        <book/Book/471> e:hasTitle "Shaft of the Real Husband" .
         <book/Book/472> a <Book> .
+        <book/Book/472> e:hasTitle "Throne of Kings" .
         <book/Book/473> a <Book> .
+        <book/Book/473> e:hasTitle "The Unholy Silence of Sacrifice" .
         <book/Book/474> a <Book> .
+        <book/Book/474> e:hasTitle "Kiss of the Lustful Spell" .
         <book/Book/475> a <Book> .
+        <book/Book/475> e:hasTitle "Death of Boy" .
         <book/Book/476> a <Book> .
+        <book/Book/476> e:hasTitle "The Terrible Murder of Shooting" .
         <book/Book/477> a <Book> .
+        <book/Book/477> e:hasTitle "Way of Death" .
         <book/Book/478> a <Book> .
+        <book/Book/478> e:hasTitle "Lover of the Enticing Wife" .
         <book/Book/479> a <Book> .
+        <book/Book/479> e:hasTitle "The Shining Crown" .
         <book/Book/480> a <Book> .
+        <book/Book/480> e:hasTitle "Sacrifice of the Dark Train" .
         <book/Book/481> a <Book> .
+        <book/Book/481> e:hasTitle "The Magical Princess" .
         <book/Book/482> a <Book> .
+        <book/Book/482> e:hasTitle "Company of the Moon" .
         <book/Book/483> a <Book> .
+        <book/Book/483> e:hasTitle "Canyon of the Loving Love" .
         <book/Book/484> a <Book> .
+        <book/Book/484> e:hasTitle "Oath of Death" .
         <book/Book/485> a <Book> .
+        <book/Book/485> e:hasTitle "The Quiet Death" .
         <book/Book/486> a <Book> .
+        <book/Book/486> e:hasTitle "The Scary Crime of Crucifying" .
         <book/Book/487> a <Book> .
+        <book/Book/487> e:hasTitle "The Warm Charm" .
         <book/Book/488> a <Book> .
+        <book/Book/488> e:hasTitle "Assassin of Thrones" .
         <book/Book/489> a <Book> .
+        <book/Book/489> e:hasTitle "The Endless Sword" .
         <book/Book/490> a <Book> .
+        <book/Book/490> e:hasTitle "Bone of Dark" .
         <book/Book/491> a <Book> .
+        <book/Book/491> e:hasTitle "Keeps of the Lusting Sea" .
         <book/Book/492> a <Book> .
+        <book/Book/492> e:hasTitle "Quest of Glass" .
         <book/Book/493> a <Book> .
+        <book/Book/493> e:hasTitle "Assassin's Apprentice" .
         <book/Book/494> a <Book> .
+        <book/Book/494> e:hasTitle "The Golden Chair" .
         <book/Book/495> a <Book> .
+        <book/Book/495> e:hasTitle "The White Wheel" .
         <book/Book/496> a <Book> .
+        <book/Book/496> e:hasTitle "Boy of Woman" .
         <book/Book/497> a <Book> .
+        <book/Book/497> e:hasTitle "Pawn of Time" .
         <book/Book/498> a <Book> .
+        <book/Book/498> e:hasTitle "Husband of the Hot Attraction" .
         <book/Book/499> a <Book> .
+        <book/Book/499> e:hasTitle "The Still Corpse of Silencing" .
         <book/Book/500> a <Book> .
+        <book/Book/500> e:hasTitle "Steven's Cleric" .
         <book/Book/501> a <Book> .
+        <book/Book/501> e:hasTitle "King's Errand" .
         <book/Book/502> a <Book> .
+        <book/Book/502> e:hasTitle "The Neverending Cleric" .
         <book/Book/503> a <Book> .
+        <book/Book/503> e:hasTitle "The Lost Dragon" .
         <book/Book/504> a <Book> .
+        <book/Book/504> e:hasTitle "Garden of Thrones" .
         <book/Book/505> a <Book> .
+        <book/Book/505> e:hasTitle "Rule of the Empire" .
         <book/Book/506> a <Book> .
+        <book/Book/506> e:hasTitle "The Innocent Cannibal of Stalking" .
         <book/Book/507> a <Book> .
+        <book/Book/507> e:hasTitle "The Terrible Cannibal of Destroying" .
         <book/Book/508> a <Book> .
+        <book/Book/508> e:hasTitle "Lover of the Lusting Kiss" .
         <book/Book/509> a <Book> .
+        <book/Book/509> e:hasTitle "The Flowing Sword" .
         <book/Book/510> a <Book> .
+        <book/Book/510> e:hasTitle "Ship of Chaos" .
         <book/Book/511> a <Book> .
+        <book/Book/511> e:hasTitle "The Crystal Wizard" .
         <book/Book/512> a <Book> .
+        <book/Book/512> e:hasTitle "Wife of the Smooth Attraction" .
         <book/Book/513> a <Book> .
+        <book/Book/513> e:hasTitle "Prism of the Empire" .
         <book/Book/514> a <Book> .
+        <book/Book/514> e:hasTitle "Story of Shadows" .
         <book/Book/515> a <Book> .
+        <book/Book/515> e:hasTitle "Way of Kings" .
         <book/Book/516> a <Book> .
+        <book/Book/516> e:hasTitle "Staff of Death" .
         <book/Book/517> a <Book> .
+        <book/Book/517> e:hasTitle "The Quiet Corpse" .
         <book/Book/518> a <Book> .
+        <book/Book/518> e:hasTitle "The Evil Quest" .
         <book/Book/519> a <Book> .
+        <book/Book/519> e:hasTitle "The Troubled Night of Slaughtering" .
         <book/Book/520> a <Book> .
+        <book/Book/520> e:hasTitle "Rule of Shadows" .
         <book/Book/521> a <Book> .
+        <book/Book/521> e:hasTitle "The Radiant Army" .
         <book/Book/522> a <Book> .
+        <book/Book/522> e:hasTitle "King of Shadows" .
         <book/Book/523> a <Book> .
+        <book/Book/523> e:hasTitle "Cleric of Swords" .
         <book/Book/524> a <Book> .
+        <book/Book/524> e:hasTitle "The Final Storm" .
         <book/Book/525> a <Book> .
+        <book/Book/525> e:hasTitle "The Quiet Cross of Shooting" .
         <book/Book/526> a <Book> .
+        <book/Book/526> e:hasTitle "Prince of the Queen" .
         <book/Book/527> a <Book> .
+        <book/Book/527> e:hasTitle "The Hungering Predjudice" .
         <book/Book/528> a <Book> .
+        <book/Book/528> e:hasTitle "Way of the Stars" .
         <book/Book/529> a <Book> .
+        <book/Book/529> e:hasTitle "King of Kings" .
         <book/Book/530> a <Book> .
+        <book/Book/530> e:hasTitle "The Black Name" .
         <book/Book/531> a <Book> .
+        <book/Book/531> e:hasTitle "The Shining Wish" .
         <book/Book/532> a <Book> .
+        <book/Book/532> e:hasTitle "Ship of Radiance" .
         <book/Book/533> a <Book> .
+        <book/Book/533> e:hasTitle "Queen of Wind" .
         <book/Book/534> a <Book> .
+        <book/Book/534> e:hasTitle "The Neverending Chair" .
         <book/Book/535> a <Book> .
+        <book/Book/535> e:hasTitle "The Final Dragon" .
         <book/Book/536> a <Book> .
+        <book/Book/536> e:hasTitle "Evening of the Warm Delta" .
         <book/Book/537> a <Book> .
+        <book/Book/537> e:hasTitle "Edge of the Warm Attraction" .
         <book/Book/538> a <Book> .
+        <book/Book/538> e:hasTitle "The White Theft" .
         <book/Book/539> a <Book> .
+        <book/Book/539> e:hasTitle "Ritual of Girl" .
         <book/Book/540> a <Book> .
+        <book/Book/540> e:hasTitle "The Innocent Silence of Following" .
         <book/Book/541> a <Book> .
+        <book/Book/541> e:hasTitle "The Innocent Train of Sacrifice" .
         <book/Book/542> a <Book> .
+        <book/Book/542> e:hasTitle "King's Game" .
         <book/Book/543> a <Book> .
+        <book/Book/543> e:hasTitle "Slaughtering of the Black Night" .
         <book/Book/544> a <Book> .
+        <book/Book/544> e:hasTitle "The Golden Storm" .
         <book/Book/545> a <Book> .
+        <book/Book/545> e:hasTitle "The Terrible Night of Murder" .
         <book/Book/546> a <Book> .
+        <book/Book/546> e:hasTitle "City of the Empire" .
         <book/Book/547> a <Book> .
+        <book/Book/547> e:hasTitle "Train of Girl" .
         <book/Book/548> a <Book> .
+        <book/Book/548> e:hasTitle "The White Way" .
         <book/Book/549> a <Book> .
+        <book/Book/549> e:hasTitle "Company of Darkness" .
         <book/Book/550> a <Book> .
+        <book/Book/550> e:hasTitle "Sword of Magic" .
         <book/Book/551> a <Book> .
+        <book/Book/551> e:hasTitle "Prince of the Forest" .
         <book/Book/552> a <Book> .
+        <book/Book/552> e:hasTitle "Assassin's Tale" .
         <book/Book/553> a <Book> .
+        <book/Book/553> e:hasTitle "The Cold Bone" .
         <book/Book/554> a <Book> .
+        <book/Book/554> e:hasTitle "The Shining Journey" .
         <book/Book/555> a <Book> .
+        <book/Book/555> e:hasTitle "The White Queen" .
         <book/Book/556> a <Book> .
+        <book/Book/556> e:hasTitle "Hero's Horseman" .
         <book/Book/557> a <Book> .
+        <book/Book/557> e:hasTitle "Storm of the Moon" .
         <book/Book/558> a <Book> .
+        <book/Book/558> e:hasTitle "The Glimmering Cave" .
         <book/Book/559> a <Book> .
+        <book/Book/559> e:hasTitle "The Holy Company" .
         <book/Book/560> a <Book> .
+        <book/Book/560> e:hasTitle "The Lost Wizard" .
         <book/Book/561> a <Book> .
+        <book/Book/561> e:hasTitle "Queen's Story" .
         <book/Book/562> a <Book> .
+        <book/Book/562> e:hasTitle "The Bound Shaft" .
         <book/Book/563> a <Book> .
+        <book/Book/563> e:hasTitle "The White Cleric" .
         <book/Book/564> a <Book> .
+        <book/Book/564> e:hasTitle "King's Wheel" .
         <book/Book/565> a <Book> .
+        <book/Book/565> e:hasTitle "The Diamond City" .
         <book/Book/566> a <Book> .
+        <book/Book/566> e:hasTitle "Magic's Game" .
         <book/Book/567> a <Book> .
+        <book/Book/567> e:hasTitle "Throne of Time" .
         <book/Book/568> a <Book> .
+        <book/Book/568> e:hasTitle "The Evil Crime of Suffering" .
         <book/Book/569> a <Book> .
+        <book/Book/569> e:hasTitle "Oath of Chaos" .
         <book/Book/570> a <Book> .
+        <book/Book/570> e:hasTitle "The Calm Death of Following" .
         <book/Book/571> a <Book> .
+        <book/Book/571> e:hasTitle "The White Name" .
         <book/Book/572> a <Book> .
+        <book/Book/572> e:hasTitle "Pride of the Glowing Spell" .
         <book/Book/573> a <Book> .
+        <book/Book/573> e:hasTitle "Curse of Magic" .
         <book/Book/574> a <Book> .
+        <book/Book/574> e:hasTitle "The Magical Wish" .
         <book/Book/575> a <Book> .
+        <book/Book/575> e:hasTitle "Horde of the Queen" .
         <book/Book/576> a <Book> .
+        <book/Book/576> e:hasTitle "The Glowing Predjudice" .
         <book/Book/577> a <Book> .
+        <book/Book/577> e:hasTitle "The Innocent Cannibal" .
         <book/Book/578> a <Book> .
+        <book/Book/578> e:hasTitle "The Interesting Longing" .
         <book/Book/579> a <Book> .
+        <book/Book/579> e:hasTitle "The Crystal Oath" .
         <book/Book/580> a <Book> .
+        <book/Book/580> e:hasTitle "Princess of the Forest" .
         <book/Book/581> a <Book> .
+        <book/Book/581> e:hasTitle "Assassin's Staff" .
         <book/Book/582> a <Book> .
+        <book/Book/582> e:hasTitle "Princess of Swords" .
         <book/Book/583> a <Book> .
+        <book/Book/583> e:hasTitle "The Radiating Venus" .
         <book/Book/584> a <Book> .
+        <book/Book/584> e:hasTitle "The Lost Ranger" .
         <book/Book/585> a <Book> .
+        <book/Book/585> e:hasTitle "Wizard's Story" .
         <book/Book/586> a <Book> .
+        <book/Book/586> e:hasTitle "The Enormous Pawn" .
         <book/Book/587> a <Book> .
+        <book/Book/587> e:hasTitle "Story of Kings" .
         <book/Book/588> a <Book> .
+        <book/Book/588> e:hasTitle "Sacrifice of the Evil Train" .
         <book/Book/589> a <Book> .
+        <book/Book/589> e:hasTitle "The Neverending City" .
         <book/Book/590> a <Book> .
+        <book/Book/590> e:hasTitle "The Lost Errand" .
         <book/Book/591> a <Book> .
+        <book/Book/591> e:hasTitle "Wish of Time" .
         <book/Book/592> a <Book> .
+        <book/Book/592> e:hasTitle "Fool's Journey" .
         <book/Book/593> a <Book> .
+        <book/Book/593> e:hasTitle "The Endless Name" .
         <book/Book/594> a <Book> .
+        <book/Book/594> e:hasTitle "The Unholy Man of Shooting" .
         <book/Book/595> a <Book> .
+        <book/Book/595> e:hasTitle "Longing of the Lusting Fire" .
         <book/Book/596> a <Book> .
+        <book/Book/596> e:hasTitle "Assassin's Pawn" .
         <book/Book/597> a <Book> .
+        <book/Book/597> e:hasTitle "Sacrifice of the Troubled Night" .
         <book/Book/598> a <Book> .
+        <book/Book/598> e:hasTitle "The Mysterious Assassin" .
         <book/Book/599> a <Book> .
+        <book/Book/599> e:hasTitle "Horde of the Empire" .
         <book/Book/600> a <Book> .
+        <book/Book/600> e:hasTitle "The Quiet Night of Murder" .
         <book/Book/601> a <Book> .
+        <book/Book/601> e:hasTitle "Silencing of the Dark Train" .
         <book/Book/602> a <Book> .
+        <book/Book/602> e:hasTitle "The Black Crime of Stalking" .
         <book/Book/603> a <Book> .
+        <book/Book/603> e:hasTitle "Night of Night" .
         <book/Book/604> a <Book> .
+        <book/Book/604> e:hasTitle "Cleric of Plague" .
         <book/Book/605> a <Book> .
+        <book/Book/605> e:hasTitle "The Neverending Throne" .
         <book/Book/606> a <Book> .
+        <book/Book/606> e:hasTitle "The Dragonbone Name" .
         <book/Book/607> a <Book> .
+        <book/Book/607> e:hasTitle "The Enticing Pride" .
         <book/Book/608> a <Book> .
+        <book/Book/608> e:hasTitle "Errand of Thrones" .
         <book/Book/609> a <Book> .
+        <book/Book/609> e:hasTitle "Story of Plague" .
         <book/Book/610> a <Book> .
+        <book/Book/610> e:hasTitle "Delta of the Warm Spell" .
         <book/Book/611> a <Book> .
+        <book/Book/611> e:hasTitle "Fool's Garden" .
         <book/Book/612> a <Book> .
+        <book/Book/612> e:hasTitle "The Flowing Unicorn" .
         <book/Book/613> a <Book> .
+        <book/Book/613> e:hasTitle "The Caring Longing" .
         <book/Book/614> a <Book> .
+        <book/Book/614> e:hasTitle "Tale of Darkness" .
         <book/Book/615> a <Book> .
+        <book/Book/615> e:hasTitle "Crown of the World" .
         <book/Book/616> a <Book> .
+        <book/Book/616> e:hasTitle "Pawn of Radiance" .
         <book/Book/617> a <Book> .
+        <book/Book/617> e:hasTitle "The Final Wizard" .
         <book/Book/618> a <Book> .
+        <book/Book/618> e:hasTitle "The Quiet Woman of Stalking" .
         <book/Book/619> a <Book> .
+        <book/Book/619> e:hasTitle "The Innocent Cross of Slaughtering" .
         <book/Book/620> a <Book> .
+        <book/Book/620> e:hasTitle "Sword of the World" .
         <book/Book/621> a <Book> .
+        <book/Book/621> e:hasTitle "The Dragonbone Princess" .
         <book/Book/622> a <Book> .
+        <book/Book/622> e:hasTitle "The Still Bone" .
         <book/Book/623> a <Book> .
+        <book/Book/623> e:hasTitle "Sword of Ages" .
         <book/Book/624> a <Book> .
+        <book/Book/624> e:hasTitle "The Enormous Errand" .
         <book/Book/625> a <Book> .
+        <book/Book/625> e:hasTitle "Staff of the Moon" .
         <book/Book/626> a <Book> .
+        <book/Book/626> e:hasTitle "The Honest Secret" .
         <book/Book/627> a <Book> .
+        <book/Book/627> e:hasTitle "The Perfect Woman of Murder" .
         <book/Book/628> a <Book> .
+        <book/Book/628> e:hasTitle "The Calm Cross of Shooting" .
         <book/Book/629> a <Book> .
+        <book/Book/629> e:hasTitle "Pride of the Lustful Keeps" .
         <book/Book/630> a <Book> .
+        <book/Book/630> e:hasTitle "Love of the Real Spell" .
         <book/Book/631> a <Book> .
+        <book/Book/631> e:hasTitle "Knight's Wizard" .
         <book/Book/632> a <Book> .
+        <book/Book/632> e:hasTitle "The Still Murder" .
         <book/Book/633> a <Book> .
+        <book/Book/633> e:hasTitle "Husband of the Lustful Pride" .
         <book/Book/634> a <Book> .
+        <book/Book/634> e:hasTitle "Hug of the Interesting Moon" .
         <book/Book/635> a <Book> .
+        <book/Book/635> e:hasTitle "Longing of the Honest Keeps" .
         <book/Book/636> a <Book> .
+        <book/Book/636> e:hasTitle "Kiss of the Bound Sea" .
         <book/Book/637> a <Book> .
+        <book/Book/637> e:hasTitle "Destroying of the Unholy Ritual" .
         <book/Book/638> a <Book> .
+        <book/Book/638> e:hasTitle "The Hungering Hug" .
         <book/Book/639> a <Book> .
+        <book/Book/639> e:hasTitle "The Lusting Charm" .
         <book/Book/640> a <Book> .
+        <book/Book/640> e:hasTitle "The Wild Wheel" .
         <book/Book/641> a <Book> .
+        <book/Book/641> e:hasTitle "Queen's Oath" .
         <book/Book/642> a <Book> .
+        <book/Book/642> e:hasTitle "The Endless Queen" .
         <book/Book/643> a <Book> .
+        <book/Book/643> e:hasTitle "The Quiet Night of Following" .
         <book/Book/644> a <Book> .
+        <book/Book/644> e:hasTitle "Empire of Thrones" .
         <book/Book/645> a <Book> .
+        <book/Book/645> e:hasTitle "Rule of Kings" .
         <book/Book/646> a <Book> .
+        <book/Book/646> e:hasTitle "The Still Night of Crucifying" .
         <book/Book/647> a <Book> .
+        <book/Book/647> e:hasTitle "The Lustful Rule" .
         <book/Book/648> a <Book> .
+        <book/Book/648> e:hasTitle "The Great Princess" .
         <book/Book/649> a <Book> .
+        <book/Book/649> e:hasTitle "Sword of the Empire" .
         <book/Book/650> a <Book> .
+        <book/Book/650> e:hasTitle "The Dark Boy of Shooting" .
         <book/Book/651> a <Book> .
+        <book/Book/651> e:hasTitle "The Lost City" .
         <book/Book/652> a <Book> .
+        <book/Book/652> e:hasTitle "Knight's Unicorn" .
         <book/Book/653> a <Book> .
+        <book/Book/653> e:hasTitle "The Calm Girl of Sacrifice" .
         <book/Book/654> a <Book> .
+        <book/Book/654> e:hasTitle "The Beautiful Love" .
         <book/Book/655> a <Book> .
+        <book/Book/655> e:hasTitle "The White Storm" .
         <book/Book/656> a <Book> .
+        <book/Book/656> e:hasTitle "The Glimmering Horseman" .
         <book/Book/657> a <Book> .
+        <book/Book/657> e:hasTitle "The Warded Paladin" .
         <book/Book/658> a <Book> .
+        <book/Book/658> e:hasTitle "The Lost Assassin" .
         <book/Book/659> a <Book> .
+        <book/Book/659> e:hasTitle "The Shining Sword" .
         <book/Book/660> a <Book> .
+        <book/Book/660> e:hasTitle "The Glimmering Theft" .
         <book/Book/661> a <Book> .
+        <book/Book/661> e:hasTitle "Assassin's Chair" .
         <book/Book/662> a <Book> .
+        <book/Book/662> e:hasTitle "Shooting of the Perfect Death" .
         <book/Book/663> a <Book> .
+        <book/Book/663> e:hasTitle "Assassin's Garden" .
         <book/Book/664> a <Book> .
+        <book/Book/664> e:hasTitle "The Terrible Crime" .
         <book/Book/665> a <Book> .
+        <book/Book/665> e:hasTitle "The Radiant Theft" .
         <book/Book/666> a <Book> .
+        <book/Book/666> e:hasTitle "The Unholy Night of Following" .
         <book/Book/667> a <Book> .
+        <book/Book/667> e:hasTitle "Unicorn of Chaos" .
         <book/Book/668> a <Book> .
+        <book/Book/668> e:hasTitle "The Warded Company" .
         <book/Book/669> a <Book> .
+        <book/Book/669> e:hasTitle "The Flowing Prince" .
         <book/Book/670> a <Book> .
+        <book/Book/670> e:hasTitle "Assassin's Curse" .
         <book/Book/671> a <Book> .
+        <book/Book/671> e:hasTitle "Staff of Ages" .
         <book/Book/672> a <Book> .
+        <book/Book/672> e:hasTitle "The Beautiful Charm" .
         <book/Book/673> a <Book> .
+        <book/Book/673> e:hasTitle "Horde of Chaos" .
         <book/Book/674> a <Book> .
+        <book/Book/674> e:hasTitle "The Dragonbone Apprentice" .
         <book/Book/675> a <Book> .
+        <book/Book/675> e:hasTitle "Love of the Loving Rule" .
         <book/Book/676> a <Book> .
+        <book/Book/676> e:hasTitle "The Troubled Boy of Shooting" .
         <book/Book/677> a <Book> .
+        <book/Book/677> e:hasTitle "Sacrifice of the Still Dark" .
         <book/Book/678> a <Book> .
+        <book/Book/678> e:hasTitle "Ritual of Silence" .
         <book/Book/679> a <Book> .
+        <book/Book/679> e:hasTitle "Fault of the Radiating Pillar" .
         <book/Book/680> a <Book> .
+        <book/Book/680> e:hasTitle "The Innocent Murder of Murder" .
         <book/Book/681> a <Book> .
+        <book/Book/681> e:hasTitle "The Endless Journey" .
         <book/Book/682> a <Book> .
+        <book/Book/682> e:hasTitle "Prince of the Stars" .
         <book/Book/683> a <Book> .
+        <book/Book/683> e:hasTitle "The Endless Unicorn" .
         <book/Book/684> a <Book> .
+        <book/Book/684> e:hasTitle "The Glimmering Lord" .
         <book/Book/685> a <Book> .
+        <book/Book/685> e:hasTitle "Rule of the Interesting Edge" .
         <book/Book/686> a <Book> .
+        <book/Book/686> e:hasTitle "Staff of Plague" .
         <book/Book/687> a <Book> .
+        <book/Book/687> e:hasTitle "Prince of Swords" .
         <book/Book/688> a <Book> .
+        <book/Book/688> e:hasTitle "Wizard of Magic" .
         <book/Book/689> a <Book> .
+        <book/Book/689> e:hasTitle "The Dragonbone Prism" .
         <book/Book/690> a <Book> .
+        <book/Book/690> e:hasTitle "The Warded Theft" .
         <book/Book/691> a <Book> .
+        <book/Book/691> e:hasTitle "Lover of the Beautiful Tranquility" .
         <book/Book/692> a <Book> .
+        <book/Book/692> e:hasTitle "City of Glass" .
         <book/Book/693> a <Book> .
+        <book/Book/693> e:hasTitle "Sacrifice of the Unholy Night" .
         <book/Book/694> a <Book> .
+        <book/Book/694> e:hasTitle "Oath of Shadows" .
         <book/Book/695> a <Book> .
+        <book/Book/695> e:hasTitle "The Glowing Charm" .
         <book/Book/696> a <Book> .
+        <book/Book/696> e:hasTitle "The Radiant Way" .
         <book/Book/697> a <Book> .
+        <book/Book/697> e:hasTitle "The Warded King" .
         <book/Book/698> a <Book> .
+        <book/Book/698> e:hasTitle "The Final City" .
         <book/Book/699> a <Book> .
+        <book/Book/699> e:hasTitle "The White Ranger" .
         <book/Book/700> a <Book> .
+        <book/Book/700> e:hasTitle "Name of Death" .
         <book/Book/701> a <Book> .
+        <book/Book/701> e:hasTitle "Tale of the Forest" .
         <book/Book/702> a <Book> .
+        <book/Book/702> e:hasTitle "Stalking of the Dark Dark" .
         <book/Book/703> a <Book> .
+        <book/Book/703> e:hasTitle "Famine of Blood" .
         <book/Book/704> a <Book> .
+        <book/Book/704> e:hasTitle "Wheel of Darkness" .
         <book/Book/705> a <Book> .
+        <book/Book/705> e:hasTitle "The Deadly Horde" .
         <book/Book/706> a <Book> .
+        <book/Book/706> e:hasTitle "The Evil Cannibal" .
         <book/Book/707> a <Book> .
+        <book/Book/707> e:hasTitle "The Glowing Pride" .
         <book/Book/708> a <Book> .
+        <book/Book/708> e:hasTitle "The Lustful Kiss" .
         <book/Book/709> a <Book> .
+        <book/Book/709> e:hasTitle "Prince of the World" .
         <book/Book/710> a <Book> .
+        <book/Book/710> e:hasTitle "Bone of Fear" .
         <book/Book/711> a <Book> .
+        <book/Book/711> e:hasTitle "The Evil Murder of Destroying" .
         <book/Book/712> a <Book> .
+        <book/Book/712> e:hasTitle "Wizard of the Stars" .
         <book/Book/713> a <Book> .
+        <book/Book/713> e:hasTitle "The Dark Prince" .
         <book/Book/714> a <Book> .
+        <book/Book/714> e:hasTitle "Man of the Bound Man" .
         <book/Book/715> a <Book> .
+        <book/Book/715> e:hasTitle "Destroying of the Terrible Cannibal" .
         <book/Book/716> a <Book> .
+        <book/Book/716> e:hasTitle "The Bound Sea" .
         <book/Book/717> a <Book> .
+        <book/Book/717> e:hasTitle "Fool's Errand" .
         <book/Book/718> a <Book> .
+        <book/Book/718> e:hasTitle "The White Empire" .
         <book/Book/719> a <Book> .
+        <book/Book/719> e:hasTitle "The Steaming Army" .
         <book/Book/720> a <Book> .
+        <book/Book/720> e:hasTitle "The Mysterious Apprentice" .
         <book/Book/721> a <Book> .
+        <book/Book/721> e:hasTitle "Apprentice of the World" .
         <book/Book/722> a <Book> .
+        <book/Book/722> e:hasTitle "The Glimmering Sword" .
         <book/Book/723> a <Book> .
+        <book/Book/723> e:hasTitle "Fool's Assassin" .
         <book/Book/724> a <Book> .
+        <book/Book/724> e:hasTitle "Pride of the Enticing Lover" .
         <book/Book/725> a <Book> .
+        <book/Book/725> e:hasTitle "Chair of Darkness" .
         <book/Book/726> a <Book> .
+        <book/Book/726> e:hasTitle "Quest of Time" .
         <book/Book/727> a <Book> .
+        <book/Book/727> e:hasTitle "The Deadly Theft" .
         <book/Book/728> a <Book> .
+        <book/Book/728> e:hasTitle "The Warded Prince" .
         <book/Book/729> a <Book> .
+        <book/Book/729> e:hasTitle "Journey of the World" .
         <book/Book/730> a <Book> .
+        <book/Book/730> e:hasTitle "Prism of the Queen" .
         <book/Book/731> a <Book> .
+        <book/Book/731> e:hasTitle "Hero's Pawn" .
         <book/Book/732> a <Book> .
+        <book/Book/732> e:hasTitle "Heart of the Honest Charm" .
         <book/Book/733> a <Book> .
+        <book/Book/733> e:hasTitle "The Flowing Chair" .
         <book/Book/734> a <Book> .
+        <book/Book/734> e:hasTitle "The Lusting Keeps" .
         <book/Book/735> a <Book> .
+        <book/Book/735> e:hasTitle "City of Blood" .
         <book/Book/736> a <Book> .
+        <book/Book/736> e:hasTitle "Queen's Horseman" .
         <book/Book/737> a <Book> .
+        <book/Book/737> e:hasTitle "Dragon of Death" .
         <book/Book/738> a <Book> .
+        <book/Book/738> e:hasTitle "Murder of Woman" .
         <book/Book/739> a <Book> .
+        <book/Book/739> e:hasTitle "Crime of Blood" .
         <book/Book/740> a <Book> .
+        <book/Book/740> e:hasTitle "Princess of Radiance" .
         <book/Book/741> a <Book> .
+        <book/Book/741> e:hasTitle "Night of Blood" .
         <book/Book/742> a <Book> .
+        <book/Book/742> e:hasTitle "The Interesting Rule" .
         <book/Book/743> a <Book> .
+        <book/Book/743> e:hasTitle "Fault of the Lustful Venus" .
         <book/Book/744> a <Book> .
+        <book/Book/744> e:hasTitle "Secret of the Hot Hunger" .
         <book/Book/745> a <Book> .
+        <book/Book/745> e:hasTitle "The Dark Paladin" .
         <book/Book/746> a <Book> .
+        <book/Book/746> e:hasTitle "The Flowing Apprentice" .
         <book/Book/747> a <Book> .
+        <book/Book/747> e:hasTitle "Assassin's Name" .
         <book/Book/748> a <Book> .
+        <book/Book/748> e:hasTitle "The Radiant Prism" .
         <book/Book/749> a <Book> .
+        <book/Book/749> e:hasTitle "The Innocent Woman of Slaughtering" .
         <book/Book/750> a <Book> .
+        <book/Book/750> e:hasTitle "Assassin's Sword" .
         <book/Book/751> a <Book> .
+        <book/Book/751> e:hasTitle "The Great Assassin" .
         <book/Book/752> a <Book> .
+        <book/Book/752> e:hasTitle "Wizard of Ages" .
         <book/Book/753> a <Book> .
+        <book/Book/753> e:hasTitle "Unicorn of the Empire" .
         <book/Book/754> a <Book> .
+        <book/Book/754> e:hasTitle "The Black Prism" .
         <book/Book/755> a <Book> .
+        <book/Book/755> e:hasTitle "The Steaming Paladin" .
         <book/Book/756> a <Book> .
+        <book/Book/756> e:hasTitle "The White Curse" .
         <book/Book/757> a <Book> .
+        <book/Book/757> e:hasTitle "Heart of the Daring Evening" .
         <book/Book/758> a <Book> .
+        <book/Book/758> e:hasTitle "The Warm Venus" .
         <book/Book/759> a <Book> .
+        <book/Book/759> e:hasTitle "The Radiant Pawn" .
         <book/Book/760> a <Book> .
+        <book/Book/760> e:hasTitle "Name of the Forest" .
         <book/Book/761> a <Book> .
+        <book/Book/761> e:hasTitle "Garden of Swords" .
         <book/Book/762> a <Book> .
+        <book/Book/762> e:hasTitle "Unicorn of Blood" .
         <book/Book/763> a <Book> .
+        <book/Book/763> e:hasTitle "Spell of the Mysterious Love" .
         <book/Book/764> a <Book> .
+        <book/Book/764> e:hasTitle "Queen of the Empire" .
         <book/Book/765> a <Book> .
+        <book/Book/765> e:hasTitle "Crucifying of the Troubled Fear" .
         <book/Book/766> a <Book> .
+        <book/Book/766> e:hasTitle "The Deadly Army" .
         <book/Book/767> a <Book> .
+        <book/Book/767> e:hasTitle "The Magical Pawn" .
         <book/Book/768> a <Book> .
+        <book/Book/768> e:hasTitle "Dragon of Magic" .
         <book/Book/769> a <Book> .
+        <book/Book/769> e:hasTitle "Steven's Wish" .
         <book/Book/770> a <Book> .
+        <book/Book/770> e:hasTitle "Throne of the Moon" .
         <book/Book/771> a <Book> .
+        <book/Book/771> e:hasTitle "The Lost Unicorn" .
         <book/Book/772> a <Book> .
+        <book/Book/772> e:hasTitle "The Daring Venus" .
         <book/Book/773> a <Book> .
+        <book/Book/773> e:hasTitle "The Black Cross of Silencing" .
         <book/Book/774> a <Book> .
+        <book/Book/774> e:hasTitle "Corpse of Blood" .
         <book/Book/775> a <Book> .
+        <book/Book/775> e:hasTitle "The Warded Sword" .
         <book/Book/776> a <Book> .
+        <book/Book/776> e:hasTitle "The Diamond Way" .
         <book/Book/777> a <Book> .
+        <book/Book/777> e:hasTitle "The Warded Errand" .
         <book/Book/778> a <Book> .
+        <book/Book/778> e:hasTitle "Throne of Magic" .
         <book/Book/779> a <Book> .
+        <book/Book/779> e:hasTitle "The Interesting Pillar" .
         <book/Book/780> a <Book> .
+        <book/Book/780> e:hasTitle "The Flowing Staff" .
         <book/Book/781> a <Book> .
+        <book/Book/781> e:hasTitle "The Evil Cave" .
         <book/Book/782> a <Book> .
+        <book/Book/782> e:hasTitle "The Steaming Ship" .
         <book/Book/783> a <Book> .
+        <book/Book/783> e:hasTitle "Rule of Wind" .
         <book/Book/784> a <Book> .
+        <book/Book/784> e:hasTitle "Fool's Paladin" .
         <book/Book/785> a <Book> .
+        <book/Book/785> e:hasTitle "The Enormous Assassin" .
         <book/Book/786> a <Book> .
+        <book/Book/786> e:hasTitle "Secret of the Enticing Wife" .
         <book/Book/787> a <Book> .
+        <book/Book/787> e:hasTitle "Assassin's Throne" .
         <book/Book/788> a <Book> .
+        <book/Book/788> e:hasTitle "Girl of Woman" .
         <book/Book/789> a <Book> .
+        <book/Book/789> e:hasTitle "Knight's Oath" .
         <book/Book/790> a <Book> .
+        <book/Book/790> e:hasTitle "Silencing of the Black Dark" .
         <book/Book/791> a <Book> .
+        <book/Book/791> e:hasTitle "The Dark Ritual" .
         <book/Book/792> a <Book> .
+        <book/Book/792> e:hasTitle "The Crystal Throne" .
         <book/Book/793> a <Book> .
+        <book/Book/793> e:hasTitle "Rule of the Queen" .
         <book/Book/794> a <Book> .
+        <book/Book/794> e:hasTitle "Game of Kings" .
         <book/Book/795> a <Book> .
+        <book/Book/795> e:hasTitle "Cannibal of Corpse" .
         <book/Book/796> a <Book> .
+        <book/Book/796> e:hasTitle "The Warded Horde" .
         <book/Book/797> a <Book> .
+        <book/Book/797> e:hasTitle "Knight's Lord" .
         <book/Book/798> a <Book> .
+        <book/Book/798> e:hasTitle "Suffering of the Perfect Night" .
         <book/Book/799> a <Book> .
+        <book/Book/799> e:hasTitle "The Lusting Venus" .
         <book/Book/800> a <Book> .
+        <book/Book/800> e:hasTitle "Man of Bone" .
         <book/Book/801> a <Book> .
+        <book/Book/801> e:hasTitle "Fault of the Daring Charm" .
         <book/Book/802> a <Book> .
+        <book/Book/802> e:hasTitle "The Mysterious Heart" .
         <book/Book/803> a <Book> .
+        <book/Book/803> e:hasTitle "Princess of the Moon" .
         <book/Book/804> a <Book> .
+        <book/Book/804> e:hasTitle "Night of Man" .
         <book/Book/805> a <Book> .
+        <book/Book/805> e:hasTitle "The Steaming King" .
         <book/Book/806> a <Book> .
+        <book/Book/806> e:hasTitle "The Calm Blood" .
         <book/Book/807> a <Book> .
+        <book/Book/807> e:hasTitle "Cross of Murder" .
         <book/Book/808> a <Book> .
+        <book/Book/808> e:hasTitle "The Deadly Assassin" .
         <book/Book/809> a <Book> .
+        <book/Book/809> e:hasTitle "The Black Cannibal of Suffering" .
         <book/Book/810> a <Book> .
+        <book/Book/810> e:hasTitle "The Enormous Dragon" .
         <book/Book/811> a <Book> .
+        <book/Book/811> e:hasTitle "The Smooth Longing" .
         <book/Book/812> a <Book> .
+        <book/Book/812> e:hasTitle "Suffering of the Scary Woman" .
         <book/Book/813> a <Book> .
+        <book/Book/813> e:hasTitle "The Shining Staff" .
         <book/Book/814> a <Book> .
+        <book/Book/814> e:hasTitle "The Dark Wish" .
         <book/Book/815> a <Book> .
+        <book/Book/815> e:hasTitle "King's Prince" .
         <book/Book/816> a <Book> .
+        <book/Book/816> e:hasTitle "Fire of the Lustful Edge" .
         <book/Book/817> a <Book> .
+        <book/Book/817> e:hasTitle "The Dark Ritual of Destroying" .
         <book/Book/818> a <Book> .
+        <book/Book/818> e:hasTitle "The Daring Kiss" .
         <book/Book/819> a <Book> .
+        <book/Book/819> e:hasTitle "Company of Ages" .
         <book/Book/820> a <Book> .
+        <book/Book/820> e:hasTitle "Prism of Blood" .
         <book/Book/821> a <Book> .
+        <book/Book/821> e:hasTitle "Way of Plague" .
         <book/Book/822> a <Book> .
+        <book/Book/822> e:hasTitle "Oath of Plague" .
         <book/Book/823> a <Book> .
+        <book/Book/823> e:hasTitle "Pride of the Honest Heart" .
         <book/Book/824> a <Book> .
+        <book/Book/824> e:hasTitle "The Evil Cannibal of Slaughtering" .
         <book/Book/825> a <Book> .
+        <book/Book/825> e:hasTitle "Bone of Murder" .
         <book/Book/826> a <Book> .
+        <book/Book/826> e:hasTitle "Murder of Cross" .
         <book/Book/827> a <Book> .
+        <book/Book/827> e:hasTitle "Knight's Horde" .
         <book/Book/828> a <Book> .
+        <book/Book/828> e:hasTitle "Throne of Darkness" .
         <book/Book/829> a <Book> .
+        <book/Book/829> e:hasTitle "Wizard's Empire" .
         <book/Book/830> a <Book> .
+        <book/Book/830> e:hasTitle "Following of the Innocent Girl" .
         <book/Book/831> a <Book> .
+        <book/Book/831> e:hasTitle "The Bound Husband" .
         <book/Book/832> a <Book> .
+        <book/Book/832> e:hasTitle "Pawn of the Empire" .
         <book/Book/833> a <Book> .
+        <book/Book/833> e:hasTitle "The Great Cleric" .
         <book/Book/834> a <Book> .
+        <book/Book/834> e:hasTitle "The Great Chair" .
         <book/Book/835> a <Book> .
+        <book/Book/835> e:hasTitle "The Mysterious Tale" .
         <book/Book/836> a <Book> .
+        <book/Book/836> e:hasTitle "Theft of Darkness" .
         <book/Book/837> a <Book> .
+        <book/Book/837> e:hasTitle "Wheel of the Moon" .
         <book/Book/838> a <Book> .
+        <book/Book/838> e:hasTitle "The Mysterious Ranger" .
         <book/Book/839> a <Book> .
+        <book/Book/839> e:hasTitle "The Black Crown" .
         <book/Book/840> a <Book> .
+        <book/Book/840> e:hasTitle "Apprentice of Darkness" .
         <book/Book/841> a <Book> .
+        <book/Book/841> e:hasTitle "The Black Game" .
         <book/Book/842> a <Book> .
+        <book/Book/842> e:hasTitle "The Crystal Game" .
         <book/Book/843> a <Book> .
+        <book/Book/843> e:hasTitle "Hero's Story" .
         <book/Book/844> a <Book> .
+        <book/Book/844> e:hasTitle "Errand of the Moon" .
         <book/Book/845> a <Book> .
+        <book/Book/845> e:hasTitle "The Last Horseman" .
         <book/Book/846> a <Book> .
+        <book/Book/846> e:hasTitle "The Radiant Journey" .
         <book/Book/847> a <Book> .
+        <book/Book/847> e:hasTitle "Assassin's Company" .
         <book/Book/848> a <Book> .
+        <book/Book/848> e:hasTitle "Suffering of the Evil Dark" .
         <book/Book/849> a <Book> .
+        <book/Book/849> e:hasTitle "Wizard's Staff" .
         <book/Book/850> a <Book> .
+        <book/Book/850> e:hasTitle "The Dragonbone Horseman" .
         <book/Book/851> a <Book> .
+        <book/Book/851> e:hasTitle "The Flowing Ship" .
         <book/Book/852> a <Book> .
+        <book/Book/852> e:hasTitle "The Flowing Cave" .
         <book/Book/853> a <Book> .
+        <book/Book/853> e:hasTitle "Knight's Theft" .
         <book/Book/854> a <Book> .
+        <book/Book/854> e:hasTitle "Horde of Radiance" .
         <book/Book/855> a <Book> .
+        <book/Book/855> e:hasTitle "The Daring Wife" .
         <book/Book/856> a <Book> .
+        <book/Book/856> e:hasTitle "Fire of the Honest Spell" .
         <book/Book/857> a <Book> .
+        <book/Book/857> e:hasTitle "Oath of Wind" .
         <book/Book/858> a <Book> .
+        <book/Book/858> e:hasTitle "Bone of Bone" .
         <book/Book/859> a <Book> .
+        <book/Book/859> e:hasTitle "Ship of Thorns" .
         <book/Book/860> a <Book> .
+        <book/Book/860> e:hasTitle "The Radiating Fire" .
         <book/Book/861> a <Book> .
+        <book/Book/861> e:hasTitle "The Glimmering Paladin" .
         <book/Book/862> a <Book> .
+        <book/Book/862> e:hasTitle "Girl of Famine" .
         <book/Book/863> a <Book> .
+        <book/Book/863> e:hasTitle "The Shining Throne" .
         <book/Book/864> a <Book> .
+        <book/Book/864> e:hasTitle "The Innocent Man of Crucifying" .
         <book/Book/865> a <Book> .
+        <book/Book/865> e:hasTitle "The Steaming Dragon" .
         <book/Book/866> a <Book> .
+        <book/Book/866> e:hasTitle "Cleric of Flame" .
         <book/Book/867> a <Book> .
+        <book/Book/867> e:hasTitle "Oath of Thorns" .
         <book/Book/868> a <Book> .
+        <book/Book/868> e:hasTitle "Oath of the Stars" .
         <book/Book/869> a <Book> .
+        <book/Book/869> e:hasTitle "Way of Magic" .
         <book/Book/870> a <Book> .
+        <book/Book/870> e:hasTitle "The Terrible Boy" .
         <book/Book/871> a <Book> .
+        <book/Book/871> e:hasTitle "Destroying of the Perfect Ritual" .
         <book/Book/872> a <Book> .
+        <book/Book/872> e:hasTitle "The Cold Fear of Drowning" .
         <book/Book/873> a <Book> .
+        <book/Book/873> e:hasTitle "Ritual of Corpse" .
         <book/Book/874> a <Book> .
+        <book/Book/874> e:hasTitle "Silencing of the Perfect Famine" .
         <book/Book/875> a <Book> .
+        <book/Book/875> e:hasTitle "Lord of the World" .
         <book/Book/876> a <Book> .
+        <book/Book/876> e:hasTitle "Rule of Darkness" .
         <book/Book/877> a <Book> .
+        <book/Book/877> e:hasTitle "Name of the Moon" .
         <book/Book/878> a <Book> .
+        <book/Book/878> e:hasTitle "Murder of the Troubled Boy" .
         <book/Book/879> a <Book> .
+        <book/Book/879> e:hasTitle "Shaft of the Loving Woman" .
         <book/Book/880> a <Book> .
+        <book/Book/880> e:hasTitle "Crucifying of the Cold Cross" .
         <book/Book/881> a <Book> .
+        <book/Book/881> e:hasTitle "Knight's Prince" .
         <book/Book/882> a <Book> .
+        <book/Book/882> e:hasTitle "The Lost King" .
         <book/Book/883> a <Book> .
+        <book/Book/883> e:hasTitle "Errand of Plague" .
         <book/Book/884> a <Book> .
+        <book/Book/884> e:hasTitle "Curse of the Empire" .
         <book/Book/885> a <Book> .
+        <book/Book/885> e:hasTitle "Hero's Horde" .
         <book/Book/886> a <Book> .
+        <book/Book/886> e:hasTitle "Wizard of the Queen" .
         <book/Book/887> a <Book> .
+        <book/Book/887> e:hasTitle "The Glimmering Army" .
         <book/Book/888> a <Book> .
+        <book/Book/888> e:hasTitle "Following of the Scary Cannibal" .
         <book/Book/889> a <Book> .
+        <book/Book/889> e:hasTitle "The Caring Canyon" .
         <book/Book/890> a <Book> .
+        <book/Book/890> e:hasTitle "Murder of Death" .
         <book/Book/891> a <Book> .
+        <book/Book/891> e:hasTitle "Queen's Errand" .
         <book/Book/892> a <Book> .
+        <book/Book/892> e:hasTitle "The Wild Pawn" .
         <book/Book/893> a <Book> .
+        <book/Book/893> e:hasTitle "Game of Time" .
         <book/Book/894> a <Book> .
+        <book/Book/894> e:hasTitle "The Crystal Theft" .
         <book/Book/895> a <Book> .
+        <book/Book/895> e:hasTitle "The Shining Storm" .
         <book/Book/896> a <Book> .
+        <book/Book/896> e:hasTitle "Charm of the Hot Heart" .
         <book/Book/897> a <Book> .
+        <book/Book/897> e:hasTitle "Empire of Wind" .
         <book/Book/898> a <Book> .
+        <book/Book/898> e:hasTitle "Crucifying of the Innocent Man" .
         <book/Book/899> a <Book> .
+        <book/Book/899> e:hasTitle "The Scary Death of Silencing" .
         <book/Book/900> a <Book> .
+        <book/Book/900> e:hasTitle "The Still Night" .
         <book/Book/901> a <Book> .
+        <book/Book/901> e:hasTitle "The Dark Man of Suffering" .
         <book/Book/902> a <Book> .
+        <book/Book/902> e:hasTitle "The Glowing Lover" .
         <book/Book/903> a <Book> .
+        <book/Book/903> e:hasTitle "The Dark Night" .
         <book/Book/904> a <Book> .
+        <book/Book/904> e:hasTitle "The Magical Apprentice" .
         <book/Book/905> a <Book> .
+        <book/Book/905> e:hasTitle "Queen's Wish" .
         <book/Book/906> a <Book> .
+        <book/Book/906> e:hasTitle "Wizard's Garden" .
         <book/Book/907> a <Book> .
+        <book/Book/907> e:hasTitle "Fool's Dragon" .
         <book/Book/908> a <Book> .
+        <book/Book/908> e:hasTitle "Queen of Ages" .
         <book/Book/909> a <Book> .
+        <book/Book/909> e:hasTitle "The Radiant Wheel" .
         <book/Book/910> a <Book> .
+        <book/Book/910> e:hasTitle "City of Thrones" .
         <book/Book/911> a <Book> .
+        <book/Book/911> e:hasTitle "Assassin of Plague" .
         <book/Book/912> a <Book> .
+        <book/Book/912> e:hasTitle "The Warm Heart" .
         <book/Book/913> a <Book> .
+        <book/Book/913> e:hasTitle "King's King" .
         <book/Book/914> a <Book> .
+        <book/Book/914> e:hasTitle "Apprentice of the Empire" .
         <book/Book/915> a <Book> .
+        <book/Book/915> e:hasTitle "Princess of Ages" .
         <book/Book/916> a <Book> .
+        <book/Book/916> e:hasTitle "The Golden Garden" .
         <book/Book/917> a <Book> .
+        <book/Book/917> e:hasTitle "Horde of Ages" .

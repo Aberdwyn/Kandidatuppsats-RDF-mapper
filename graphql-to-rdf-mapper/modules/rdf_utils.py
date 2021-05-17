@@ -65,7 +65,7 @@ def apply_rdf_template(filename, results):
         data = re.findall(r"\['(.*?)'\]", triple)
         print(data)
         #could probably look nicer with string formating
-        template_string += "    % if " + "'" + data[0] + "'" + " in result: \n"
+        template_string += "    % if set(" + str(data) + ").issubset(set(result.keys())): \n"
         template_string += "        " + triple + "\n"
         template_string += "    % endif\n"
     template_string += "% endfor"
