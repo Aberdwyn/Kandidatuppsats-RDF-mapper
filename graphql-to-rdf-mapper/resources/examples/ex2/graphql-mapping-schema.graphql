@@ -21,15 +21,19 @@ directive @join(on: String!) on FIELD_DEFINITION
 
 type Book {
     id: ID! 
-    authors: [Author!] @join(on:"Author.id")
-    title: String!
+    authors: [Author!]
+    title: String! 
+    genre: String!  
 }
 
 type Author {
     id: ID!
-    name: String!
+    name: String! 
     age: Int
 }
 
-
-
+type Reader {
+    id: ID!
+    name: String!
+    favourite_book: Book
+}

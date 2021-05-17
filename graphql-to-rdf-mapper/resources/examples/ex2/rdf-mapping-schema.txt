@@ -1,8 +1,12 @@
 @base <http://example.org#> .
 @prefix e: <http://example.org#> .
 
-<book/{Book.id}> a <Book> ;
-    e:hasTitle "{Book.title}" .
-
-<person/{Author.id}> a <Author> ;
-    e:hasAge {Author.age} .
+<book/{Book.id}> a <Book> .
+<book/{Book.id}> e:hasTitle "{Book.title}" .
+<book/{Book.id}> e:hasGenre "{Book.genre}" .
+<person/{Author.id}> a <Author> .
+<person/{Author.id}> e:hasAge "{Author.age}" .
+<person/{Author.id}> e:hasName "{Author.name}" .
+<person/{Reader.id}> a <Reader> .
+<person/{Reader.id}> e:hasName "{Reader.name}" .
+<person/{Reader.id} e:hasAge "{Reader.age}" .
