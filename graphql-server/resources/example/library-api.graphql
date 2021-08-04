@@ -24,7 +24,7 @@ enum Genre {
 type Movie {
   title: String!
   director: String!
-  producer: String!
+  producer: Person
   genre: Genre!
   id: ID!
 }
@@ -38,16 +38,16 @@ interface Person {
 
 type Query {
   book(id: ID!): Book
-  author(id: ID!): Author
-  person(id: ID!): Person
-  reader(id: ID!): Reader
   movie(id: ID!): Movie
+  author(id: ID!): Author
+  reader(id: ID!): Reader
+  person(id: ID!): Person
   combo(id: ID!): Combo
   books: [Book]
-  authors: [Author]
-  persons: [Person]
-  readers: [Reader]
   movies: [Movie]
+  authors: [Author]
+  readers: [Reader]
+  persons: [Person]
   combos: [Combo]
 }
 

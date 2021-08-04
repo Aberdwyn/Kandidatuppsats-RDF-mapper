@@ -1,0 +1,89 @@
+@base <http://example.org#> .
+@prefix e: <http://example.org#> .
+        <person/Author/33> a <YoungAuthor> .
+        <person/Author/33> e:hasAge "15" .
+        <person/Author/33> e:hasName "Robin Jordan" .
+        <person/Author/51> a <YoungAuthor> .
+        <person/Author/51> e:hasAge "16" .
+        <person/Author/51> e:hasName "Judith Jemisin" .
+        <person/Author/53> a <YoungAuthor> .
+        <person/Author/53> e:hasAge "17" .
+        <person/Author/53> e:hasName "Margaret Straub" .
+        <person/Author/99> a <YoungAuthor> .
+        <person/Author/99> e:hasAge "17" .
+        <person/Author/99> e:hasName "Janny Lawrence" .
+        <person/Author/167> a <YoungAuthor> .
+        <person/Author/167> e:hasAge "17" .
+        <person/Author/167> e:hasName "Alyssa Straub" .
+        <person/Author/226> a <YoungAuthor> .
+        <person/Author/226> e:hasAge "16" .
+        <person/Author/226> e:hasName "Laini McNaught" .
+        <person/Author/288> a <YoungAuthor> .
+        <person/Author/288> e:hasAge "16" .
+        <person/Author/288> e:hasName "Scott Lawrence" .
+        <person/Author/314> a <YoungAuthor> .
+        <person/Author/314> e:hasAge "16" .
+        <person/Author/314> e:hasName "Robert Lawrence" .
+        <person/Author/320> a <YoungAuthor> .
+        <person/Author/320> e:hasAge "16" .
+        <person/Author/320> e:hasName "Judith Taylor" .
+        <person/Author/391> a <YoungAuthor> .
+        <person/Author/391> e:hasAge "17" .
+        <person/Author/391> e:hasName "Trudi Brooks" .
+        <person/Author/393> a <YoungAuthor> .
+        <person/Author/393> e:hasAge "17" .
+        <person/Author/393> e:hasName "Guy Erikson" .
+        <person/Author/402> a <YoungAuthor> .
+        <person/Author/402> e:hasAge "17" .
+        <person/Author/402> e:hasName "Alyssa Sullivan" .
+        <person/Author/443> a <YoungAuthor> .
+        <person/Author/443> e:hasAge "15" .
+        <person/Author/443> e:hasName "Holly Straub" .
+        <person/Author/457> a <YoungAuthor> .
+        <person/Author/457> e:hasAge "16" .
+        <person/Author/457> e:hasName "Neil McNaught" .
+        <person/Author/511> a <YoungAuthor> .
+        <person/Author/511> e:hasAge "15" .
+        <person/Author/511> e:hasName "Anne Lynch" .
+        <person/Author/522> a <YoungAuthor> .
+        <person/Author/522> e:hasAge "15" .
+        <person/Author/522> e:hasName "Mylo Le Guin" .
+        <person/Author/544> a <YoungAuthor> .
+        <person/Author/544> e:hasAge "16" .
+        <person/Author/544> e:hasName "Dean Wurts" .
+        <person/Author/572> a <YoungAuthor> .
+        <person/Author/572> e:hasAge "17" .
+        <person/Author/572> e:hasName "Terry Kay" .
+        <person/Author/631> a <YoungAuthor> .
+        <person/Author/631> e:hasAge "16" .
+        <person/Author/631> e:hasName "Debbie Jordan" .
+        <person/Author/638> a <YoungAuthor> .
+        <person/Author/638> e:hasAge "15" .
+        <person/Author/638> e:hasName "Anne Cooper" .
+        <person/Author/644> a <YoungAuthor> .
+        <person/Author/644> e:hasAge "16" .
+        <person/Author/644> e:hasName "Holly Weis" .
+        <person/Author/664> a <YoungAuthor> .
+        <person/Author/664> e:hasAge "17" .
+        <person/Author/664> e:hasName "Guy Williams" .
+        <person/Author/682> a <YoungAuthor> .
+        <person/Author/682> e:hasAge "15" .
+        <person/Author/682> e:hasName "Robert McNaught" .
+        <person/Author/702> a <YoungAuthor> .
+        <person/Author/702> e:hasAge "17" .
+        <person/Author/702> e:hasName "Tamora Weis" .
+        <person/Author/739> a <YoungAuthor> .
+        <person/Author/739> e:hasAge "16" .
+        <person/Author/739> e:hasName "Alix Hobb" .
+        <person/Author/752> a <YoungAuthor> .
+        <person/Author/752> e:hasAge "15" .
+        <person/Author/752> e:hasName "Alix McNaught" .
+        <person/Author/756> a <YoungAuthor> .
+        <person/Author/756> e:hasAge "15" .
+        <person/Author/756> e:hasName "Steven Martin" .
+        <person/Author/774> a <YoungAuthor> .
+        <person/Author/774> e:hasAge "17" .
+        <person/Author/774> e:hasName "Jane Kerr" .
+        <person/Author/875> a <YoungAuthor> .
+        <person/Author/875> e:hasAge "17" .
+        <person/Author/875> e:hasName "Jude Lawrence" .

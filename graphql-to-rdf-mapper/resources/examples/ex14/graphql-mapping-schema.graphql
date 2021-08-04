@@ -20,20 +20,12 @@ directive @gt(int: Int, id: ID) on FIELD_DEFINITION
 directive @join(on: String!) on FIELD_DEFINITION
 
 type Book {
-    id: ID! 
-    authors: [Author!]
+    id: ID!
     title: String! 
-    genre: String!  
+    authors: [Author] @size(int: 1)
 }
 
 type Author {
     id: ID!
-    name: String! 
-    age: Int
-}
-
-type Reader {
-    id: ID!
     name: String!
-    age: Int
 }

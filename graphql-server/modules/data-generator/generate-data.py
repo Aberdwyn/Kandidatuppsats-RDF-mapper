@@ -167,6 +167,7 @@ def generate_producer_name():
 movies = []
 movie_ids = {}
 movie_genres = {}
+movie_producers = {}
 def generate_movies(nr):
     """Generate a number of movies equal to nr and saves them in a dictionary."""
     for n in range(int(nr)):
@@ -175,13 +176,31 @@ def generate_movies(nr):
         if d6 <= 4:
             movie = generate_fantasy_title()
             movie_genres[movie] = "FANTASY"
+            #if movie is a book, take author of book as producer
+            if movie in books:
+                movie_producers[movie] = authors[books[movie][0]]
+            else:
+                d20 = random.randint(1, 20)
+                if d20 == 1:
+                    movie_producers[movie] = None
+                elif d20 > 1:
+                    movie_producers[movie] = random.choice(list(readers.values()))
         elif d6 == 5:
             movie = generate_romance_title()
             movie_genres[movie] = "ROMANCE"
+            d20 = random.randint(1, 20)
+            if d20 == 1:
+                movie_producers[movie] = None
+            elif d20 > 1:
+                movie_producers[movie] = random.choice(list(readers.values()))
         elif d6 == 6:
             movie = generate_horror_title()
             movie_genres[movie] = "HORROR"
-        
+            d20 = random.randint(1, 20)
+            if d20 == 1:
+                movie_producers[movie] = None
+            elif d20 > 1:
+                movie_producers[movie] = random.choice(list(readers.values()))
         movies.append(movie)
     counter = 1
     for movie in movies:
@@ -267,7 +286,7 @@ def write_data_to_file():
         #movies
         file.write('    "Movie": {\n')
         for movie in movies:
-            file.write(f'        "{movie_ids[movie]}": {{ id: "{movie_ids[movie]}", title: "{movie}", genre: "{movie_genres[movie]}", producer: "{generate_producer_name()}", director: "{generate_director_name()}"}},\n')
+            file.write(f'        "{movie_ids[movie]}": {{ id: "{movie_ids[movie]}", title: "{movie}", genre: "{movie_genres[movie]}", producer: {{id: "{movie_producers[movie]}"}}, director: "{generate_director_name()}"}},\n')
         file.write('    },\n')
 
         #end
@@ -282,7 +301,7 @@ if __name__ == '__main__':
     generate_id_for_authors()
     find_relations_among_authors()
 
-    generate_reader(2000)
+    generate_reader(5000)
     find_reader_relations()
     generate_movies(500)
     write_data_to_file()

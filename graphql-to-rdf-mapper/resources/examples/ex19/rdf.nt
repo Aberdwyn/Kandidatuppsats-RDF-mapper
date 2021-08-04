@@ -1,0 +1,322 @@
+@base <http://example.org#> .
+@prefix e: <http://example.org#> .
+        <movie/Movie/158> a <Movie> .
+        <movie/Movie/158> e:hasTitle "Wizard's Story" .
+        <book/Book/576> a <Book> .
+        <book/Book/576> e:hasTitle "Wizard's Story" .
+        <movie/Movie/18> a <Movie> .
+        <movie/Movie/18> e:hasTitle "Way of Wind" .
+        <book/Book/848> a <Book> .
+        <book/Book/848> e:hasTitle "Way of Wind" .
+        <movie/Movie/21> a <Movie> .
+        <movie/Movie/21> e:hasTitle "Queen's Way" .
+        <book/Book/170> a <Book> .
+        <book/Book/170> e:hasTitle "Queen's Way" .
+        <movie/Movie/473> a <Movie> .
+        <movie/Movie/473> e:hasTitle "Fool's Dragon" .
+        <book/Book/761> a <Book> .
+        <book/Book/761> e:hasTitle "Fool's Dragon" .
+        <movie/Movie/34> a <Movie> .
+        <movie/Movie/34> e:hasTitle "The Dragonbone Wheel" .
+        <book/Book/776> a <Book> .
+        <book/Book/776> e:hasTitle "The Dragonbone Wheel" .
+        <movie/Movie/38> a <Movie> .
+        <movie/Movie/38> e:hasTitle "Fool's Quest" .
+        <book/Book/109> a <Book> .
+        <book/Book/109> e:hasTitle "Fool's Quest" .
+        <movie/Movie/43> a <Movie> .
+        <movie/Movie/43> e:hasTitle "The Cold Cross" .
+        <book/Book/43> a <Book> .
+        <book/Book/43> e:hasTitle "The Cold Cross" .
+        <movie/Movie/47> a <Movie> .
+        <movie/Movie/47> e:hasTitle "Prism of Time" .
+        <book/Book/830> a <Book> .
+        <book/Book/830> e:hasTitle "Prism of Time" .
+        <movie/Movie/49> a <Movie> .
+        <movie/Movie/49> e:hasTitle "Night of Ritual" .
+        <book/Book/230> a <Book> .
+        <book/Book/230> e:hasTitle "Night of Ritual" .
+        <movie/Movie/68> a <Movie> .
+        <movie/Movie/68> e:hasTitle "Paladin of Darkness" .
+        <book/Book/440> a <Book> .
+        <book/Book/440> e:hasTitle "Paladin of Darkness" .
+        <movie/Movie/95> a <Movie> .
+        <movie/Movie/95> e:hasTitle "The Endless Story" .
+        <book/Book/752> a <Book> .
+        <book/Book/752> e:hasTitle "The Endless Story" .
+        <movie/Movie/96> a <Movie> .
+        <movie/Movie/96> e:hasTitle "The Last Princess" .
+        <book/Book/112> a <Book> .
+        <book/Book/112> e:hasTitle "The Last Princess" .
+        <movie/Movie/100> a <Movie> .
+        <movie/Movie/100> e:hasTitle "King's Story" .
+        <book/Book/697> a <Book> .
+        <book/Book/697> e:hasTitle "King's Story" .
+        <movie/Movie/103> a <Movie> .
+        <movie/Movie/103> e:hasTitle "The Terrible Bone of Destroying" .
+        <book/Book/206> a <Book> .
+        <book/Book/206> e:hasTitle "The Terrible Bone of Destroying" .
+        <movie/Movie/107> a <Movie> .
+        <movie/Movie/107> e:hasTitle "Game of Shadows" .
+        <book/Book/264> a <Book> .
+        <book/Book/264> e:hasTitle "Game of Shadows" .
+        <movie/Movie/109> a <Movie> .
+        <movie/Movie/109> e:hasTitle "Prism of Shadows" .
+        <book/Book/6> a <Book> .
+        <book/Book/6> e:hasTitle "Prism of Shadows" .
+        <movie/Movie/117> a <Movie> .
+        <movie/Movie/117> e:hasTitle "Knight's Curse" .
+        <book/Book/711> a <Book> .
+        <book/Book/711> e:hasTitle "Knight's Curse" .
+        <movie/Movie/118> a <Movie> .
+        <movie/Movie/118> e:hasTitle "The Shining Ranger" .
+        <book/Book/799> a <Book> .
+        <book/Book/799> e:hasTitle "The Shining Ranger" .
+        <movie/Movie/120> a <Movie> .
+        <movie/Movie/120> e:hasTitle "Cannibal of Ritual" .
+        <book/Book/607> a <Book> .
+        <book/Book/607> e:hasTitle "Cannibal of Ritual" .
+        <movie/Movie/127> a <Movie> .
+        <movie/Movie/127> e:hasTitle "The Wild Apprentice" .
+        <book/Book/868> a <Book> .
+        <book/Book/868> e:hasTitle "The Wild Apprentice" .
+        <movie/Movie/133> a <Movie> .
+        <movie/Movie/133> e:hasTitle "The Beautiful Spell" .
+        <book/Book/717> a <Book> .
+        <book/Book/717> e:hasTitle "The Beautiful Spell" .
+        <movie/Movie/135> a <Movie> .
+        <movie/Movie/135> e:hasTitle "Knight's Way" .
+        <book/Book/547> a <Book> .
+        <book/Book/547> e:hasTitle "Knight's Way" .
+        <movie/Movie/136> a <Movie> .
+        <movie/Movie/136> e:hasTitle "The Mysterious Throne" .
+        <book/Book/901> a <Book> .
+        <book/Book/901> e:hasTitle "The Mysterious Throne" .
+        <movie/Movie/141> a <Movie> .
+        <movie/Movie/141> e:hasTitle "Wizard of the Queen" .
+        <book/Book/278> a <Book> .
+        <book/Book/278> e:hasTitle "Wizard of the Queen" .
+        <movie/Movie/148> a <Movie> .
+        <movie/Movie/148> e:hasTitle "The Glowing Heart" .
+        <book/Book/195> a <Book> .
+        <book/Book/195> e:hasTitle "The Glowing Heart" .
+        <movie/Movie/197> a <Movie> .
+        <movie/Movie/197> e:hasTitle "Steven's Journey" .
+        <book/Book/182> a <Book> .
+        <book/Book/182> e:hasTitle "Steven's Journey" .
+        <movie/Movie/155> a <Movie> .
+        <movie/Movie/155> e:hasTitle "Magic's Horde" .
+        <book/Book/351> a <Book> .
+        <book/Book/351> e:hasTitle "Magic's Horde" .
+        <movie/Movie/156> a <Movie> .
+        <movie/Movie/156> e:hasTitle "The Magical Paladin" .
+        <book/Book/67> a <Book> .
+        <book/Book/67> e:hasTitle "The Magical Paladin" .
+        <movie/Movie/157> a <Movie> .
+        <movie/Movie/157> e:hasTitle "The Great Story" .
+        <book/Book/364> a <Book> .
+        <book/Book/364> e:hasTitle "The Great Story" .
+        <movie/Movie/165> a <Movie> .
+        <movie/Movie/165> e:hasTitle "Queen's Horseman" .
+        <book/Book/740> a <Book> .
+        <book/Book/740> e:hasTitle "Queen's Horseman" .
+        <movie/Movie/167> a <Movie> .
+        <movie/Movie/167> e:hasTitle "The Magical Dragon" .
+        <book/Book/513> a <Book> .
+        <book/Book/513> e:hasTitle "The Magical Dragon" .
+        <movie/Movie/180> a <Movie> .
+        <movie/Movie/180> e:hasTitle "Throne of the Queen" .
+        <book/Book/649> a <Book> .
+        <book/Book/649> e:hasTitle "Throne of the Queen" .
+        <movie/Movie/181> a <Movie> .
+        <movie/Movie/181> e:hasTitle "The Glimmering Paladin" .
+        <book/Book/909> a <Book> .
+        <book/Book/909> e:hasTitle "The Glimmering Paladin" .
+        <movie/Movie/182> a <Movie> .
+        <movie/Movie/182> e:hasTitle "The Enormous Quest" .
+        <book/Book/865> a <Book> .
+        <book/Book/865> e:hasTitle "The Enormous Quest" .
+        <movie/Movie/185> a <Movie> .
+        <movie/Movie/185> e:hasTitle "Way of Thrones" .
+        <book/Book/89> a <Book> .
+        <book/Book/89> e:hasTitle "Way of Thrones" .
+        <movie/Movie/196> a <Movie> .
+        <movie/Movie/196> e:hasTitle "The Shining Chair" .
+        <book/Book/626> a <Book> .
+        <book/Book/626> e:hasTitle "The Shining Chair" .
+        <movie/Movie/217> a <Movie> .
+        <movie/Movie/217> e:hasTitle "Garden of Chaos" .
+        <book/Book/204> a <Book> .
+        <book/Book/204> e:hasTitle "Garden of Chaos" .
+        <movie/Movie/414> a <Movie> .
+        <movie/Movie/414> e:hasTitle "Wizard's Unicorn" .
+        <book/Book/594> a <Book> .
+        <book/Book/594> e:hasTitle "Wizard's Unicorn" .
+        <movie/Movie/231> a <Movie> .
+        <movie/Movie/231> e:hasTitle "Crown of the Empire" .
+        <book/Book/133> a <Book> .
+        <book/Book/133> e:hasTitle "Crown of the Empire" .
+        <movie/Movie/232> a <Movie> .
+        <movie/Movie/232> e:hasTitle "The Shining Errand" .
+        <book/Book/817> a <Book> .
+        <book/Book/817> e:hasTitle "The Shining Errand" .
+        <movie/Movie/237> a <Movie> .
+        <movie/Movie/237> e:hasTitle "The Neverending Game" .
+        <book/Book/472> a <Book> .
+        <book/Book/472> e:hasTitle "The Neverending Game" .
+        <movie/Movie/239> a <Movie> .
+        <movie/Movie/239> e:hasTitle "The Black Corpse" .
+        <book/Book/473> a <Book> .
+        <book/Book/473> e:hasTitle "The Black Corpse" .
+        <movie/Movie/253> a <Movie> .
+        <movie/Movie/253> e:hasTitle "The Deadly Assassin" .
+        <book/Book/822> a <Book> .
+        <book/Book/822> e:hasTitle "The Deadly Assassin" .
+        <movie/Movie/257> a <Movie> .
+        <movie/Movie/257> e:hasTitle "The Radiant Journey" .
+        <book/Book/862> a <Book> .
+        <book/Book/862> e:hasTitle "The Radiant Journey" .
+        <movie/Movie/261> a <Movie> .
+        <movie/Movie/261> e:hasTitle "Storm of the Empire" .
+        <book/Book/768> a <Book> .
+        <book/Book/768> e:hasTitle "Storm of the Empire" .
+        <movie/Movie/274> a <Movie> .
+        <movie/Movie/274> e:hasTitle "The Radiant Wish" .
+        <book/Book/441> a <Book> .
+        <book/Book/441> e:hasTitle "The Radiant Wish" .
+        <movie/Movie/280> a <Movie> .
+        <movie/Movie/280> e:hasTitle "The Final Unicorn" .
+        <book/Book/188> a <Book> .
+        <book/Book/188> e:hasTitle "The Final Unicorn" .
+        <movie/Movie/283> a <Movie> .
+        <movie/Movie/283> e:hasTitle "Assassin's Ranger" .
+        <book/Book/117> a <Book> .
+        <book/Book/117> e:hasTitle "Assassin's Ranger" .
+        <movie/Movie/288> a <Movie> .
+        <movie/Movie/288> e:hasTitle "The Shining Rule" .
+        <book/Book/355> a <Book> .
+        <book/Book/355> e:hasTitle "The Shining Rule" .
+        <movie/Movie/303> a <Movie> .
+        <movie/Movie/303> e:hasTitle "Hero's Lord" .
+        <book/Book/350> a <Book> .
+        <book/Book/350> e:hasTitle "Hero's Lord" .
+        <movie/Movie/310> a <Movie> .
+        <movie/Movie/310> e:hasTitle "The Diamond Unicorn" .
+        <book/Book/418> a <Book> .
+        <book/Book/418> e:hasTitle "The Diamond Unicorn" .
+        <movie/Movie/314> a <Movie> .
+        <movie/Movie/314> e:hasTitle "Game of the Queen" .
+        <book/Book/142> a <Book> .
+        <book/Book/142> e:hasTitle "Game of the Queen" .
+        <movie/Movie/318> a <Movie> .
+        <movie/Movie/318> e:hasTitle "King of Thrones" .
+        <book/Book/127> a <Book> .
+        <book/Book/127> e:hasTitle "King of Thrones" .
+        <movie/Movie/320> a <Movie> .
+        <movie/Movie/320> e:hasTitle "The Last Chair" .
+        <book/Book/110> a <Book> .
+        <book/Book/110> e:hasTitle "The Last Chair" .
+        <movie/Movie/321> a <Movie> .
+        <movie/Movie/321> e:hasTitle "The Enormous City" .
+        <book/Book/212> a <Book> .
+        <book/Book/212> e:hasTitle "The Enormous City" .
+        <movie/Movie/331> a <Movie> .
+        <movie/Movie/331> e:hasTitle "Assassin's Sword" .
+        <book/Book/281> a <Book> .
+        <book/Book/281> e:hasTitle "Assassin's Sword" .
+        <movie/Movie/332> a <Movie> .
+        <movie/Movie/332> e:hasTitle "The Smooth Charm" .
+        <book/Book/360> a <Book> .
+        <book/Book/360> e:hasTitle "The Smooth Charm" .
+        <movie/Movie/333> a <Movie> .
+        <movie/Movie/333> e:hasTitle "Sword of Thrones" .
+        <book/Book/314> a <Book> .
+        <book/Book/314> e:hasTitle "Sword of Thrones" .
+        <movie/Movie/345> a <Movie> .
+        <movie/Movie/345> e:hasTitle "Throne of the World" .
+        <book/Book/573> a <Book> .
+        <book/Book/573> e:hasTitle "Throne of the World" .
+        <movie/Movie/347> a <Movie> .
+        <movie/Movie/347> e:hasTitle "Steven's Prism" .
+        <book/Book/17> a <Book> .
+        <book/Book/17> e:hasTitle "Steven's Prism" .
+        <movie/Movie/352> a <Movie> .
+        <movie/Movie/352> e:hasTitle "Empire of Blood" .
+        <book/Book/90> a <Book> .
+        <book/Book/90> e:hasTitle "Empire of Blood" .
+        <movie/Movie/361> a <Movie> .
+        <movie/Movie/361> e:hasTitle "Wizard of the World" .
+        <book/Book/806> a <Book> .
+        <book/Book/806> e:hasTitle "Wizard of the World" .
+        <movie/Movie/364> a <Movie> .
+        <movie/Movie/364> e:hasTitle "King's Empire" .
+        <book/Book/637> a <Book> .
+        <book/Book/637> e:hasTitle "King's Empire" .
+        <movie/Movie/368> a <Movie> .
+        <movie/Movie/368> e:hasTitle "Apprentice of Time" .
+        <book/Book/246> a <Book> .
+        <book/Book/246> e:hasTitle "Apprentice of Time" .
+        <movie/Movie/372> a <Movie> .
+        <movie/Movie/372> e:hasTitle "Fool's Staff" .
+        <book/Book/227> a <Book> .
+        <book/Book/227> e:hasTitle "Fool's Staff" .
+        <movie/Movie/373> a <Movie> .
+        <movie/Movie/373> e:hasTitle "Knight's Name" .
+        <book/Book/643> a <Book> .
+        <book/Book/643> e:hasTitle "Knight's Name" .
+        <movie/Movie/385> a <Movie> .
+        <movie/Movie/385> e:hasTitle "The Glimmering Princess" .
+        <book/Book/635> a <Book> .
+        <book/Book/635> e:hasTitle "The Glimmering Princess" .
+        <movie/Movie/406> a <Movie> .
+        <movie/Movie/406> e:hasTitle "Name of the Empire" .
+        <book/Book/902> a <Book> .
+        <book/Book/902> e:hasTitle "Name of the Empire" .
+        <movie/Movie/407> a <Movie> .
+        <movie/Movie/407> e:hasTitle "Empire of Time" .
+        <book/Book/797> a <Book> .
+        <book/Book/797> e:hasTitle "Empire of Time" .
+        <movie/Movie/413> a <Movie> .
+        <movie/Movie/413> e:hasTitle "Husband of the Beautiful Secret" .
+        <book/Book/122> a <Book> .
+        <book/Book/122> e:hasTitle "Husband of the Beautiful Secret" .
+        <movie/Movie/420> a <Movie> .
+        <movie/Movie/420> e:hasTitle "Princess of the Empire" .
+        <book/Book/49> a <Book> .
+        <book/Book/49> e:hasTitle "Princess of the Empire" .
+        <movie/Movie/432> a <Movie> .
+        <movie/Movie/432> e:hasTitle "Tale of Radiance" .
+        <book/Book/439> a <Book> .
+        <book/Book/439> e:hasTitle "Tale of Radiance" .
+        <movie/Movie/456> a <Movie> .
+        <movie/Movie/456> e:hasTitle "The Diamond Horde" .
+        <book/Book/786> a <Book> .
+        <book/Book/786> e:hasTitle "The Diamond Horde" .
+        <movie/Movie/464> a <Movie> .
+        <movie/Movie/464> e:hasTitle "The Flowing Quest" .
+        <book/Book/622> a <Book> .
+        <book/Book/622> e:hasTitle "The Flowing Quest" .
+        <movie/Movie/471> a <Movie> .
+        <movie/Movie/471> e:hasTitle "The Enormous Empire" .
+        <book/Book/886> a <Book> .
+        <book/Book/886> e:hasTitle "The Enormous Empire" .
+        <movie/Movie/484> a <Movie> .
+        <movie/Movie/484> e:hasTitle "The White Apprentice" .
+        <book/Book/378> a <Book> .
+        <book/Book/378> e:hasTitle "The White Apprentice" .
+        <movie/Movie/488> a <Movie> .
+        <movie/Movie/488> e:hasTitle "The Hungering Hunger" .
+        <book/Book/363> a <Book> .
+        <book/Book/363> e:hasTitle "The Hungering Hunger" .
+        <movie/Movie/496> a <Movie> .
+        <movie/Movie/496> e:hasTitle "The Last Horde" .
+        <book/Book/370> a <Book> .
+        <book/Book/370> e:hasTitle "The Last Horde" .
+        <movie/Movie/499> a <Movie> .
+        <movie/Movie/499> e:hasTitle "Prince of Death" .
+        <book/Book/436> a <Book> .
+        <book/Book/436> e:hasTitle "Prince of Death" .
+        <movie/Movie/500> a <Movie> .
+        <movie/Movie/500> e:hasTitle "The Radiant Ranger" .
+        <book/Book/653> a <Book> .
+        <book/Book/653> e:hasTitle "The Radiant Ranger" .

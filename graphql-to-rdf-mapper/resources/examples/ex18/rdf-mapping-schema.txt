@@ -1,0 +1,5 @@
+@base <http://example.org#> .
+@prefix e: <http://example.org#> .
+
+<movie/{Movie.id}> a <Movie> .
+<movie/{Movie.id}> e:hasTitle "{Movie.title}" .

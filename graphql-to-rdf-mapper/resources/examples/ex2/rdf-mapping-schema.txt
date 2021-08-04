@@ -9,4 +9,4 @@
 <person/{Author.id}> e:hasName "{Author.name}" .
 <person/{Reader.id}> a <Reader> .
 <person/{Reader.id}> e:hasName "{Reader.name}" .
-<person/{Reader.id} e:hasAge "{Reader.age}" .
+<person/{Reader.id}> e:hasAge "{Reader.age}" .

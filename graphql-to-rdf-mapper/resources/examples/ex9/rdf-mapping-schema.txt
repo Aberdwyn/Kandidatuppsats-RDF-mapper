@@ -1,0 +1,6 @@
+@base <http://example.org#> .
+@prefix e: <http://example.org#> .
+
+<person/{Author.id}> a <YoungAuthor> .
+<person/{Author.id}> e:hasAge "{Author.age}" .
+<person/{Author.id}> e:hasName "{Author.name}" .

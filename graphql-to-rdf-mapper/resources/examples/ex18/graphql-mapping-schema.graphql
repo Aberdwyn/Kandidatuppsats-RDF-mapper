@@ -19,21 +19,14 @@ directive @gt(int: Int, id: ID) on FIELD_DEFINITION
 """Join a collection with antoher on a field (default: inner join)."""
 directive @join(on: String!) on FIELD_DEFINITION
 
-type Book {
-    id: ID! 
-    authors: [Author!]
-    title: String! 
-    genre: String!  
+enum Genre {
+  FANTASY
+  ROMANCE
+  HORROR
 }
 
-type Author {
+type Movie {
     id: ID!
-    name: String! 
-    age: Int
-}
-
-type Reader {
-    id: ID!
-    name: String!
-    age: Int
+    title: String
+    genre: Genre
 }

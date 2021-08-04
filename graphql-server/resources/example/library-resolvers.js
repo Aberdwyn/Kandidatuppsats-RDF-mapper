@@ -83,6 +83,30 @@ function getResolvers(db){
             },
         },
         Movie: {
+            producer: (parent) => {
+                // if the parent field is null, return null
+                if(parent.producer == null){
+                    return null;
+                }
+                if(Array.isArray(parent.producer)){
+                    let obs = [];
+                    for(let ob of parent.producer){
+                        // if the parent field is null, push null
+                        if(ob == null){
+                            obs.push(null);
+                        } else {
+                            let id = ob.id;
+                            let field_type = id.split('/')[0];
+                            obs.push(db[field_type][id]);
+                        }
+                    }
+                    return obs;
+                } else {
+                    let id = parent.producer['id'];
+                    let field_type = id.split('/')[0];
+                    return db[field_type][id];
+                }
+            },
         },
         Reader: {
             favourite_book: (parent) => {
