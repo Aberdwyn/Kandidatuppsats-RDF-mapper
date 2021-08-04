@@ -10,11 +10,15 @@ def main(graphql_mapping_schema, rdf_mapping_schema):
     
     # Generate query
     graphql_mapping_schema = schema_utils.load_schema(graphql_mapping_schema)
-    rdf_template = ''
+    #rdf_template = ''
 
     query = query_utils.build_graphql_query(graphql_mapping_schema)
     # Execute query and get results organized as collections
     collections = query_utils.request(query, graphql_endpoint_url)
+    
+    #remove none values
+    filtering_utils.remove_none_values(collections)
+
     # Filters are executed on collections and reduce their cardinalities
     filtering_utils.apply_filters(collections, graphql_mapping_schema)
 

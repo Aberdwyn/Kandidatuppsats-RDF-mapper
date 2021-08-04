@@ -1,5 +1,13 @@
 from schema_utils import *
 
+def remove_none_values(collections):
+    """Remove keys and values if value is none from the collections"""
+    for c in collections:
+        for d in collections[c]:
+            delete = [key for key in d if d[key] == None]
+            for key in delete: 
+                del d[key]
+
 def check_filters(doc, graphql_type, graphql_mapping_schema):
     """Check if the incoming document validates against all supplied directive filters."""
     collection_name = get_collection_name(graphql_type.name)
